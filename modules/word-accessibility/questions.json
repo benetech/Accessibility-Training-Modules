@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "id": "word-q1",
+      "type": "multiple_choice",
+      "prompt": "Which of these should you use to create document structure in Word?",
+      "choices": [
+        "Bold and larger font size",
+        "Built-in Heading styles (Heading 1, Heading 2, etc.)",
+        "All caps text",
+        "Extra blank lines between sections"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
