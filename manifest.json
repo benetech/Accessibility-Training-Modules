@@ -3,7 +3,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "folder": "modules/word-accessibility"
     }
   ]
