@@ -1,0 +1,16 @@
+{
+  "screens": [
+    {
+      "title": "Why This Matters",
+      "body": "A screen reader moves through a spreadsheet one cell at a time, announcing the cell reference and its content as someone navigates with the arrow keys. Without real structure, that experience turns into a string of cell addresses and values with no way to tell what any of it means.\n\nAs with Word and PowerPoint, this is mostly about using Excel's own structure - real headers, named tables, real sheet names - instead of relying on how the spreadsheet looks when you can see the whole grid at once.\n\nThis module covers the issues that come up most often in shared spreadsheets. A short quiz follows once you've been through all of them."
+    },
+    {
+      "title": "Table Headers and Structure",
+      "body": "A screen reader can announce a cell's column and row header automatically - but only if that structure is actually defined, not just implied by bold text in the first row.\n\n**Do:**\n\n- Select your data and use **Insert > Table** (or **Format as Table**) so the header row is recognized as headers, not just formatted text.\n- Keep one piece of data per cell, with a single header row and, if needed, a single header column.\n- Use **Freeze Panes** if you want headers to stay visible while scrolling - that's a display setting, not a structural one, so it's safe to use alongside real table headers.\n\n**Don't:**\n\n- Merge cells to make a heading \"look\" centered across several columns - a screen reader can't tell which column a merged header belongs to.\n- Leave blank rows or columns in the middle of a table purely for visual spacing - they get announced as empty cells, which reads as the table ending early."
+    },
+    {
+      "title": "Alt Text, Color, and Sheet Names",
+      "body": "The same alt text and color-contrast rules from Word and PowerPoint apply here, plus one thing that's unique to spreadsheets: the names of the sheet tabs themselves.\n\n**Do:**\n\n- Right-click a chart or inserted image and choose **View Alt Text** to describe what it shows.\n- Rename each sheet tab to something meaningful (**Q1 Budget**, not **Sheet1**) - a screen reader announces the tab name when someone switches sheets.\n- Add a second cue anywhere conditional formatting uses color alone, like a text label or icon alongside red/green highlighting.\n\n**Don't:**\n\n- Leave default tab names (**Sheet1**, **Sheet2**) on a workbook meant to be shared.\n- Rely on cell fill color by itself to flag something as an error, a warning, or a total."
+    }
+  ]
+}
