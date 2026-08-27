@@ -1,0 +1,16 @@
+{
+  "screens": [
+    {
+      "title": "Why This Matters",
+      "body": "A slide deck read aloud by a screen reader is a completely different experience than one viewed on screen. Someone using assistive technology hears your slides in whatever order the software decides they belong in - not necessarily the order they're arranged on the canvas - and can't rely on color, position, or a quick glance to understand what's going on.\n\nThe good news is the same as with any Office file: this is almost entirely about using PowerPoint's built-in tools (layouts, the Reading Order pane, alt text) the way they're designed to be used, rather than building slides by hand with plain text boxes.\n\nThis module covers the issues that come up most often when a slide deck reaches someone who can't see it. A short quiz follows once you've been through all of them."
+    },
+    {
+      "title": "Slide Titles and Reading Order",
+      "body": "Every slide needs a real title placeholder - not a text box that merely looks like a title. Screen readers use the title placeholder to announce which slide you're on and to let someone jump between slides; a text box with bold, larger text looks identical on screen but is invisible to that navigation.\n\n**Do:**\n\n- Use a slide layout that includes a Title placeholder (**Insert > Layout**), and type the slide's title directly into it.\n- Check reading order with **Home > Arrange > Selection Pane**, or the built-in **Reading Order** pane in newer versions of PowerPoint - fix it there rather than by dragging objects around the canvas, which only changes how things look, not the order they're read in.\n- Keep one title per slide, and don't leave a slide without one - a screen reader announces an untitled slide only by its number.\n\n**Don't:**\n\n- Recreate a title's look with a plain text box, font size, and bold - it won't be read as the slide's title.\n- Rely on the visual left-to-right, top-to-bottom position of objects to guess what order they'll be read in."
+    },
+    {
+      "title": "Alt Text and Color Contrast",
+      "body": "Images, charts, and icons need the same alt text treatment as in any other Office document - and slides lean on color for meaning more than most documents do, which is worth double-checking.\n\n**Do:**\n\n- Right-click an image or chart and choose **View Alt Text** to add a concise description of what it shows and why it's there.\n- Mark purely decorative images (background shapes, dividers) as decorative so screen readers skip them.\n- Use high-contrast text and background combinations - PowerPoint's **Design Ideas** and built-in themes are already checked for this; a custom background color behind default text may not be.\n- Add a second cue (a label, an icon, a pattern) anywhere color alone is currently carrying meaning, like a red/green status indicator.\n\n**Don't:**\n\n- Leave alt text blank on a chart or image that conveys real information.\n- Use color as the only way to distinguish two things on a slide - someone who is colorblind or using a screen reader won't get that distinction otherwise."
+    }
+  ]
+}

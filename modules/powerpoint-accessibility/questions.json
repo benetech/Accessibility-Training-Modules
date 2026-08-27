@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "id": "ppt-q1",
+      "type": "multiple_choice",
+      "prompt": "How should you give a slide a title that a screen reader will actually announce?",
+      "choices": [
+        "Type it into a plain text box and make the font bold and larger",
+        "Use a slide layout's Title placeholder",
+        "Add it as a caption underneath the slide",
+        "Put it in the Notes section only"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "ppt-q2",
+      "type": "multiple_choice",
+      "prompt": "What actually controls the order a screen reader announces the objects on a slide?",
+      "choices": [
+        "Their left-to-right, top-to-bottom position on the canvas",
+        "The order they were originally pasted in, permanently",
+        "The Reading Order (or Selection) pane",
+        "Alphabetical order of each object's name"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "ppt-q3",
+      "type": "multiple_choice",
+      "prompt": "A slide uses red text for \"over budget\" and green text for \"on budget\", with no other difference. What's the accessibility problem?",
+      "choices": [
+        "Nothing - red and green are commonly understood colors",
+        "Color alone is conveying the meaning, with no second cue for anyone who can't distinguish the colors",
+        "Red and green text is never allowed in a slide deck",
+        "The font size is too small"
+      ],
+      "correct_index": 1
+    }
+  ]
+}

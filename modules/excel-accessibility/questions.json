@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "id": "excel-q1",
+      "type": "multiple_choice",
+      "prompt": "What's the accessible way to make the first row of a data range act as column headers?",
+      "choices": [
+        "Bold the text in that row",
+        "Use Insert > Table (or Format as Table) so the row is recognized as headers",
+        "Increase the font size of that row",
+        "Freeze that row in place"
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "excel-q2",
+      "type": "multiple_choice",
+      "prompt": "Why is merging cells to center a heading across several columns a problem for screen reader users?",
+      "choices": [
+        "It isn't a problem - merged cells are fully accessible",
+        "It makes the file size much larger",
+        "A screen reader can't tell which column a merged header actually belongs to",
+        "It changes the default font"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "excel-q3",
+      "type": "multiple_choice",
+      "prompt": "A workbook is shared with tabs still named \"Sheet1\", \"Sheet2\", and \"Sheet3\". What should change before sharing it?",
+      "choices": [
+        "Nothing - sheet tab names don't matter for accessibility",
+        "The tabs should be renamed to something meaningful, since a screen reader announces the tab name when switching sheets",
+        "The tabs should be reordered alphabetically",
+        "The tab colors should be changed"
+      ],
+      "correct_index": 1
+    }
+  ]
+}
