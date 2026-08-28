@@ -12,7 +12,7 @@
       "title": "Making PowerPoint Presentations Accessible",
       "version": "0.1.2",
       "folder": "modules/powerpoint-accessibility",
-      "active": true
+      "active": false
     },
     {
       "id": "excel-accessibility",
