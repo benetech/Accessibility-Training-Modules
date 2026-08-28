@@ -4,19 +4,22 @@
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
       "version": "0.2.1",
-      "folder": "modules/word-accessibility"
+      "folder": "modules/word-accessibility",
+      "active": true
     },
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
       "version": "0.1.2",
-      "folder": "modules/powerpoint-accessibility"
+      "folder": "modules/powerpoint-accessibility",
+      "active": false
     },
     {
       "id": "excel-accessibility",
       "title": "Making Excel Spreadsheets Accessible",
       "version": "0.1.0",
-      "folder": "modules/excel-accessibility"
+      "folder": "modules/excel-accessibility",
+      "active": true
     }
   ]
 }
