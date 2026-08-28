@@ -8,7 +8,7 @@ Each module lives in `modules/<module-id>/` and is listed in [manifest.json](man
 
 A module folder contains:
 
-- `content.json` — instructional screens (optionally with a `video`)
+- `content.json` — instructional screens (optionally with a `video` - at most one per screen, see [CONTRIBUTING.md](CONTRIBUTING.md))
 - `questions.json` — quiz questions and answers
 
 ## Current modules

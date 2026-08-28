@@ -6,6 +6,10 @@ Pull requests authored or submitted by AI agents/bots (automated code-generation
 
 PRs identified as bot/AI-submitted without a human author taking ownership will be closed without review.
 
+## Content structure
+
+Each screen in a module's `content.json` may have at most one `video`. If a screen's material would need two videos to cover, split it into two screens instead - one topic, one matching video, per screen. This keeps each screen's video directly tied to the content it's on, rather than a screen covering more ground than its single video does.
+
 ## Versioning
 
 Each module has its own `version` field in [manifest.json](manifest.json):
