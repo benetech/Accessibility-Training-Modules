@@ -1,0 +1,50 @@
+WEBVTT
+
+00:00.500 --> 00:06.520
+Here we are using an invisible table to
+align the labels and entry fields, like
+
+00:06.520 --> 00:11.960
+this, date, colon, answer here, first
+name, colon, answer here, and last name,
+
+00:12.100 --> 00:17.640
+colon, answer here. And you can see this
+by going to the table design and actually
+
+00:17.640 --> 00:24.400
+showing the borders. So while this looks
+neat visually, it creates a major problem
+
+00:24.400 --> 00:29.500
+for accessibility. For people who use
+screen readers, the software doesn't see a
+
+00:29.500 --> 00:35.500
+simple form. Instead, it announces table
+with two rows and four columns, then they
+
+00:35.500 --> 00:40.700
+have to navigate cell by cell, reading out
+row one, column three, date, then row one,
+
+00:40.840 --> 00:45.880
+column four, answer here. A much better
+and simpler approach is to remove the
+
+00:45.880 --> 00:52.460
+table entirely and just use line breaks.
+So the form just ends up being date,
+
+00:52.660 --> 01:00.420
+colon, enter, first name, colon, enter,
+and last name, colon, enter on separate
+
+01:00.420 --> 01:06.520
+lines, like this. And now I can delete the
+form or
+
+01:08.530 --> 01:14.630
+delete the table, and we end up with a
+simple, the simplest design.
+
