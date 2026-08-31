@@ -3,14 +3,210 @@
     {
       "id": "word-q1",
       "type": "multiple_choice",
+      "prompt": "When writing alt text for an image, what should you avoid doing?",
+      "choices": [
+        "Starting the description with \"Image of...\"",
+        "Describing what the image shows",
+        "Explaining why the image is there",
+        "Keeping the description concise"
+      ],
+      "correct_index": 0,
+      "screenId": "alt-text"
+    },
+    {
+      "id": "word-q2",
+      "type": "multiple_choice",
+      "prompt": "How do you tell a screen reader to skip a purely decorative image, like a border or divider line?",
+      "choices": [
+        "Check \"Mark as decorative\" in the alt text panel",
+        "Delete the image from the document",
+        "Leave its alt text blank",
+        "Type \"decorative image\" as the alt text"
+      ],
+      "correct_index": 0,
+      "screenId": "decorative-images"
+    },
+    {
+      "id": "word-q3",
+      "type": "multiple_choice",
       "prompt": "Which of these should you use to create document structure in Word?",
       "choices": [
-        "Bold and larger font size",
-        "Built-in Heading styles (Heading 1, Heading 2, etc.)",
         "All caps text",
+        "Built-in Heading styles (Heading 1, Heading 2, etc.)",
+        "Bold and larger font size",
         "Extra blank lines between sections"
       ],
-      "correct_index": 1
+      "correct_index": 1,
+      "screenId": "real-headings"
+    },
+    {
+      "id": "word-q4",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to order heading levels in a document?",
+      "choices": [
+        "Use the Title style for the main heading",
+        "Order doesn't matter, as long as every heading uses a Heading style",
+        "Start with Heading 1 for the title, then Heading 2, then Heading 3, in sequential order",
+        "Skip levels for a cleaner look, e.g. Heading 1 straight to Heading 3"
+      ],
+      "correct_index": 2,
+      "screenId": "heading-hierarchy"
+    },
+    {
+      "id": "word-q5",
+      "type": "multiple_choice",
+      "prompt": "Why does a screen reader struggle with a list made by typing \"*\" or \"-\" in front of each line?",
+      "choices": [
+        "It reads the lines in random order",
+        "It skips those lines entirely",
+        "It reads the character as text and never announces it as a list",
+        "It only reads the first item in the list"
+      ],
+      "correct_index": 2,
+      "screenId": "real-lists"
+    },
+    {
+      "id": "word-q6",
+      "type": "multiple_choice",
+      "prompt": "What should tables in a Word document be used for?",
+      "choices": [
+        "Data only, never for page layout",
+        "Decorative borders around a section",
+        "Either data or layout, whichever looks better",
+        "Laying out content visually on the page"
+      ],
+      "correct_index": 0,
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q7",
+      "type": "multiple_choice",
+      "prompt": "How do you tell a screen reader which row or column in a table contains headers?",
+      "choices": [
+        "Bold the header text",
+        "Merge the header cells together",
+        "Check Header Row and/or First Column in Table Design",
+        "It's automatic - no action needed"
+      ],
+      "correct_index": 2,
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q8",
+      "type": "multiple_choice",
+      "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",
+      "choices": [
+        "A screen reader announces each empty line as \"blank\"",
+        "There's no real problem with this approach",
+        "It removes the document's paragraph spacing settings",
+        "It makes the document print incorrectly"
+      ],
+      "correct_index": 0,
+      "screenId": "blank-lines"
+    },
+    {
+      "id": "word-q9",
+      "type": "multiple_choice",
+      "prompt": "Why is placing \"First Name\" and \"Last Name\" side by side with an invisible table a problem for accessibility?",
+      "choices": [
+        "It looks unprofessional",
+        "A screen reader announces it as a table and forces cell-by-cell navigation instead of a simple form",
+        "Word doesn't allow fields to be placed side by side",
+        "It takes up more space on the page"
+      ],
+      "correct_index": 1,
+      "screenId": "fields"
+    },
+    {
+      "id": "word-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is light gray text on a white background a problem?",
+      "choices": [
+        "It's against Word's built-in formatting rules",
+        "It makes the file size larger",
+        "It uses more ink when printed",
+        "People with low vision or color blindness may not be able to read it"
+      ],
+      "correct_index": 3,
+      "screenId": "color-contrast"
+    },
+    {
+      "id": "word-q11",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to mark a task as urgent in a document?",
+      "choices": [
+        "Make the font larger",
+        "Color the text red AND add a word or symbol like \"(Urgent)\"",
+        "Add a colored dot with no label",
+        "Color the text red"
+      ],
+      "correct_index": 1,
+      "screenId": "color-alone"
+    },
+    {
+      "id": "word-q12",
+      "type": "multiple_choice",
+      "prompt": "What's wrong with a hyperlink that just says \"Click Here\"?",
+      "choices": [
+        "Nothing - it's a perfectly fine way to label a link",
+        "It isn't blue and underlined",
+        "It doesn't tell someone browsing a list of links out of context where the link actually goes",
+        "It's too short to be clickable"
+      ],
+      "correct_index": 2,
+      "screenId": "links"
+    },
+    {
+      "id": "word-q13",
+      "type": "multiple_choice",
+      "prompt": "Why does setting the correct proofing language matter for accessibility?",
+      "choices": [
+        "It only affects the spell checker",
+        "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
+        "It automatically changes the document's font",
+        "It's only a cosmetic setting with no real effect"
+      ],
+      "correct_index": 1,
+      "screenId": "readability"
+    },
+    {
+      "id": "word-q14",
+      "type": "multiple_choice",
+      "prompt": "Which text alignment should be avoided for readability?",
+      "choices": [
+        "12pt or larger font",
+        "Left-aligned",
+        "1.5 or higher line spacing",
+        "Justified (even left and right edges)"
+      ],
+      "correct_index": 3,
+      "screenId": "readability"
+    },
+    {
+      "id": "word-q15",
+      "type": "multiple_choice",
+      "prompt": "What can Word's built-in Accessibility Checker NOT do?",
+      "choices": [
+        "Flag low color contrast",
+        "Flag missing alt text",
+        "Flag a table that's missing defined headers",
+        "Judge whether your alt text is actually meaningful"
+      ],
+      "correct_index": 3,
+      "screenId": "accessibility-checker"
+    },
+    {
+      "id": "word-q16",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to export an accessible Word document to PDF?",
+      "choices": [
+        "Take a screenshot of each page",
+        "Copy and paste the text into a PDF editor",
+        "Print to PDF",
+        "Use Save As/Export with the accessibility tagging options enabled"
+      ],
+      "correct_index": 3,
+      "screenId": "export-to-pdf"
     }
   ]
 }

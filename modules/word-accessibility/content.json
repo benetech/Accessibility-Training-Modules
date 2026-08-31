@@ -1,10 +1,12 @@
 {
   "screens": [
     {
+      "id": "why-this-matters",
       "title": "Why This Matters",
       "body": "The Word documents you create get read by real people - including people who are blind, have low vision, or otherwise rely on assistive technology like a screen reader. A document that looks fine on screen can be confusing, or completely unusable, for someone listening to it instead of looking at it.\n\nThe good news: making a document accessible almost never means it looks worse, or takes drastically longer to create. In most cases, it just means using Word's built-in tools (styles, list buttons, alt text) the way they're designed to be used, instead of faking the same visual effect by hand.\n\nThis module walks through the issues that come up most often, one at a time. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
     },
     {
+      "id": "alt-text",
       "title": "Image Descriptions (Alt Text)",
       "body": "Someone who is blind can't see an image - they rely on a screen reader speaking a text description in its place. Without one, the information the image was meant to convey is simply gone.\n\n**Do:**\n\n- Write a concise description of what the image shows and why it's there. Right-click the image and choose **View Alt Text**.\n- Be meaningful, not repetitive - don't just repeat a caption or nearby text; describe what the image adds that isn't already said elsewhere.\n- For a logo, use the format \"Logo: [Company Name]\" - for example, \"Logo: Benetech\".\n- For a complex image like a chart or graph, keep the alt text to a short summary and put the full description in the text right after the image.\n\n**Don't:**\n\n- Start the description with \"Image of...\" or \"Photo of...\" - a screen reader already announces that it's an image.\n- Leave alt text blank on an image that conveys meaningful information.\n\n**Keyboard shortcut:** Ctrl (PC) or Command (Mac) + Shift + F10 opens the right-click menu, then choose **View Alt Text**. On a PC you can also press Alt then Q to search, and type \"Alt Text\".",
       "video": {
@@ -14,6 +16,7 @@
       }
     },
     {
+      "id": "decorative-images",
       "title": "Marking Decorative Images",
       "body": "Not every image carries meaning - a divider line, a border, or a purely visual flourish adds nothing a screen reader user needs to hear. Giving one of these a written description doesn't help; it just adds noise.\n\n**Do:** Right-click the image, choose **View Alt Text**, and check **Mark as decorative** instead of typing a description. This tells screen readers to skip the image entirely, exactly as if it weren't there.\n\n**Don't:** Write a description for an image that carries no real information, or leave its alt text blank without marking it decorative - a blank description still gets announced as \"unlabeled image\", which is more confusing than skipping it.\n\n**Keyboard shortcut:** Ctrl (PC) or Command (Mac) + Shift + F10 opens the right-click menu, then choose **View Alt Text**.",
       "video": {
@@ -23,6 +26,7 @@
       }
     },
     {
+      "id": "real-headings",
       "title": "Use Real Headings, Not Bold Text",
       "body": "A common habit is to select some text, make it bold, and bump up the font size to make it look like a heading. To a sighted reader it looks like a heading - but it has no structural meaning at all to a screen reader. It's just larger, bolder text.\n\nScreen reader users navigate long documents by heading - they can pull up a list of every heading and jump straight to the section they want, or jump to the next heading with a single key press. Text that only *looks* like a heading is invisible to that feature, turning the document into one long wall of text with no way to skim it.\n\n**Do:** Use Word's built-in Styles - Heading 1, Heading 2, and so on - from the **Home** tab's Styles gallery.\n\n**Don't:** Manually bold and enlarge text to fake a heading.\n\n**Keyboard shortcuts (PC and Mac):**\n\n- Ctrl/Command + Alt + 1, 2, or 3 for Heading 1, 2, or 3\n- Ctrl/Command + Shift + N for Normal text",
       "video": {
@@ -32,6 +36,7 @@
       }
     },
     {
+      "id": "heading-hierarchy",
       "title": "Heading Hierarchy",
       "body": "Using real heading styles is the first step - using them in the right order matters just as much.\n\n**Do:**\n\n- Always start the document with a Heading 1 for the main title.\n- Follow a logical, sequential order: Heading 1, then Heading 2 for main sections, then Heading 3 for subsections of those.\n- Check your structure using the **Navigation Pane** (**View** tab): it shows a clickable, real-time outline of your document based on your heading styles, and is the fastest way to spot a heading applied to the wrong paragraph, or one you missed.\n\n**Don't:**\n\n- Use the **Title** style - it isn't announced by screen readers.\n- Skip a level, such as jumping straight from a Heading 1 to a Heading 3. That creates a broken, confusing outline for anyone navigating by heading.\n\n**Keyboard shortcut:** Ctrl/Command + F opens a sidebar with Find Results, Pages, and Headings tabs - the Headings tab is the Navigation Pane. (Mac users may need to assign this shortcut themselves.)",
       "video": {
@@ -41,6 +46,7 @@
       }
     },
     {
+      "id": "real-lists",
       "title": "Use Real Lists, Not Typed Bullets",
       "body": "Another common shortcut: typing an asterisk, a dash, or a number in front of each line to fake a list. A screen reader just reads that character as text - it doesn't announce that the user has entered a list, or how many items are in it. A properly formatted list, by contrast, announces something like \"List, 5 items\" before reading the entries, giving the listener real context.\n\n**Do:** Use the **Bulleted List** or **Numbered List** buttons on the **Home** tab. (Word will sometimes auto-convert a manually typed list into a real one for you - if it does, that's fine, the goal is just a properly formatted list either way.)\n\n**Don't:** Manually type *, -, or 1. in front of list items.\n\n**Keyboard shortcuts:**\n\n- PC: Alt + H (Home tab), then U for an unnumbered (bulleted) list or N for a numbered list\n- Mac: Shift + Command + / to search, then type \"Bulleted List\" or \"Numbered List\"",
       "video": {
@@ -50,6 +56,7 @@
       }
     },
     {
+      "id": "accessible-tables",
       "title": "Accessible Tables",
       "body": "Tables come with a few specific accessibility traps: using them to lay out a page rather than to show data, merged or split cells breaking the predictable grid a screen reader expects, and missing headers leaving a listener with no idea what a given cell's data actually represents.\n\n**Do:**\n\n- Use tables for data only - never to visually position content on the page.\n- Keep the structure simple: no merged or split cells. If your data seems to need them, it's better to split it into two or more simple tables.\n- Define your headers: click into the table, open **Table Design**, and check **Header Row** if the table has column headings, and **First Column** if it also has row headings.\n- For a long table, also turn on \"repeat header row on each page\" if that option is available.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt, then J then T (Table Design), then A for Header Row or M for First Column\n- Mac: Shift + Command + / and search for \"Repeat Header Rows\"",
       "video": {
@@ -59,6 +66,7 @@
       }
     },
     {
+      "id": "blank-lines",
       "title": "Spacing: Avoid Blank Lines",
       "body": "A classic habit: pressing Enter a few times to create white space between paragraphs, or before an image. A screen reader announces each of those empty lines as \"blank\" - hearing \"blank, blank, blank\" makes a listener think they've missed something, and adds confusing clutter to the reading experience.\n\n**Do:** Control spacing from the **Paragraph** settings. Right-click your text, choose **Paragraph**, and adjust **Spacing Before** and **Spacing After** to get the gap you want.\n\n**Don't:** Press Enter multiple times to create blank lines.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + P (Layout tab), then S then B for Space Before, or S then A for Space After\n- Mac: Option + Command + M opens the Paragraph dialog, then Tab to Spacing Before or Spacing After",
       "video": {
@@ -68,6 +76,7 @@
       }
     },
     {
+      "id": "fields",
       "title": "Forms and Field Layout",
       "body": "Word's built-in **Legacy Form Tools** are not accessible, and should be avoided entirely. A more subtle problem shows up even without them: placing multiple fields on the same line (for example, \"First Name\" and \"Last Name\" side by side, often using an invisible table to align them) creates a confusing reading order. A screen reader doesn't see a simple form there - it announces \"table with 2 rows and 4 columns\" and forces the user to navigate cell by cell to piece the fields together.\n\n**Do:**\n\n- Skip form fields and tables entirely. Add one clear instruction at the top (\"For each item below, enter your information on the line after the label\"), then list each field on its own line - for example: \"Date:\", \"First name:\", \"Last name:\", each on a separate line with space to write or type an answer after it.\n\n**Don't:**\n\n- Use Word's Legacy Form Tools.\n- Put more than one field on the same line, or use a table to line fields up visually.",
       "video": {
@@ -77,6 +86,7 @@
       }
     },
     {
+      "id": "color-contrast",
       "title": "Color Contrast",
       "body": "Light gray text on a white background can look clean and modern - but if the contrast between text and background isn't strong enough, people with low vision or color blindness may not be able to read it at all.\n\n**Do:**\n\n- Stick to high-contrast combinations, such as dark text on a light background.\n- Run the built-in **Accessibility Checker** (covered in an upcoming screen) - it's very good at flagging contrast issues automatically, and can often suggest a fix.\n- When in doubt, check a color pairing with a dedicated contrast-checking tool, such as the one from TPGi.\n\n**Don't:** Use light text on a light background, or otherwise low-contrast color combinations, for body text.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + H (Home), then FC for Font Color or I for Highlight/Background Color\n- Mac: Shift + Command + / and search for \"Font Color\" or \"Highlight\"",
       "video": {
@@ -86,6 +96,7 @@
       }
     },
     {
+      "id": "color-alone",
       "title": "Don't Use Color Alone",
       "body": "Marking urgent tasks in red, or showing status with a colored dot, feels intuitive - but it relies entirely on being able to see and distinguish color. Over 350 million people worldwide are colorblind, and a screen reader never announces color at all, so that information is completely lost to anyone using one.\n\n**Do:** Use color to supplement information, but always pair it with a second, non-color indicator - for example, instead of just coloring an urgent task red, also add the word \"(Urgent)\" or a symbol like an asterisk. For a status column, use a text label like \"Done\", \"In progress\", or \"Not started\" rather than relying on a green/yellow/red dot alone (and once every status has a label, you can safely delete any color-only legend explaining what the colors meant).\n\n**Don't:** Convey meaning - urgency, status, correctness - through color alone.",
       "video": {
@@ -95,6 +106,7 @@
       }
     },
     {
+      "id": "links",
       "title": "Meaningful Hyperlinks",
       "body": "Screen reader users often pull up a list of every link on a page, or jump from link to link with a single key press, hearing only the link text itself - not the surrounding sentence. A list full of entries that just say \"Click Here\" gives them no way to tell which link goes where.\n\n**Do:**\n\n- Make the link text itself describe the destination - for example, the entire phrase \"Read the 2025 Annual Report\" should be the link, not just the words \"click here\" tacked onto the end.\n- Keep links in the standard, recognizable style: blue text, underlined.\n- If the document might be printed, include the URL in the link text itself, e.g. \"Read the 2025 Report (www.benetech.org/report)\".\n- Write out email addresses in full and make sure they're a live, clickable mailto: link, e.g. accessibility@benetech.org.\n\n**Don't:** Use generic link text like \"Click Here\" or \"Read More\" on its own.\n\n**Keyboard shortcut:** Ctrl/Command + K opens the hyperlink dialog on both PC and Mac.",
       "video": {
@@ -104,6 +116,7 @@
       }
     },
     {
+      "id": "readability",
       "title": "Readability Foundations",
       "body": "A few document-wide settings affect every single reader, not just screen reader users.\n\n**Do:**\n\n- Set the correct proofing language under **Review > Language** - if it's wrong, a screen reader applies the wrong pronunciation rules to your entire document.\n- Use a minimum font size of 12pt; 16-18pt is even better for readers with low vision.\n- Use a simple sans-serif font, such as Arial, Calibri, or Verdana.\n- Set line spacing to 1.5 or higher.\n- Left-align all text.\n\n**Don't:** Justify text - the uneven word spacing it creates makes lines harder to track, especially for readers with dyslexia or low vision.\n\n**Keyboard shortcut (Language):**\n\n- PC: Long-press Alt + R (Review), then U (Language), then L (Set Proofing Language)\n- Mac: Shift + Command + / and search for \"Language\"",
       "video": {
@@ -113,6 +126,7 @@
       }
     },
     {
+      "id": "accessibility-checker",
       "title": "Use the Built-In Accessibility Checker",
       "body": "Word has a built-in **Accessibility Checker** under the **Review** tab (or via the status bar at the bottom of the window) on every platform. It's your first line of defense, and will catch a lot of what's covered in this module automatically - things like missing alt text, low contrast, and tables without defined headers.\n\nIt's a powerful assistant, but not a substitute for your own judgment: it can flag that alt text is *missing*, but it can't tell you whether the alt text you wrote is actually *meaningful*, or whether you used color as the only way to convey something. Use it as a first pass, then read back through your own document with the concepts from this module in mind.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + R (Review), then A1, then A (Accessibility Checker)\n- Mac: **Tools** menu > **Check Accessibility**, or Shift + Command + / and search for \"accessibility\"",
       "video": {
@@ -122,6 +136,7 @@
       }
     },
     {
+      "id": "export-to-pdf",
       "title": "Creating Accessible PDFs",
       "body": "Once your document is in good shape, a Word document is itself already the most accessible option you can share. If you do need a PDF, the way you create it matters: a plain \"Print to PDF\" strips out every bit of accessibility information you built in - your headings, alt text, and table structure all get lost.\n\n**Do:**\n\n- Use **Save As** or **Export**, not Print to PDF.\n- **On PC:** File > Export > Create PDF/XPS, then click **Options** and check **Create bookmarks using: Headings** and **Document structure tags for accessibility**, and choose **PDF/A** (or **PDF/UA**) compliant.\n- **On Mac:** File > Save As (Shift + Command + S), choose PDF as the format, and select **Best for electronic distribution and accessibility**.\n\nA properly exported PDF from an accessible Word document will carry over most of your work - though a PDF intended for wide public distribution may still need additional tagging beyond what Word's export produces, which is outside the scope of this module.",
       "video": {
@@ -131,6 +146,7 @@
       }
     },
     {
+      "id": "quick-reference",
       "title": "Quick Reference",
       "body": "A condensed summary of everything in this module - useful to keep open while you're actually working on a document.\n\n- **Headings:** Use the Styles Pane (Heading 1, 2, 3...), never fake it with bold/larger text. Never skip a level. Check order with the Navigation Pane.\n- **Lists:** Use the Bulleted/Numbered List buttons, never type *, -, or 1. by hand.\n- **Spacing:** Use Paragraph Spacing (Before/After), never multiple blank lines.\n- **Alt text:** Right-click an image > View Alt Text. Describe purpose and content; mark purely decorative images as decorative; use \"Logo: [Name]\" for logos.\n- **Color:** Use high-contrast combinations. Never rely on color alone - always add a second cue (a label, a symbol).\n- **Tables:** Data only, never for layout. No merged/split cells. Define Header Row and/or First Column in Table Design.\n- **Hyperlinks:** Descriptive text that names the destination, not \"Click Here\". Keep the blue, underlined style.\n- **Forms:** Avoid Legacy Form Tools. One field per line, no side-by-side layout.\n- **Readability:** 12pt+ font, simple sans-serif, 1.5+ line spacing, left-aligned, correct proofing language.\n- **Before sharing:** Run the Accessibility Checker (Review tab). Export to PDF with Save As/Export - never Print to PDF - and enable the accessibility tagging options.\n\nWhen you're ready, start the quiz to check your understanding."
     }
