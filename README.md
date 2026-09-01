@@ -4,7 +4,7 @@ Training content consumed by the [Accessibility Training](https://github.com/ben
 
 ## Structure
 
-Each module lives in `modules/<module-id>/` and is listed in [manifest.json](manifest.json) with an `id`, `title`, `version`, and `active`. The app compares the manifest's versions against its local cache to decide what to download or update.
+Each module lives in `modules/<module-id>/` and is listed in [manifest.json](manifest.json) with an `id`, `title`, `version`, `active`, and `recertDays`. The app compares the manifest's versions against its local cache to decide what to download or update, and uses `recertDays` to prompt a retake once that many days have passed since an employee's last completion (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 A module folder contains:
 
