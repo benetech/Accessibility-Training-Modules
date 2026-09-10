@@ -207,6 +207,84 @@
       ],
       "correct_index": 3,
       "screenId": "export-to-pdf"
+    },
+    {
+      "id": "word-q17",
+      "type": "multiple_choice",
+      "prompt": "What's the correct alt text format for a well-known logo, like your own organization's?",
+      "choices": [
+        "\"Logo: [Company Name]\" - for example, \"Logo: Benetech\"",
+        "Leave the alt text blank since the logo is already familiar",
+        "A long, detailed description of the logo's colors and shapes",
+        "Mark it as decorative"
+      ],
+      "correct_index": 0,
+      "screenId": "alt-text"
+    },
+    {
+      "id": "word-q18",
+      "type": "multiple_choice",
+      "prompt": "What should you do with placeholder text like \"[Type your answer here]\" left inside a form field?",
+      "choices": [
+        "Leave it in place so people know what to do",
+        "Delete it - real content or blank space should remain, not bracketed instructions",
+        "Make it bold so it stands out",
+        "Convert it into a table cell"
+      ],
+      "correct_index": 1,
+      "screenId": "fields"
+    },
+    {
+      "id": "word-q19",
+      "type": "multiple_choice",
+      "prompt": "What's the minimum font size you should use for body text?",
+      "choices": [
+        "8pt",
+        "10pt",
+        "12pt (16-18pt is even better for low vision)",
+        "There's no minimum, any size is fine"
+      ],
+      "correct_index": 2,
+      "screenId": "readability"
+    },
+    {
+      "id": "word-q20",
+      "type": "multiple_choice",
+      "prompt": "How should a hyperlink be visually styled?",
+      "choices": [
+        "Plain black text, same as the rest of the document",
+        "All caps in red",
+        "Italicized",
+        "Blue text, underlined"
+      ],
+      "correct_index": 3,
+      "screenId": "links"
+    },
+    {
+      "id": "word-q21",
+      "type": "multiple_choice",
+      "prompt": "How should an email address be formatted in a document so someone can act on it right away?",
+      "choices": [
+        "As a live, clickable mailto: link",
+        "As plain text",
+        "As an image of the email address",
+        "Spelled out with \"(at)\" and \"(dot)\" to avoid spam"
+      ],
+      "correct_index": 0,
+      "screenId": "links"
+    },
+    {
+      "id": "word-q22",
+      "type": "multiple_choice",
+      "prompt": "What should you do with Word's built-in Accessibility Checker before sharing a document?",
+      "choices": [
+        "Nothing - it's purely informational",
+        "Run it and resolve the errors and warnings it reports",
+        "Run it once at the very start, before making any edits",
+        "Only run it if the document contains a table"
+      ],
+      "correct_index": 1,
+      "screenId": "accessibility-checker"
     }
   ]
 }
