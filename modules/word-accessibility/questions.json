@@ -57,10 +57,10 @@
       "type": "multiple_choice",
       "prompt": "Why does a screen reader struggle with a list made by typing \"*\" or \"-\" in front of each line?",
       "choices": [
-        "It reads the lines in random order",
-        "It skips those lines entirely",
+        "It reads all the lines together as one run-on sentence, with no separation between items",
+        "It skips those lines entirely, as if they weren't there",
         "It reads the character as text and never announces it as a list",
-        "It only reads the first item in the list"
+        "It stops reading partway through the list, as if it hit an error"
       ],
       "correct_index": 2,
       "screenId": "real-lists"
@@ -71,7 +71,7 @@
       "prompt": "What should tables in a Word document be used for?",
       "choices": [
         "Data only, never for page layout",
-        "Decorative borders around a section",
+        "Mostly for data, but occasional layout use is fine if it's simpler",
         "Either data or layout, whichever looks better",
         "Laying out content visually on the page"
       ],
@@ -98,7 +98,7 @@
       "choices": [
         "A screen reader announces each empty line as \"blank\"",
         "There's no real problem with this approach",
-        "It removes the document's paragraph spacing settings",
+        "It causes inconsistent spacing when the document is viewed on different screen sizes",
         "It makes the document print incorrectly"
       ],
       "correct_index": 0,
@@ -111,8 +111,8 @@
       "choices": [
         "It looks unprofessional",
         "A screen reader announces it as a table and forces cell-by-cell navigation instead of a simple form",
-        "Word doesn't allow fields to be placed side by side",
-        "It takes up more space on the page"
+        "It's only a problem if the form gets printed, not when it's filled out on a computer",
+        "It makes the document take longer to load in Word"
       ],
       "correct_index": 1,
       "screenId": "fields"
@@ -122,9 +122,9 @@
       "type": "multiple_choice",
       "prompt": "Why is light gray text on a white background a problem?",
       "choices": [
-        "It's against Word's built-in formatting rules",
-        "It makes the file size larger",
-        "It uses more ink when printed",
+        "It can make the document look less formal or polished",
+        "It's only an issue when the document is printed in black and white",
+        "It's a minor issue that only affects a small number of readers",
         "People with low vision or color blindness may not be able to read it"
       ],
       "correct_index": 3,
@@ -151,7 +151,7 @@
         "Nothing - it's a perfectly fine way to label a link",
         "It isn't blue and underlined",
         "It doesn't tell someone browsing a list of links out of context where the link actually goes",
-        "It's too short to be clickable"
+        "It's fine as long as the surrounding sentence gives context"
       ],
       "correct_index": 2,
       "screenId": "links"
@@ -163,7 +163,7 @@
       "choices": [
         "It only affects the spell checker",
         "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
-        "It automatically changes the document's font",
+        "It only matters if the document will be translated into another language",
         "It's only a cosmetic setting with no real effect"
       ],
       "correct_index": 1,
@@ -200,7 +200,7 @@
       "type": "multiple_choice",
       "prompt": "What's the correct way to export an accessible Word document to PDF?",
       "choices": [
-        "Take a screenshot of each page",
+        "Export each page as an image, then combine the images into a PDF",
         "Copy and paste the text into a PDF editor",
         "Print to PDF",
         "Use Save As/Export with the accessibility tagging options enabled"
@@ -229,7 +229,7 @@
         "Leave it in place so people know what to do",
         "Delete it - real content or blank space should remain, not bracketed instructions",
         "Make it bold so it stands out",
-        "Convert it into a table cell"
+        "Replace it with a longer, more detailed instruction instead"
       ],
       "correct_index": 1,
       "screenId": "fields"
@@ -242,7 +242,7 @@
         "8pt",
         "10pt",
         "12pt (16-18pt is even better for low vision)",
-        "There's no minimum, any size is fine"
+        "11pt, since that's Word's own default font size"
       ],
       "correct_index": 2,
       "screenId": "readability"
@@ -253,7 +253,7 @@
       "prompt": "How should a hyperlink be visually styled?",
       "choices": [
         "Plain black text, same as the rest of the document",
-        "All caps in red",
+        "Bold, but the same color as the surrounding text",
         "Italicized",
         "Blue text, underlined"
       ],
@@ -281,7 +281,7 @@
         "Nothing - it's purely informational",
         "Run it and resolve the errors and warnings it reports",
         "Run it once at the very start, before making any edits",
-        "Only run it if the document contains a table"
+        "Run it, but only act on the errors, not the warnings"
       ],
       "correct_index": 1,
       "screenId": "accessibility-checker"
