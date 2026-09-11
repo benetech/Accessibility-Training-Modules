@@ -3,7 +3,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "0.4.3",
+      "version": "0.5.0",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365
@@ -11,7 +11,7 @@
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.1.2",
+      "version": "0.2.0",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365
@@ -19,7 +19,7 @@
     {
       "id": "excel-accessibility",
       "title": "Making Excel Spreadsheets Accessible",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "folder": "modules/excel-accessibility",
       "active": false,
       "recertDays": 365

@@ -12,6 +12,32 @@ Each screen in a module's `content.json` may have at most one `video`. If a scre
 
 Each screen also has a stable `id` slug (e.g. `"alt-text"`) - a plain array index isn't safe to depend on since screens get inserted/reordered/split over time, so anything that needs to point at a specific screen references this `id` instead. A quiz question in `questions.json` can set a `screenId` matching one of these to link it back to the lesson screen that taught it - the app uses this for the results page's "Back to Lesson" link, so a question should only set `screenId` when it's actually testing that one screen's material. Not every question needs one, and a topic can have more than one question if it's substantial enough to warrant it (`screenId` doesn't need to be unique across questions).
 
+## Quiz answer pools
+
+Each question in `questions.json` has an `answerPool` array instead of a
+fixed choice list - **item 0 is always the correct answer**, followed by
+every distractor (wrong answer) written for that question. The app draws
+a random 3 of the distractors plus the correct answer, in random order,
+each time someone takes the quiz - so retaking it (or a recertification
+retake later) doesn't show the same 4 choices in the same order every
+time, and a person can't just memorize "the answer in position C" without
+knowing the material.
+
+- Minimum 4 items total (the correct answer plus at least 3 distractors)
+  - that's the fewest that lets the app always show 4 choices.
+- Target **12 distractors** (13 items total) per question so repeat
+  attempts actually feel different.
+- Order among the distractors (items 1 and up) doesn't matter - it's
+  never shown as authored, only ever shuffled at runtime. No need to
+  balance where the correct answer "usually" falls either, since its
+  position is randomized per attempt, not fixed by the JSON.
+- Every distractor should be a genuine near-miss - a real common mistake,
+  half-right reasoning, or a fact that sounds relevant but isn't the
+  actual reason - not something a test-taker could eliminate on sight
+  without knowing the material. Avoid writing a distractor that's
+  actually just a reworded version of the correct answer (or of another
+  distractor already in the pool).
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
