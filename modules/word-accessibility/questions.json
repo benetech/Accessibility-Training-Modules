@@ -4,286 +4,462 @@
       "id": "word-q1",
       "type": "multiple_choice",
       "prompt": "When writing alt text for an image, what should you avoid doing?",
-      "choices": [
+      "answerPool": [
         "Starting the description with \"Image of...\"",
         "Describing what the image shows",
         "Explaining why the image is there",
-        "Keeping the description concise"
+        "Mentioning the color of an object when it's relevant to understanding the image",
+        "Focusing on what the image conveys rather than how it looks",
+        "Keeping the description concise",
+        "Including a logo's company name if it's a well-known logo",
+        "Leaving out unnecessary visual details that don't add meaning",
+        "Using plain, straightforward language",
+        "Considering what a sighted reader already gets from the surrounding text",
+        "Proofreading the alt text for spelling errors",
+        "Writing alt text in complete sentences",
+        "Keeping the tone consistent with the rest of the document"
       ],
-      "correct_index": 0,
       "screenId": "alt-text"
     },
     {
       "id": "word-q2",
       "type": "multiple_choice",
       "prompt": "How do you tell a screen reader to skip a purely decorative image, like a border or divider line?",
-      "choices": [
+      "answerPool": [
         "Check \"Mark as decorative\" in the alt text panel",
-        "Delete the image from the document",
         "Leave its alt text blank",
-        "Type \"decorative image\" as the alt text"
+        "Type \"decorative image\" as the alt text",
+        "Set the image's alt text to a single space character",
+        "Mention the word \"decorative\" in a caption below the image",
+        "Delete the image from the document",
+        "Move the image behind the text using Wrap Text options",
+        "Right-click and select \"Send to Back\"",
+        "Reduce the image's opacity so it's less noticeable",
+        "Resize the image to be very small",
+        "Group it with a nearby text box",
+        "Set its alt text to match the image's file name",
+        "Convert the image to a watermark"
       ],
-      "correct_index": 0,
       "screenId": "decorative-images"
     },
     {
       "id": "word-q3",
       "type": "multiple_choice",
       "prompt": "Which of these should you use to create document structure in Word?",
-      "choices": [
-        "All caps text",
+      "answerPool": [
         "Built-in Heading styles (Heading 1, Heading 2, etc.)",
         "Bold and larger font size",
-        "Extra blank lines between sections"
+        "Centered text with a larger font size",
+        "A higher outline level set in Format > Paragraph, without changing the style",
+        "The Title style applied to every section heading",
+        "All caps text",
+        "Extra blank lines between sections",
+        "Underlined section titles",
+        "A different font for each section title",
+        "Numbered section titles typed manually (e.g. \"1. Introduction\")",
+        "A text box placed above each section",
+        "A colored highlight behind each section title",
+        "Italicized section titles"
       ],
-      "correct_index": 1,
       "screenId": "real-headings"
     },
     {
       "id": "word-q4",
       "type": "multiple_choice",
       "prompt": "What's the correct way to order heading levels in a document?",
-      "choices": [
-        "Use the Title style for the main heading",
-        "Order doesn't matter, as long as every heading uses a Heading style",
+      "answerPool": [
         "Start with Heading 1 for the title, then Heading 2, then Heading 3, in sequential order",
-        "Skip levels for a cleaner look, e.g. Heading 1 straight to Heading 3"
+        "Order doesn't matter, as long as every heading uses a Heading style",
+        "Skip levels for a cleaner look, e.g. Heading 1 straight to Heading 3",
+        "Use the Title style for the main heading",
+        "Use Heading 1 for the title and Heading 2 for everything else, regardless of depth",
+        "Use Heading 1 for every section, and rely on font size to show which is more important",
+        "Start with Heading 2, since Heading 1 is reserved for the document's file name",
+        "Use whichever heading level looks best visually on the page",
+        "Number the headings manually (1, 1.1, 1.2) instead of relying on heading levels",
+        "Alternate between Heading 1 and Heading 2 for visual variety",
+        "Match the heading level to the font size you want, not the section's place in the outline",
+        "Use the highest heading level only for the very last section, as a summary",
+        "Apply Heading 3 first, then work backward to Heading 1 for higher-level points"
       ],
-      "correct_index": 2,
       "screenId": "heading-hierarchy"
     },
     {
       "id": "word-q5",
       "type": "multiple_choice",
       "prompt": "Why does a screen reader struggle with a list made by typing \"*\" or \"-\" in front of each line?",
-      "choices": [
+      "answerPool": [
+        "It reads the character as text and never announces it as a list",
         "It reads all the lines together as one run-on sentence, with no separation between items",
         "It skips those lines entirely, as if they weren't there",
-        "It reads the character as text and never announces it as a list",
-        "It stops reading partway through the list, as if it hit an error"
+        "It merges the list with the paragraph that follows it",
+        "It treats each line as a separate heading",
+        "It stops reading partway through the list, as if it hit an error",
+        "It announces \"bullet\" before every line instead of just the first one",
+        "It reads the list correctly, but only in Print Layout view",
+        "It announces the wrong number of items in the list",
+        "It reads the list twice, once normally and once as a summary",
+        "It reads the whole list as a single word with no spaces between lines",
+        "It can't read the list at all until the document is saved as a PDF",
+        "It only announces the list if Track Changes is turned off"
       ],
-      "correct_index": 2,
       "screenId": "real-lists"
     },
     {
       "id": "word-q6",
       "type": "multiple_choice",
       "prompt": "What should tables in a Word document be used for?",
-      "choices": [
+      "answerPool": [
         "Data only, never for page layout",
         "Mostly for data, but occasional layout use is fine if it's simpler",
         "Either data or layout, whichever looks better",
-        "Laying out content visually on the page"
+        "Data, as long as it's also visually appealing",
+        "Both data and layout, since Word tables support headers either way",
+        "Laying out content visually on the page",
+        "Comparing two versions of the same paragraph side by side",
+        "Creating a two-column newsletter-style layout",
+        "Aligning a caption underneath an image",
+        "Grouping a picture and its caption together visually",
+        "Simple layouts only - complex data should use a chart instead",
+        "Any content that benefits from being organized into a grid",
+        "Positioning a pull quote in the margin of the page"
       ],
-      "correct_index": 0,
       "screenId": "accessible-tables"
     },
     {
       "id": "word-q7",
       "type": "multiple_choice",
       "prompt": "How do you tell a screen reader which row or column in a table contains headers?",
-      "choices": [
-        "Bold the header text",
-        "Merge the header cells together",
+      "answerPool": [
         "Check Header Row and/or First Column in Table Design",
-        "It's automatic - no action needed"
+        "Turn on Repeat Header Rows in the Layout tab",
+        "Bold the header text",
+        "It's automatic - no action needed",
+        "Add the header text to the table's alt text instead of the cells",
+        "Merge the header cells together",
+        "Color the header row a different shade",
+        "Add the word \"Header\" inside each header cell",
+        "Use a larger font size for the header row",
+        "Add a border around the header row",
+        "Center-align the text in the header row",
+        "Insert a caption above the table describing which row is the header",
+        "Sort the table so the header row is always on top"
       ],
-      "correct_index": 2,
       "screenId": "accessible-tables"
     },
     {
       "id": "word-q8",
       "type": "multiple_choice",
       "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",
-      "choices": [
+      "answerPool": [
         "A screen reader announces each empty line as \"blank\"",
-        "There's no real problem with this approach",
+        "It's a problem for accessibility checkers, but not for real screen reader users",
         "It causes inconsistent spacing when the document is viewed on different screen sizes",
-        "It makes the document print incorrectly"
+        "It's fine as long as there are no more than two blank lines in a row",
+        "There's no real problem with this approach",
+        "It makes the document print incorrectly",
+        "It uses more storage space in the file",
+        "It can accidentally get deleted when someone else edits the document",
+        "It only matters if you're using a screen reader on a phone, not a computer",
+        "It makes AutoCorrect stop working for the rest of the document",
+        "It makes the document's word count inaccurate",
+        "It only matters in older versions of Word",
+        "It causes the Table of Contents to skip that section"
       ],
-      "correct_index": 0,
       "screenId": "blank-lines"
     },
     {
       "id": "word-q9",
       "type": "multiple_choice",
       "prompt": "Why is placing \"First Name\" and \"Last Name\" side by side with an invisible table a problem for accessibility?",
-      "choices": [
-        "It looks unprofessional",
+      "answerPool": [
         "A screen reader announces it as a table and forces cell-by-cell navigation instead of a simple form",
+        "It's an issue with visual formatting, not with how the fields are read aloud",
         "It's only a problem if the form gets printed, not when it's filled out on a computer",
-        "It makes the document take longer to load in Word"
+        "It only matters if the table borders are visible",
+        "It's not a real concern as long as the labels are spelled correctly",
+        "It looks unprofessional",
+        "It makes the document take longer to load in Word",
+        "It's a problem for mouse users too, not just screen reader users",
+        "It prevents the form from being filled out digitally at all",
+        "It's only an issue in older versions of Word",
+        "It makes AutoFill suggest the wrong values",
+        "It's a problem because tables can't be spell-checked",
+        "It only matters if there are more than two fields in the same row"
       ],
-      "correct_index": 1,
       "screenId": "fields"
     },
     {
       "id": "word-q10",
       "type": "multiple_choice",
       "prompt": "Why is light gray text on a white background a problem?",
-      "choices": [
+      "answerPool": [
+        "People with low vision or color blindness may not be able to read it",
+        "It's mostly a concern for people who are colorblind, not for low vision generally",
+        "It's a minor issue that only affects a small number of readers",
+        "It only matters if the text is also small",
+        "It can be fixed automatically by increasing the font size",
         "It can make the document look less formal or polished",
         "It's only an issue when the document is printed in black and white",
-        "It's a minor issue that only affects a small number of readers",
-        "People with low vision or color blindness may not be able to read it"
+        "It's against company branding guidelines",
+        "It only matters when the document is viewed on a phone screen",
+        "Screen readers read gray text more slowly than black text",
+        "It's only a problem in bright rooms with lots of natural light",
+        "It makes the text look like a watermark instead of real content",
+        "It's a problem only for people using an older monitor"
       ],
-      "correct_index": 3,
       "screenId": "color-contrast"
     },
     {
       "id": "word-q11",
       "type": "multiple_choice",
       "prompt": "What's the correct way to mark a task as urgent in a document?",
-      "choices": [
-        "Make the font larger",
+      "answerPool": [
         "Color the text red AND add a word or symbol like \"(Urgent)\"",
+        "Color the text red",
+        "Bold the text and make it red",
+        "Use ALL CAPS in red",
         "Add a colored dot with no label",
-        "Color the text red"
+        "Make the font larger",
+        "Underline the text in red",
+        "Use a red highlight behind the text, with no label",
+        "Put a red flag symbol next to it, with no other text",
+        "Add a red asterisk with no explanation of what it means",
+        "Use italics for urgent items",
+        "Put the word \"URGENT\" in a footnote",
+        "Increase the red text's font size instead of adding a label"
       ],
-      "correct_index": 1,
       "screenId": "color-alone"
     },
     {
       "id": "word-q12",
       "type": "multiple_choice",
       "prompt": "What's wrong with a hyperlink that just says \"Click Here\"?",
-      "choices": [
-        "Nothing - it's a perfectly fine way to label a link",
-        "It isn't blue and underlined",
+      "answerPool": [
         "It doesn't tell someone browsing a list of links out of context where the link actually goes",
-        "It's fine as long as the surrounding sentence gives context"
+        "It's fine as long as the surrounding sentence gives context",
+        "Nothing - it's a perfectly fine way to label a link",
+        "Screen readers skip over any link that says \"Click Here\" entirely",
+        "It makes the document look unprofessional, but doesn't affect accessibility",
+        "It isn't blue and underlined",
+        "It's too generic to be indexed by search engines",
+        "It violates Word's built-in spelling rules",
+        "It's only a problem if the link is broken",
+        "It's fine in a printed document, but not in a digital one",
+        "It's a problem only if there are two \"Click Here\" links on the same page",
+        "It's a legal requirement to avoid this phrase, not an accessibility one",
+        "It's fine as long as it's the only link in the document"
       ],
-      "correct_index": 2,
       "screenId": "links"
     },
     {
       "id": "word-q13",
       "type": "multiple_choice",
       "prompt": "Why does setting the correct proofing language matter for accessibility?",
-      "choices": [
-        "It only affects the spell checker",
+      "answerPool": [
         "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
+        "It affects the spell checker and grammar checker, but nothing else",
+        "It only affects the spell checker",
         "It only matters if the document will be translated into another language",
-        "It's only a cosmetic setting with no real effect"
+        "It only matters for documents shared internationally",
+        "It's only a cosmetic setting with no real effect",
+        "It changes which keyboard shortcuts are available",
+        "It only affects how the document looks when printed",
+        "It determines which fonts are available in the document",
+        "It changes the date format used in the document",
+        "It only matters if AutoCorrect is turned on",
+        "It's only relevant for documents longer than a few pages",
+        "It has no effect on documents saved as PDF"
       ],
-      "correct_index": 1,
       "screenId": "readability"
     },
     {
       "id": "word-q14",
       "type": "multiple_choice",
       "prompt": "Which text alignment should be avoided for readability?",
-      "choices": [
-        "12pt or larger font",
+      "answerPool": [
+        "Justified (even left and right edges)",
         "Left-aligned",
         "1.5 or higher line spacing",
-        "Justified (even left and right edges)"
+        "12pt or larger font",
+        "A simple sans-serif font like Arial or Calibri",
+        "A minimum 4.5:1 color contrast ratio",
+        "Setting the correct proofing language",
+        "Using real Heading styles for structure",
+        "Meaningful, descriptive link text",
+        "Marking purely decorative images as decorative",
+        "Defined header rows in tables",
+        "Avoiding conveying meaning through color alone",
+        "Exporting to PDF with accessibility tagging enabled"
       ],
-      "correct_index": 3,
       "screenId": "readability"
     },
     {
       "id": "word-q15",
       "type": "multiple_choice",
       "prompt": "What can Word's built-in Accessibility Checker NOT do?",
-      "choices": [
-        "Flag low color contrast",
+      "answerPool": [
+        "Judge whether your alt text is actually meaningful",
         "Flag missing alt text",
+        "Flag a hyperlink with no display text",
+        "Flag reading order issues",
+        "Flag text that relies on color alone in some cases",
+        "Flag low color contrast",
         "Flag a table that's missing defined headers",
-        "Judge whether your alt text is actually meaningful"
+        "Flag a missing document title",
+        "Flag a missing proofing language setting in some cases",
+        "Flag repetitive blank characters",
+        "Categorize issues into Errors, Warnings, and Tips",
+        "Flag a table with irregular rows",
+        "Point out roughly where in the document an issue is located"
       ],
-      "correct_index": 3,
       "screenId": "accessibility-checker"
     },
     {
       "id": "word-q16",
       "type": "multiple_choice",
       "prompt": "What's the correct way to export an accessible Word document to PDF?",
-      "choices": [
+      "answerPool": [
+        "Use Save As/Export with the accessibility tagging options enabled",
+        "Print to PDF",
+        "Save As PDF, but skip the Options dialog entirely",
+        "Save As PDF/A without checking the tagging option",
+        "Use Save As, but choose the smallest file size PDF option",
         "Export each page as an image, then combine the images into a PDF",
         "Copy and paste the text into a PDF editor",
-        "Print to PDF",
-        "Use Save As/Export with the accessibility tagging options enabled"
+        "Use a third-party PDF converter website",
+        "Save the document as an .rtf file first, then convert that to PDF",
+        "Print the document, then scan the pages into a PDF",
+        "Export to PDF, then manually select the \"Best for printing\" option",
+        "Use File > Share > Email as PDF Attachment",
+        "Convert to PDF using the Accessibility Checker itself"
       ],
-      "correct_index": 3,
       "screenId": "export-to-pdf"
     },
     {
       "id": "word-q17",
       "type": "multiple_choice",
       "prompt": "What's the correct alt text format for a well-known logo, like your own organization's?",
-      "choices": [
+      "answerPool": [
         "\"Logo: [Company Name]\" - for example, \"Logo: Benetech\"",
+        "Just the company's name, with no other context",
+        "\"Company logo\" with no name included",
+        "Mark it as decorative",
+        "The company's slogan instead of its name",
         "Leave the alt text blank since the logo is already familiar",
         "A long, detailed description of the logo's colors and shapes",
-        "Mark it as decorative"
+        "A description of when the logo was last redesigned",
+        "\"Image\" as a generic placeholder",
+        "The company's website URL",
+        "A copyright notice for the logo",
+        "\"Click for more information\"",
+        "The logo's file name"
       ],
-      "correct_index": 0,
       "screenId": "alt-text"
     },
     {
       "id": "word-q18",
       "type": "multiple_choice",
       "prompt": "What should you do with placeholder text like \"[Type your answer here]\" left inside a form field?",
-      "choices": [
-        "Leave it in place so people know what to do",
+      "answerPool": [
         "Delete it - real content or blank space should remain, not bracketed instructions",
+        "Convert it to a comment instead of inline text",
+        "Change its font color so it's less noticeable",
+        "Leave it in place so people know what to do",
+        "Replace it with the word \"Optional\"",
         "Make it bold so it stands out",
-        "Replace it with a longer, more detailed instruction instead"
+        "Replace it with a longer, more detailed instruction instead",
+        "Move it to a footnote instead",
+        "Leave it, but format it as a hyperlink",
+        "Highlight it in yellow as a reminder",
+        "Turn it into a text box floating over the field",
+        "Leave it in the printed version, but remove it from the digital one",
+        "Change it to italics to signal it's not real content"
       ],
-      "correct_index": 1,
       "screenId": "fields"
     },
     {
       "id": "word-q19",
       "type": "multiple_choice",
       "prompt": "What's the minimum font size you should use for body text?",
-      "choices": [
-        "8pt",
-        "10pt",
+      "answerPool": [
         "12pt (16-18pt is even better for low vision)",
-        "11pt, since that's Word's own default font size"
+        "11pt, since that's Word's own default font size",
+        "10.5pt, since that's standard for legal documents",
+        "10pt",
+        "10pt is fine as long as the document is also available in PDF",
+        "8pt",
+        "9pt",
+        "6pt, as long as the font is bold",
+        "There's no fixed minimum - it depends on the font",
+        "14pt for headings only, body text has no minimum",
+        "9.5pt, since that's a common size for printed newspapers",
+        "Any size, as long as high-contrast colors are used",
+        "7pt for footnotes, 12pt for everything else"
       ],
-      "correct_index": 2,
       "screenId": "readability"
     },
     {
       "id": "word-q20",
       "type": "multiple_choice",
       "prompt": "How should a hyperlink be visually styled?",
-      "choices": [
+      "answerPool": [
+        "Blue text, underlined",
+        "Blue text, not underlined",
+        "Underlined only, in the same color as the surrounding text",
+        "Green text, underlined",
+        "Purple text, underlined",
         "Plain black text, same as the rest of the document",
         "Bold, but the same color as the surrounding text",
         "Italicized",
-        "Blue text, underlined"
+        "Blue text, with a box drawn around it",
+        "Gray text, italicized",
+        "Same color as the rest of the text, but larger",
+        "Underlined, in a different font",
+        "Highlighted in yellow, with no color or underline change"
       ],
-      "correct_index": 3,
       "screenId": "links"
     },
     {
       "id": "word-q21",
       "type": "multiple_choice",
       "prompt": "How should an email address be formatted in a document so someone can act on it right away?",
-      "choices": [
+      "answerPool": [
         "As a live, clickable mailto: link",
+        "As a live link, but pointing to the company website instead of mailto:",
+        "As a hyperlink to the company's contact page instead",
         "As plain text",
+        "Spelled out with \"(at)\" and \"(dot)\" to avoid spam",
         "As an image of the email address",
-        "Spelled out with \"(at)\" and \"(dot)\" to avoid spam"
+        "As a QR code linking to the email address",
+        "Written backwards to avoid spam bots",
+        "Split across two lines so spam bots can't read it",
+        "With extra spaces added between characters",
+        "As a footnote reference instead of inline",
+        "Written with the domain name removed",
+        "As a phone number to call instead"
       ],
-      "correct_index": 0,
       "screenId": "links"
     },
     {
       "id": "word-q22",
       "type": "multiple_choice",
       "prompt": "What should you do with Word's built-in Accessibility Checker before sharing a document?",
-      "choices": [
-        "Nothing - it's purely informational",
+      "answerPool": [
         "Run it and resolve the errors and warnings it reports",
+        "Run it, but only act on the errors, not the warnings",
+        "Run it, but only fix issues marked as \"Error\", ignore \"Tips\"",
         "Run it once at the very start, before making any edits",
-        "Run it, but only act on the errors, not the warnings"
+        "Run it after converting to PDF, not before",
+        "Nothing - it's purely informational",
+        "Run it, but only if the document contains images",
+        "Run it, and forward the results to someone else without reviewing them yourself",
+        "Run it once a year as part of a general document audit",
+        "Run it only if someone specifically asks for an accessible document",
+        "Delegate running it to whoever proofreads the document",
+        "Run it, and only worry about it if it reports more than five issues",
+        "Run it, but don't review what it actually found"
       ],
-      "correct_index": 1,
       "screenId": "accessibility-checker"
     }
   ]

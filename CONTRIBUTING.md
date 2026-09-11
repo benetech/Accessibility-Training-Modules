@@ -12,6 +12,42 @@ Each screen in a module's `content.json` may have at most one `video`. If a scre
 
 Each screen also has a stable `id` slug (e.g. `"alt-text"`) - a plain array index isn't safe to depend on since screens get inserted/reordered/split over time, so anything that needs to point at a specific screen references this `id` instead. A quiz question in `questions.json` can set a `screenId` matching one of these to link it back to the lesson screen that taught it - the app uses this for the results page's "Back to Lesson" link, so a question should only set `screenId` when it's actually testing that one screen's material. Not every question needs one, and a topic can have more than one question if it's substantial enough to warrant it (`screenId` doesn't need to be unique across questions).
 
+## Quiz answer pools
+
+Each question in `questions.json` has an `answerPool` array instead of a
+fixed choice list - **item 0 is always the correct answer**. The app
+draws 4 choices from this pool and shows them in random order each time
+someone takes the quiz - so retaking it (or a recertification retake
+later) doesn't show the same 4 choices in the same order every time, and
+a person can't just memorize "the answer in position C" without knowing
+the material.
+
+- Minimum 4 items total (the correct answer plus at least 3 distractors)
+  - that's the fewest that lets the app always show 4 choices.
+- Target **12 distractors** (13 items total), split into two groups by
+  position:
+  - **Items 1-4: the close group.** Genuine near-misses - a real common
+    mistake, half-right reasoning, or a fact that sounds relevant but
+    isn't the actual reason. The app always draws exactly **one** of
+    these four, so a real near-miss is guaranteed on every attempt (which
+    one varies, so it's not memorizable either).
+  - **Items 5-12: the rest.** Still real distractors (never something
+    eliminable on sight), just not held to the same "could easily be
+    mistaken for correct" bar as the close group. The app draws **two**
+    of these eight.
+  - A pool with fewer than 6 distractors (no room for a real close/rest
+    split - e.g. a module that's still just a placeholder) skips this
+    split entirely and the app draws 3 distractors at random from
+    whatever's there instead.
+- Order *within* each group doesn't matter - only the group boundary
+  (item 4 vs. item 5) does. No need to balance where the correct answer
+  "usually" falls either, since its position is randomized per attempt,
+  not fixed by the JSON.
+- Avoid writing a distractor that's actually just a reworded version of
+  the correct answer (or of another distractor already in the pool) -
+  true for both groups, but especially easy to slip into by accident in
+  the close group.
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
