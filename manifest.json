@@ -3,10 +3,16 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "folder": "modules/word-accessibility",
       "active": true,
-      "recertDays": 365
+      "recertDays": 365,
+      "resources": [
+        {
+          "name": "MS Word Accessibility Checklist",
+          "file": "resources/ms-word-accessibility-checklist.docx"
+        }
+      ]
     },
     {
       "id": "powerpoint-accessibility",
