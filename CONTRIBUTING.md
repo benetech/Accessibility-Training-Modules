@@ -48,6 +48,34 @@ the material.
   true for both groups, but especially easy to slip into by accident in
   the close group.
 
+## Take-home materials
+
+A module can optionally offer downloadable supplementary files - a
+checklist, a quick-reference sheet, anything worth keeping after the quiz
+is over. List them in that module's [manifest.json](manifest.json) entry
+as a `resources` array:
+
+```json
+"resources": [
+  { "name": "MS Word Accessibility Checklist", "file": "resources/ms-word-accessibility-checklist.docx" }
+]
+```
+
+- `name` is the exact link text shown to the employee.
+- `file` is the path to the actual file, relative to that module's own
+  folder - put the file itself under a `resources/` subfolder inside the
+  module (e.g. `modules/word-accessibility/resources/`), matching how
+  `videos/` already works for lesson videos.
+- The app resolves `file` into a real download URL itself (same
+  `raw.githubusercontent.com` pattern as videos) - don't include the repo
+  URL here.
+- Omit `resources` entirely for a module with nothing to offer - it's
+  optional, not every module needs one.
+
+These show up in two places: the results page once an employee submits
+that module's quiz, and the Dashboard's Completed History for anyone who
+completed it before.
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
