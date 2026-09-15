@@ -76,6 +76,34 @@ These show up in two places: the results page once an employee submits
 that module's quiz, and the Dashboard's Completed History for anyone who
 completed it before.
 
+## Highlighting the correct answer in the lesson text
+
+A screen's `body` markdown can mark the sentence that gives away a
+specific question's correct answer, so the app can highlight it when
+someone arrives via that question's "Back to Lesson" link after getting
+it wrong:
+
+```
+{{answer:word-q3}}The alt text should describe the image's purpose, not just its appearance.{{/answer}}
+```
+
+- The id inside the marker (`word-q3` above) must match that question's
+  `id` in `questions.json` exactly.
+- Wrap only the specific sentence (or clause) that actually states the
+  correct answer - not the whole paragraph, and not a Do/Don't bullet in
+  its entirety unless the bullet *is* that one sentence.
+- A screen can hold markers for more than one question if it teaches
+  more than one (each question's marker only lights up for that
+  question's own "Back to Lesson" link, never all at once).
+- This markup is invisible during normal lesson browsing - the app only
+  renders the highlight when someone lands on the screen from a specific
+  question's review link, and strips the marker to plain text otherwise.
+- Every question whose material appears in the lesson body should have
+  a marker somewhere in the relevant screen. If a question's answer
+  currently has no single sentence that states it outright, add one
+  rather than skipping the marker - the lesson text should always
+  actually contain the answer, not just imply it.
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
