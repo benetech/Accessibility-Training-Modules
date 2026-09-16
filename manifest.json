@@ -3,11 +3,12 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "0.8.0",
+      "version": "0.9.0",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
       "passingScore": 80,
+      "minAppVersion": "0.8.0",
       "resources": [
         {
           "name": "MS Word Accessibility Checklist",
@@ -18,18 +19,20 @@
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
-      "recertDays": 365
+      "recertDays": 365,
+      "minAppVersion": "0.6.0"
     },
     {
       "id": "excel-accessibility",
       "title": "Making Excel Spreadsheets Accessible",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "folder": "modules/excel-accessibility",
       "active": false,
-      "recertDays": 365
+      "recertDays": 365,
+      "minAppVersion": "0.6.0"
     }
   ]
 }
