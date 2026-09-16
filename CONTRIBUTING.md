@@ -108,6 +108,25 @@ it wrong:
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
 
+## Minimum passing score
+
+A module can optionally require a minimum score to actually count as
+complete, via `passingScore` in [manifest.json](manifest.json) (a whole
+number, e.g. `80` for 80%):
+
+- Omit `passingScore` entirely for a module where any completed attempt
+  counts, regardless of score - it's optional, matching `recertDays`.
+- A completed attempt scoring below `passingScore` is treated as
+  immediately due for a retake (not gated behind the normal `recertDays`
+  cycle), with the same fixed grace window the app already gives any
+  overdue recertification before actually flagging it overdue - see the
+  app's own `GRACE_PERIOD_DAYS`.
+- Read from the current manifest at the time someone views their
+  results/dashboard, not frozen at the moment they completed it - the
+  same convention `recertDays`/`resources` already follow, so lowering or
+  raising the bar takes effect for everyone immediately, past completions
+  included.
+
 ## Versioning
 
 Each module has its own `version` field in [manifest.json](manifest.json):
