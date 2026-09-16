@@ -127,6 +127,30 @@ number, e.g. `80` for 80%):
   raising the bar takes effect for everyone immediately, past completions
   included.
 
+## Minimum required app version
+
+If a module's content (or the schema it's authored in - a new
+`content.json`/`questions.json`/`manifest.json` field the app needs to
+understand) depends on app behavior that only exists from a certain
+release onward, set that module's `minAppVersion` in
+[manifest.json](manifest.json) to that version (e.g. `"0.9.0"`):
+
+- Omit `minAppVersion` entirely for a module with no such dependency -
+  it's optional, matching `recertDays`/`passingScore`/`resources`. Most
+  modules never need it.
+- An employee running an older Accessibility Training Tool build can't
+  start, retake, or Update & Restart onto that module at all - they see
+  "Update required" instead, naming the version they need. This is a hard
+  block, not a warning, since the whole point is preventing the app from
+  processing content it doesn't know how to handle correctly.
+- Resuming an already-in-progress attempt is never affected - it keeps
+  using whatever version it already started with, which was necessarily
+  compatible or it couldn't have started.
+- This is a floor on the *app*, not on the *content's own* `version` field
+  above it - bump `version` as usual for the actual content/question
+  change; `minAppVersion` only needs to change when that change also
+  requires newer app code to read it correctly.
+
 ## Versioning
 
 Each module has its own `version` field in [manifest.json](manifest.json):
