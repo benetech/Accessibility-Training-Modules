@@ -3,35 +3,464 @@
     {
       "id": "ppt-q1",
       "type": "multiple_choice",
-      "prompt": "How should you give a slide a title that a screen reader will actually announce?",
+      "prompt": "What should every slide in a deck have, even if it takes up visible space you'd rather not use?",
       "answerPool": [
-        "Use a slide layout's Title placeholder",
-        "Type it into a plain text box and make the font bold and larger",
-        "Add it as a caption underneath the slide",
-        "Put it in the Notes section only"
-      ]
+        "A unique, descriptive title in the slide's real Title placeholder",
+        "A title only on the first slide, since repeating it would be redundant",
+        "A bold, larger text box that looks like a title",
+        "A title only if the slide contains an image or chart",
+        "The slide number, functioning as its title",
+        "A footer displaying the presenter's name",
+        "A unique color scheme distinguishing it from other slides",
+        "An animation entrance effect",
+        "A hyperlink back to the agenda slide",
+        "A dedicated Notes page",
+        "A QR code linking to more information",
+        "A consistent background image",
+        "A slide number displayed in the corner"
+      ],
+      "screenId": "slide-titles"
     },
     {
       "id": "ppt-q2",
       "type": "multiple_choice",
-      "prompt": "What actually controls the order a screen reader announces the objects on a slide?",
+      "prompt": "On a Mac, how does a screen reader determine the order in which slide objects are read, using the Selection Pane?",
       "answerPool": [
-        "The Reading Order (or Selection) pane",
-        "Their left-to-right, top-to-bottom position on the canvas",
-        "The order they were originally pasted in, permanently",
-        "Alphabetical order of each object's name"
-      ]
+        "It reads them in the reverse of the order they're listed in the Selection Pane",
+        "It reads them in the same top-to-bottom order they're listed in the Selection Pane",
+        "It reads them based on their visual left-to-right position on the slide",
+        "It reads them in the order they were originally inserted onto the slide",
+        "It uses the Reading Order pane instead, exactly like Windows does",
+        "It reads only the objects with alt text and skips the rest",
+        "It alphabetizes objects by their assigned name",
+        "It reads whichever object is currently selected first",
+        "It follows the Z-order shown in the Format menu",
+        "It reads title placeholders last, regardless of position",
+        "It reads objects in a random order each time the slide loads",
+        "It groups all text boxes together before reading any images",
+        "It reads based on each object's file size"
+      ],
+      "screenId": "reading-order"
     },
     {
       "id": "ppt-q3",
       "type": "multiple_choice",
-      "prompt": "A slide uses red text for \"over budget\" and green text for \"on budget\", with no other difference. What's the accessibility problem?",
+      "prompt": "Besides plain pictures, what other kinds of slide content need alt text?",
       "answerPool": [
-        "Color alone is conveying the meaning, with no second cue for anyone who can't distinguish the colors",
-        "Nothing - red and green are commonly understood colors",
-        "Red and green text is never allowed in a slide deck",
-        "The font size is too small"
-      ]
+        "Charts, SmartArt, embedded objects, and video or audio files",
+        "Only charts and graphs - other object types don't support alt text",
+        "Only content that doesn't already have a visible caption on the slide",
+        "Only objects larger than half the slide's width",
+        "Only content copied in from another Office file",
+        "Only content placed inside a group",
+        "Only objects added in the last edit session",
+        "Only content on the very first slide of the deck",
+        "Only shapes with a fill color applied",
+        "Only objects that also have a hyperlink attached",
+        "Only content flagged by spell check",
+        "Only objects positioned in the top half of the slide",
+        "Only pictures inserted from a file, not from the clipboard"
+      ],
+      "screenId": "alt-text"
+    },
+    {
+      "id": "ppt-q4",
+      "type": "multiple_choice",
+      "prompt": "What should you avoid doing when writing alt text for a picture?",
+      "answerPool": [
+        "Starting the description with \"image of\" or \"picture of\"",
+        "Describing what the picture actually shows",
+        "Keeping the description to a short sentence or two",
+        "Mentioning that text is present if the picture contains text",
+        "Explaining why the picture is on the slide",
+        "Using plain, straightforward language",
+        "Editing an auto-generated description before leaving it in place",
+        "Proofreading the description for spelling errors",
+        "Leaving out details that don't add meaning",
+        "Writing the description in complete sentences",
+        "Considering what a sighted viewer already gets from the picture",
+        "Keeping the tone consistent with the rest of the deck",
+        "Focusing on the picture's purpose rather than just its appearance"
+      ],
+      "screenId": "alt-text"
+    },
+    {
+      "id": "ppt-q5",
+      "type": "multiple_choice",
+      "prompt": "What should you do with an image that's on a slide purely for decoration, with no real information to convey?",
+      "answerPool": [
+        "Mark it as decorative in the Alt Text pane",
+        "Leave its alt text field completely blank",
+        "Give it a short description anyway, just in case",
+        "Delete the alt text field entirely from that object",
+        "Type a single space into the description field",
+        "Move it to the Slide Master instead",
+        "Reduce its size so it's less noticeable",
+        "Group it with the nearest text box",
+        "Set its transparency to zero",
+        "Add a caption underneath describing it as decorative",
+        "Convert it to a SmartArt graphic",
+        "Apply a border so it's visually distinct",
+        "Add it to the Notes pane instead of the slide"
+      ],
+      "screenId": "decorative-images"
+    },
+    {
+      "id": "ppt-q6",
+      "type": "multiple_choice",
+      "prompt": "Besides a short alt text description, where can the fuller explanation of a complex chart go?",
+      "answerPool": [
+        "Nearby text on the slide, the slide's Notes, or an appendix slide",
+        "Nowhere else - the alt text field itself should contain the entire explanation",
+        "Only in a separate document that isn't part of the presentation",
+        "Only in the file name of the chart image",
+        "Only in the chart's title bar",
+        "Only in an email sent after the presentation",
+        "Only in a footnote on the very last slide",
+        "Only in the PowerPoint file's document properties",
+        "Only in a comment attached to the slide",
+        "Only in the chart's legend",
+        "Only in the alt text of an unrelated image",
+        "Only spoken aloud, never written down",
+        "Only in the Slide Master"
+      ],
+      "screenId": "complex-images"
+    },
+    {
+      "id": "ppt-q7",
+      "type": "multiple_choice",
+      "prompt": "A diagram on a slide is built from several separate shapes. What has to happen before alt text on it will actually be read by assistive technology?",
+      "answerPool": [
+        "The shapes need to be grouped into a single object, with alt text added to that group",
+        "Alt text needs to be added to each individual shape separately",
+        "The shapes need to be converted to a single picture, then given alt text",
+        "Only the topmost shape in the stack needs alt text",
+        "The shapes need to be ungrouped so each one can be read independently",
+        "The shapes need to be moved to the Slide Master",
+        "The shapes need to be resized to the same dimensions",
+        "The shapes need a hyperlink attached",
+        "The shapes need to be recolored to match the theme",
+        "The shapes need to be converted to SmartArt",
+        "The shapes need to be locked in place",
+        "The shapes need to be given sequential animation",
+        "The shapes need to be duplicated onto every slide"
+      ],
+      "screenId": "grouped-objects"
+    },
+    {
+      "id": "ppt-q8",
+      "type": "multiple_choice",
+      "prompt": "What's true about text or images placed on the Slide Master?",
+      "answerPool": [
+        "Assistive technology never reads them, regardless of how meaningful they are",
+        "Assistive technology reads them only on the first slide",
+        "Assistive technology reads them, but only if they have alt text",
+        "Assistive technology reads them the same as content on a regular slide",
+        "Assistive technology reads them only when Design Ideas is turned on",
+        "They automatically get exported to the accessible PDF version",
+        "They're the first thing a screen reader announces on every slide",
+        "They can't be given alt text at all",
+        "They only display when printing the deck",
+        "They override any alt text on the actual slide",
+        "They're removed automatically by the Accessibility Checker",
+        "They only appear in Presenter View, never on the actual slide",
+        "They're read once per presentation, not once per slide"
+      ],
+      "screenId": "master-slide"
+    },
+    {
+      "id": "ppt-q9",
+      "type": "multiple_choice",
+      "prompt": "What happens when you use PowerPoint's real Bullets or Numbering feature to create a list, instead of typing a dash or number by hand?",
+      "answerPool": [
+        "A screen reader announces it as an actual list, including how many items it has",
+        "The list looks identical either way, so there's no real difference for assistive technology",
+        "A screen reader only announces it as a list if it also has a heading above it",
+        "A screen reader announces the bullet character itself, just styled differently",
+        "The list is only recognized as a list if every item is a single line",
+        "The list automatically gets alt text",
+        "The list is excluded from the Accessibility Checker's scan",
+        "The list can no longer be edited after it's created",
+        "The list is announced in reverse order",
+        "The list is automatically translated for multilingual audiences",
+        "The list becomes a table automatically",
+        "The list is read only when the slide is exported to PDF",
+        "The list is skipped entirely by screen readers"
+      ],
+      "screenId": "lists"
+    },
+    {
+      "id": "ppt-q10",
+      "type": "multiple_choice",
+      "prompt": "A slide shows project status using only red, yellow, and green dots, with no other difference. What should be added?",
+      "answerPool": [
+        "A second, non-color indicator - a text label, symbol, or pattern - alongside each color",
+        "A legend explaining what each color means, placed on a separate slide",
+        "A slightly larger dot for the most important status",
+        "A brighter shade of each color to improve contrast",
+        "An animation drawing attention to each dot",
+        "A footnote citing the color scheme used",
+        "A louder transition sound",
+        "A larger font size for the surrounding text",
+        "A border around each dot",
+        "A hyperlink on each dot linking to more detail",
+        "A different font for each status",
+        "A caption naming the color scheme's designer",
+        "A table of contents entry for each status"
+      ],
+      "screenId": "color-alone"
+    },
+    {
+      "id": "ppt-q11",
+      "type": "multiple_choice",
+      "prompt": "Besides body text, where else should you check color contrast on a slide?",
+      "answerPool": [
+        "In charts and graphs - a low-contrast slice color or gridline can be just as unreadable as low-contrast text",
+        "Only in the slide's background image, not in any content on top of it",
+        "Only in the title placeholder, since it's the largest text on the slide",
+        "Only in hyperlink text, since it changes color when visited",
+        "Only in text already flagged by the Accessibility Checker",
+        "Only in the footer text",
+        "Only in the speaker's notes",
+        "Only in slide numbers",
+        "Only in the file name of the presentation",
+        "Only in animation effects",
+        "Only in the Slide Master's page number placeholder",
+        "Only in transition effects between slides",
+        "Only in the presentation's file properties"
+      ],
+      "screenId": "color-contrast"
+    },
+    {
+      "id": "ppt-q12",
+      "type": "multiple_choice",
+      "prompt": "What's Microsoft's minimum recommended font size for any text on a slide?",
+      "answerPool": [
+        "18pt",
+        "10pt",
+        "12pt, matching the standard for a printed document",
+        "14pt, since that's the default body text size",
+        "24pt for absolutely everything, including footnotes",
+        "8pt",
+        "16pt, matching Word's own minimum recommendation",
+        "60pt for every line of text",
+        "There's no minimum; readability depends only on contrast",
+        "20pt, but only for the title placeholder",
+        "36pt, but only for bullet points",
+        "9pt for footnotes and citations",
+        "48pt for body text specifically"
+      ],
+      "screenId": "fonts-and-layout"
+    },
+    {
+      "id": "ppt-q13",
+      "type": "multiple_choice",
+      "prompt": "After building a real Table object for data on a slide, what should you do to make its column headings actually work for assistive technology?",
+      "answerPool": [
+        "Turn on Header Row from the Table Design tab",
+        "Make the heading text bold and a larger font size",
+        "Merge the heading cells into a single wide cell",
+        "Add a caption above the table naming the columns",
+        "Center the heading text within each cell",
+        "Add a hyperlink to each column heading",
+        "Color the heading row a different background color",
+        "Increase the table's border thickness",
+        "Add alt text to each individual cell",
+        "Convert the table to a SmartArt graphic",
+        "Add the headings to the slide's Notes instead",
+        "Use a larger font throughout the whole table",
+        "Freeze the heading row so it doesn't scroll"
+      ],
+      "screenId": "tables"
+    },
+    {
+      "id": "ppt-q14",
+      "type": "multiple_choice",
+      "prompt": "What makes hyperlink text useful to someone scanning a list of links with a screen reader?",
+      "answerPool": [
+        "The link text itself describes where it goes, instead of generic text like \"click here\"",
+        "The link is underlined in a bright, eye-catching color",
+        "The link opens in a new browser tab automatically",
+        "The full raw URL is used as the link text",
+        "The link is placed at the very end of the slide's text",
+        "The link has a ScreenTip that repeats the slide's title",
+        "The link is animated to draw attention to it",
+        "The link is the only colored text on the slide",
+        "The link is read aloud automatically when the slide appears",
+        "The link is placed inside a text box with a border",
+        "The link uses a larger font size than surrounding text",
+        "The link is duplicated on every slide for consistency",
+        "The link's destination page is opened ahead of time to preload it"
+      ],
+      "screenId": "hyperlinks"
+    },
+    {
+      "id": "ppt-q15",
+      "type": "multiple_choice",
+      "prompt": "Why does it matter whether a slide's proofing language is set correctly?",
+      "answerPool": [
+        "An incorrectly set language makes a screen reader apply the wrong pronunciation rules to everything on that slide",
+        "It only affects spell-check suggestions, not how the slide sounds to assistive technology",
+        "It only matters for slides containing a video",
+        "It only affects which fonts are available to use",
+        "It only changes the date and currency formatting on the slide",
+        "It determines which theme colors are available",
+        "It controls whether Design Ideas suggestions appear",
+        "It changes the keyboard shortcuts available",
+        "It affects how large the deck's file size is",
+        "It determines whether the Accessibility Checker runs automatically",
+        "It only matters when printing the deck",
+        "It affects which templates show up under File > New",
+        "It changes how animations are timed"
+      ],
+      "screenId": "language"
+    },
+    {
+      "id": "ppt-q16",
+      "type": "multiple_choice",
+      "prompt": "How should each animation effect on a slide be set to start, so it works for both mouse and keyboard users?",
+      "answerPool": [
+        "On Click, from the Timing pane",
+        "On a timed automatic delay, so the presenter doesn't have to do anything",
+        "Using a custom Trigger tied to a specific shape",
+        "After the previous animation finishes, with no click needed",
+        "As soon as the slide loads, before anything else happens",
+        "Only when the mouse hovers over the object",
+        "Only when the presenter double-clicks the object",
+        "Randomly, so the presentation feels dynamic",
+        "Based on a voice command",
+        "Only during Presenter View, never in the actual slideshow",
+        "Synced to background music",
+        "Only on the last slide of the deck",
+        "Based on how long the previous slide was shown"
+      ],
+      "screenId": "animation"
+    },
+    {
+      "id": "ppt-q17",
+      "type": "multiple_choice",
+      "prompt": "What flashing rate can trigger seizures in people with photosensitive epilepsy, and should always be avoided?",
+      "answerPool": [
+        "More than 3 flashes per second",
+        "More than 10 flashes per second",
+        "More than 1 flash per second",
+        "Any flashing at all, regardless of speed",
+        "More than 3 flashes per minute",
+        "Only flashing that uses red and blue together",
+        "Only flashing combined with sound",
+        "Only flashing that lasts longer than 10 seconds total",
+        "Only flashing in a title placeholder",
+        "Only flashing during a transition, not within a slide",
+        "Only flashing text, not flashing images",
+        "Any animation labeled Emphasis",
+        "Only flashing that covers the whole slide"
+      ],
+      "screenId": "animation"
+    },
+    {
+      "id": "ppt-q18",
+      "type": "multiple_choice",
+      "prompt": "How do captions need to be added to a video that will be inserted into a PowerPoint slide?",
+      "answerPool": [
+        "Encoded into the video file itself, before it's inserted into PowerPoint",
+        "As a separate caption file placed in the same folder as the presentation",
+        "Added afterward, directly in PowerPoint's video editing tools",
+        "Uploaded separately to the Accessibility Checker",
+        "Attached as a linked file in the Notes pane",
+        "Written out in the slide's alt text instead",
+        "Added automatically the first time the slide is presented",
+        "Included in the presentation's document properties",
+        "Provided only as a printed handout",
+        "Embedded in the slide's title placeholder",
+        "Added through the Slide Master",
+        "Attached to the presentation as an email attachment",
+        "Included only in the exported PDF version"
+      ],
+      "screenId": "video"
+    },
+    {
+      "id": "ppt-q19",
+      "type": "multiple_choice",
+      "prompt": "What's the accessible way to bring spreadsheet data into a slide?",
+      "answerPool": [
+        "Use a real PowerPoint Table object, not a flat image or unstructured pasted block",
+        "Copy and paste the cells directly from the spreadsheet as-is",
+        "Take a screenshot of the spreadsheet and insert that",
+        "Paste the data as a picture so formatting is preserved exactly",
+        "Retype the data manually into a plain text box",
+        "Convert the data into a chart regardless of content",
+        "Embed the entire spreadsheet file as an icon",
+        "Paste the data into the Notes pane instead",
+        "Link to the spreadsheet file without including any data on the slide",
+        "Paste the data as a hyperlink to the original file",
+        "Convert the data into SmartArt",
+        "Insert the data as a QR code",
+        "Attach the spreadsheet as an email instead of pasting anything"
+      ],
+      "screenId": "embedded-objects"
+    },
+    {
+      "id": "ppt-q20",
+      "type": "multiple_choice",
+      "prompt": "How does PowerPoint's Accessibility Checker behave differently on Windows versus Mac?",
+      "answerPool": [
+        "It runs continuously in the background on Windows, but only when manually opened on Mac",
+        "It's available only on Windows, not on Mac at all",
+        "It only checks alt text on Windows, and only contrast on Mac",
+        "It runs in the background on both platforms, with no difference",
+        "It requires an add-in on Mac that isn't needed on Windows",
+        "It only works on files saved to OneDrive",
+        "It only works when connected to the internet",
+        "It's only available in the paid version of PowerPoint on Mac",
+        "It only scans the currently selected slide, never the whole deck",
+        "It only runs once, the first time a file is opened",
+        "It's part of the Design Ideas pane on both platforms",
+        "It only flags issues in Presenter View",
+        "It requires a Microsoft 365 subscription on Windows only"
+      ],
+      "screenId": "accessibility-checker"
+    },
+    {
+      "id": "ppt-q21",
+      "type": "multiple_choice",
+      "prompt": "What's the risk of using a plain \"print to PDF\" to create a PDF version of a slide deck?",
+      "answerPool": [
+        "It strips out headings, alt text, and structure, the same way it does from a Word document",
+        "It only affects the file size, not the accessibility of the content",
+        "It only removes animations, leaving everything else intact",
+        "It only affects speaker notes, not the slides themselves",
+        "It only matters if the deck contains video",
+        "It changes the slide dimensions",
+        "It removes the presenter's name from the file properties",
+        "It converts all text to images automatically",
+        "It only affects color, converting everything to grayscale",
+        "It prevents the PDF from being printed",
+        "It only removes hyperlinks, not other content",
+        "It increases the file size significantly",
+        "It removes slide numbers"
+      ],
+      "screenId": "accessible-formats"
+    },
+    {
+      "id": "ppt-q22",
+      "type": "multiple_choice",
+      "prompt": "What should a presenter do out loud, on top of just talking through their planned material, to make a live presentation accessible?",
+      "answerPool": [
+        "Describe what's visually on the slide, including reading important alt text aloud",
+        "Read every word on the slide verbatim, in the exact order it's written",
+        "Only describe visuals if someone in the audience specifically asks",
+        "Summarize the whole slide in one sentence at the very end",
+        "Rely on the live captioning service to describe visuals as well as speech",
+        "Increase their speaking volume for the entire presentation",
+        "Avoid describing anything not already in the alt text",
+        "Only describe visuals during the question-and-answer session",
+        "Read the slide number aloud before each slide",
+        "Describe visuals only if presenting remotely, not in person",
+        "Skip any slide that doesn't have a title",
+        "Describe visuals only in the Notes pane, not out loud",
+        "Wait until after the presentation to send written descriptions"
+      ],
+      "screenId": "presenting-accessibly"
     }
   ]
 }
