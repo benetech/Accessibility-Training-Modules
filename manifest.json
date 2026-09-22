@@ -8,7 +8,7 @@
       "active": true,
       "recertDays": 365,
       "passingScore": 80,
-      "minAppVersion": "0.9.23",
+      "minAppVersion": "0.9.27",
       "resources": [
         {
           "name": "MS Word Accessibility Checklist",
@@ -23,7 +23,7 @@
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
-      "minAppVersion": "0.6.0"
+      "minAppVersion": "0.9.27"
     },
     {
       "id": "excel-accessibility",
