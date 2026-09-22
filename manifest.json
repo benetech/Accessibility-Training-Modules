@@ -1,4 +1,22 @@
 {
+  "latestAppVersion": "0.9.28",
+  "appChangelog": [
+    {
+      "version": "0.9.28",
+      "date": "2026-09-22",
+      "notes": [
+        "Added a \"What's New\" section and an update-available notice to the Dashboard, so an update or fix doesn't go unnoticed just because you're mid-training on an older build."
+      ]
+    },
+    {
+      "version": "0.9.27",
+      "date": "2026-09-22",
+      "notes": [
+        "Fixed NVDA announcing a stale question/screen name when moving between quiz questions or lesson screens.",
+        "Fixed NVDA reading each quiz question twice, with \"grouping\" announced in between."
+      ]
+    }
+  ],
   "modules": [
     {
       "id": "word-accessibility",
