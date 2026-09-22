@@ -160,3 +160,26 @@ Each module has its own `version` field in [manifest.json](manifest.json):
 - A module's first production-ready release starts at `1.0.0`.
 
 Update `manifest.json` as part of any PR that changes a module.
+
+## App changelog
+
+[manifest.json](manifest.json) also carries two top-level fields (siblings
+of `modules`, not per-module) describing the *app* itself, separate from
+any one module's own `minAppVersion`/`version`:
+
+- `latestAppVersion` - the newest Accessibility Training Tool version
+  known to exist. The Dashboard compares this against the running app's
+  own version and shows a non-blocking "a newer version is available"
+  notice if it's behind - unlike `minAppVersion`, this is purely
+  informational and is shown even when resuming an in-progress attempt,
+  since its purpose is making sure someone stuck on an old build (who a
+  `minAppVersion` bump wouldn't reach until they start or restart a
+  specific module) finds out a fix or improvement exists at all.
+- `appChangelog` - an array of `{ version, date, notes }` entries (newest
+  first), rendered in the Dashboard's own "What's New" section, always
+  visible there regardless of whether the running app is outdated - notes
+  are plain strings, one per fix/change worth telling employees about.
+
+Update both whenever an app release (not a module content change) ships
+something worth an employee knowing about - most releases won't need it,
+same as `minAppVersion`.
