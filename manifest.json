@@ -1,6 +1,11 @@
 {
-  "latestAppVersion": "0.9.28",
+  "latestAppVersion": "0.9.30",
   "appChangelog": [
+    {
+      "version": "0.9.30",
+      "date": "2026-09-22",
+      "notes": ["UI Testing"]
+    },
     {
       "version": "0.9.28",
       "date": "2026-09-22",
