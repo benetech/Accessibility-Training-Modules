@@ -19,7 +19,7 @@
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
