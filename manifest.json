@@ -1,10 +1,17 @@
 {
-  "latestAppVersion": "0.9.30",
+  "latestAppVersion": "0.9.31",
   "appChangelog": [
     {
-      "version": "0.9.30",
+      "version": "0.9.31",
       "date": "2026-09-22",
-      "notes": ["UI Testing"]
+      "notes": ["Changed the update-available notice's color from red to green, since it's informational rather than an error."]
+    },
+    {
+      "version": "0.9.29",
+      "date": "2026-09-22",
+      "notes": [
+        "The Dashboard's \"What's New\" section now only appears when an update is actually available - it stays always-visible in Help > About."
+      ]
     },
     {
       "version": "0.9.28",
