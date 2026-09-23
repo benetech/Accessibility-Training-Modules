@@ -541,7 +541,7 @@
         "A recommendation that applies only to title slides",
         "A word-count rule with no limit on the number of bullets",
         "A guideline that's replaced entirely by the font-size minimums",
-        "A rule enforced automatically by PowerPoint's spell checker",
+        "Up to 6 bullets with up to 6 words each, and never more",
         "A suggestion that only matters for a printed leave-behind, not a live presentation"
       ],
       "screenId": "dense-slides"
