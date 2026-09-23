@@ -503,6 +503,27 @@
         "32pt, matching a live presentation's body text range"
       ],
       "screenId": "fonts-and-layout"
+    },
+    {
+      "id": "ppt-q25",
+      "type": "multiple_choice",
+      "prompt": "What's a quick way to check every slide's title at once, and catch a missing title or a text box that only looks like one?",
+      "answerPool": [
+        "Switch to View > Outline - it lists only the actual title/body placeholder text for the whole deck",
+        "Zoom out to Slide Sorter view and read each slide's layout visually",
+        "Rely on the thumbnail pane along the left side of the editing window",
+        "Open the Selection Pane on each individual slide, one at a time",
+        "Open the Notes pane for every slide, one at a time",
+        "Run spell check across the whole deck",
+        "Print the deck and read through the paper copy",
+        "Play the slideshow from the beginning and listen for each title",
+        "Search the deck for the word \"Title\"",
+        "Check the file's word count in Document Properties",
+        "Open the Slide Master and read the title placeholder there",
+        "Compare the deck against a printed handout version",
+        "Ask a colleague to read through the deck out loud"
+      ],
+      "screenId": "slide-titles"
     }
   ]
 }
