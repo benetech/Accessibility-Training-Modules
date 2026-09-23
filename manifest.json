@@ -33,7 +33,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
