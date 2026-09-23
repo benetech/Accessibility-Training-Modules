@@ -587,6 +587,48 @@
         "Whether it's the same image used in a previous version of the deck"
       ],
       "screenId": "purposeful-images"
+    },
+    {
+      "id": "ppt-q29",
+      "type": "multiple_choice",
+      "prompt": "What should you do if a screenshot's important content is text baked into the image itself, like an error message or a typed value?",
+      "answerPool": [
+        "Write that exact text out in the alt text description, not just a general description of the screenshot",
+        "Nothing extra - a general description like \"a screenshot of a dialog box\" is always enough",
+        "Increase the screenshot's contrast so the text is easier to see",
+        "Convert the screenshot to black and white",
+        "Add a caption crediting where the screenshot came from",
+        "Mark the screenshot as decorative, since it's just an image",
+        "Compress the image to reduce the file size",
+        "Add a border around the screenshot to make it stand out",
+        "Animate the screenshot to enter with an effect",
+        "Rename the image file to describe its contents",
+        "Increase the screenshot's resolution",
+        "Add the screenshot to the Slide Master so it appears on every slide",
+        "Group the screenshot with a nearby text box"
+      ],
+      "screenId": "screenshots"
+    },
+    {
+      "id": "ppt-q30",
+      "type": "multiple_choice",
+      "prompt": "When presenting a screenshot live, what should you do instead of just pointing at or highlighting part of it on screen?",
+      "answerPool": [
+        "Say out loud what you're pointing at, naming the specific button, field, or text directly",
+        "Nothing extra - pointing or highlighting is enough on its own",
+        "Zoom in on just that part of the screenshot instead of describing it",
+        "Add an arrow shape pointing at it in the slide file",
+        "Circle the area with the mouse cursor more slowly",
+        "Change that part of the screenshot to a brighter color",
+        "Pause silently for a few seconds before continuing",
+        "Add a caption below the screenshot describing where to look",
+        "Increase the zoom level of the whole presentation",
+        "Ask the audience to zoom in on their own screens",
+        "Switch to a laser pointer instead of the mouse cursor",
+        "Repeat the slide's title before continuing",
+        "Add a text box with an exclamation point next to it"
+      ],
+      "screenId": "screenshots"
     }
   ]
 }
