@@ -524,6 +524,27 @@
         "Ask a colleague to read through the deck out loud"
       ],
       "screenId": "slide-titles"
+    },
+    {
+      "id": "ppt-q26",
+      "type": "multiple_choice",
+      "prompt": "What's the right way to think about the classic \"6x6 rule\" (around 6 bullets of about 6-8 words each) for a slide?",
+      "answerPool": [
+        "A rough shape to aim for - what matters is the total amount of text and reading time, not hitting those exact numbers",
+        "A strict formula: exactly 6 bullets, no more and no fewer",
+        "A hard limit - any slide over 6 bullets automatically fails an accessibility check",
+        "A minimum, not a maximum - every slide needs at least 6 bullets",
+        "A rule that only applies to body text, never bullet points",
+        "The \"10x10 rule\": exactly 10 bullets of 10 words each",
+        "The \"5x5 rule\": exactly 5 bullets of 5 words each",
+        "A rule that only matters for printed handouts, not the on-screen slide",
+        "A recommendation that applies only to title slides",
+        "A word-count rule with no limit on the number of bullets",
+        "A guideline that's replaced entirely by the font-size minimums",
+        "Up to 6 bullets with up to 6 words each, and never more",
+        "A suggestion that only matters for a printed leave-behind, not a live presentation"
+      ],
+      "screenId": "dense-slides"
     }
   ]
 }
