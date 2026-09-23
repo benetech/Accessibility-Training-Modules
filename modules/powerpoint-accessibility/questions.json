@@ -566,6 +566,27 @@
         "It's required so a QR code can be added automatically"
       ],
       "screenId": "fonts-and-layout"
+    },
+    {
+      "id": "ppt-q28",
+      "type": "multiple_choice",
+      "prompt": "What's the best test for whether an image genuinely belongs on a slide?",
+      "answerPool": [
+        "Whether it genuinely illustrates or reinforces the point being made, not whether it just fills empty space",
+        "Whether the slide would otherwise look too plain without it",
+        "Whether it's high enough resolution to look sharp when projected",
+        "Whether PowerPoint's Design Ideas feature suggested it",
+        "Whether it matches the color scheme of the slide",
+        "Whether it's royalty-free stock photography",
+        "Whether every other slide in the deck also has an image",
+        "Whether it takes up at least half the slide",
+        "Whether it can be animated to enter with a transition",
+        "Whether it's positioned in the same spot as the slide before it",
+        "Whether it's a photo rather than a chart or diagram",
+        "Whether it was already in the company's template library",
+        "Whether it's the same image used in a previous version of the deck"
+      ],
+      "screenId": "purposeful-images"
     }
   ]
 }
