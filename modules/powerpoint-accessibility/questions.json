@@ -234,18 +234,18 @@
     {
       "id": "ppt-q12",
       "type": "multiple_choice",
-      "prompt": "What's Microsoft's minimum recommended font size for any text on a slide?",
+      "prompt": "What's the recommended minimum font size for body text on a slide?",
       "answerPool": [
-        "18pt",
+        "20pt",
         "10pt",
         "12pt, matching the standard for a printed document",
         "14pt, since that's the default body text size",
-        "24pt for absolutely everything, including footnotes",
+        "18pt, Microsoft's own built-in minimum",
         "8pt",
         "16pt, matching Word's own minimum recommendation",
         "60pt for every line of text",
         "There's no minimum; readability depends only on contrast",
-        "20pt, but only for the title placeholder",
+        "40pt, but only for the title placeholder",
         "36pt, but only for bullet points",
         "9pt for footnotes and citations",
         "48pt for body text specifically"
@@ -461,6 +461,48 @@
         "Wait until after the presentation to send written descriptions"
       ],
       "screenId": "presenting-accessibly"
+    },
+    {
+      "id": "ppt-q23",
+      "type": "multiple_choice",
+      "prompt": "What should you do if several slides in a row cover the same topic and would otherwise share an identical title?",
+      "answerPool": [
+        "Keep the shared title text but add a distinguishing suffix like \"(1 of 3)\" to each slide",
+        "Repeat the exact same title on every slide in the series, since it's the same topic",
+        "Leave every slide after the first one in the series untitled",
+        "Give only the first slide a title and leave the rest blank",
+        "Rely on the slide number to distinguish them instead of the title text",
+        "Use a completely different, unrelated title on each slide instead",
+        "Put a count like \"2 of 3\" in the Notes pane instead of the title",
+        "Change the title's font color on each slide instead of its text",
+        "Merge all the related content onto a single, longer slide instead",
+        "Add today's date to the title instead of a count",
+        "Add ellipses (\"...\") after the title on the later slides",
+        "Add a footnote explaining that the slides are related",
+        "Duplicate the title, then mark the duplicate slides as decorative"
+      ],
+      "screenId": "slide-titles"
+    },
+    {
+      "id": "ppt-q24",
+      "type": "multiple_choice",
+      "prompt": "What's the recommended minimum font size for a slide's title text?",
+      "answerPool": [
+        "40pt",
+        "20pt, the same as body text",
+        "18pt",
+        "24pt",
+        "28pt, matching the largest recommended body text size",
+        "12pt",
+        "60pt for every title",
+        "There's no separate minimum for titles specifically",
+        "10pt",
+        "44pt exactly, no larger or smaller",
+        "16pt",
+        "8pt",
+        "32pt, matching a live presentation's body text range"
+      ],
+      "screenId": "fonts-and-layout"
     }
   ]
 }
