@@ -545,6 +545,27 @@
         "A suggestion that only matters for a printed leave-behind, not a live presentation"
       ],
       "screenId": "dense-slides"
+    },
+    {
+      "id": "ppt-q27",
+      "type": "multiple_choice",
+      "prompt": "Why is it good practice to leave the bottom inch and a half or so of a slide free of text and important visuals?",
+      "answerPool": [
+        "Live captions are typically overlaid across that band of the screen and would cover anything placed there",
+        "That's where PowerPoint places the slide number by default",
+        "It's required so the Notes pane can be displayed underneath the slide",
+        "It leaves room for a footer logo required by the Slide Master",
+        "It matches the printable margin on a physical handout",
+        "It's where a presenter's webcam feed is inserted automatically",
+        "It's reserved space for the Reading Order pane's own controls",
+        "That's the area a projector typically crops off first",
+        "It's where the Check Accessibility pane docks during a live presentation",
+        "It's needed so the slide transition animation has room to play",
+        "It's where alt text is displayed on screen for sighted users",
+        "It's the area sign language interpreters are shown in during a recording",
+        "It's required so a QR code can be added automatically"
+      ],
+      "screenId": "fonts-and-layout"
     }
   ]
 }
