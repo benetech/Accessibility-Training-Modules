@@ -524,6 +524,27 @@
         "Ask a colleague to read through the deck out loud"
       ],
       "screenId": "slide-titles"
+    },
+    {
+      "id": "ppt-q26",
+      "type": "multiple_choice",
+      "prompt": "What's a widely used guideline for keeping a slide's bullet list from getting too dense?",
+      "answerPool": [
+        "The \"6x6 rule\": aim for 6 bullets per slide (8 at most), each around 6-8 words",
+        "The \"10x10 rule\": exactly 10 bullets of 10 words each",
+        "The \"5x5 rule\": exactly 5 bullets of 5 words each",
+        "No more than 3 bullets total, regardless of length",
+        "As many bullets as fit on one slide, regardless of count",
+        "One long paragraph per slide instead of a bulleted list",
+        "6 bullets minimum, with no upper limit on words each",
+        "12 bullets per slide, each a single word",
+        "As many bullets as needed, as long as the font size stays above 20pt",
+        "6 words per slide total, spread across any number of bullets",
+        "8 bullets minimum, each a full sentence",
+        "20 bullets per slide, one per talking point",
+        "4 bullets maximum, each up to 20 words"
+      ],
+      "screenId": "dense-slides"
     }
   ]
 }
