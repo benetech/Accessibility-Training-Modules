@@ -528,21 +528,21 @@
     {
       "id": "ppt-q26",
       "type": "multiple_choice",
-      "prompt": "What's a widely used guideline for keeping a slide's bullet list from getting too dense?",
+      "prompt": "What's the right way to think about the classic \"6x6 rule\" (around 6 bullets of about 6-8 words each) for a slide?",
       "answerPool": [
-        "The \"6x6 rule\": aim for 6 bullets per slide (8 at most), each around 6-8 words",
+        "A rough shape to aim for - what matters is the total amount of text and reading time, not hitting those exact numbers",
+        "A strict formula: exactly 6 bullets, no more and no fewer",
+        "A hard limit - any slide over 6 bullets automatically fails an accessibility check",
+        "A minimum, not a maximum - every slide needs at least 6 bullets",
+        "A rule that only applies to body text, never bullet points",
         "The \"10x10 rule\": exactly 10 bullets of 10 words each",
         "The \"5x5 rule\": exactly 5 bullets of 5 words each",
-        "No more than 3 bullets total, regardless of length",
-        "As many bullets as fit on one slide, regardless of count",
-        "One long paragraph per slide instead of a bulleted list",
-        "6 bullets minimum, with no upper limit on words each",
-        "12 bullets per slide, each a single word",
-        "As many bullets as needed, as long as the font size stays above 20pt",
-        "6 words per slide total, spread across any number of bullets",
-        "8 bullets minimum, each a full sentence",
-        "20 bullets per slide, one per talking point",
-        "4 bullets maximum, each up to 20 words"
+        "A rule that only matters for printed handouts, not the on-screen slide",
+        "A recommendation that applies only to title slides",
+        "A word-count rule with no limit on the number of bullets",
+        "A guideline that's replaced entirely by the font-size minimums",
+        "A rule enforced automatically by PowerPoint's spell checker",
+        "A suggestion that only matters for a printed leave-behind, not a live presentation"
       ],
       "screenId": "dense-slides"
     }
