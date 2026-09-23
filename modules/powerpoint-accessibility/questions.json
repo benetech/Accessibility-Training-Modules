@@ -608,6 +608,27 @@
         "Group the screenshot with a nearby text box"
       ],
       "screenId": "screenshots"
+    },
+    {
+      "id": "ppt-q30",
+      "type": "multiple_choice",
+      "prompt": "When presenting a screenshot live, what should you do instead of just pointing at or highlighting part of it on screen?",
+      "answerPool": [
+        "Say out loud what you're pointing at, naming the specific button, field, or text directly",
+        "Nothing extra - pointing or highlighting is enough on its own",
+        "Zoom in on just that part of the screenshot instead of describing it",
+        "Add an arrow shape pointing at it in the slide file",
+        "Circle the area with the mouse cursor more slowly",
+        "Change that part of the screenshot to a brighter color",
+        "Pause silently for a few seconds before continuing",
+        "Add a caption below the screenshot describing where to look",
+        "Increase the zoom level of the whole presentation",
+        "Ask the audience to zoom in on their own screens",
+        "Switch to a laser pointer instead of the mouse cursor",
+        "Repeat the slide's title before continuing",
+        "Add a text box with an exclamation point next to it"
+      ],
+      "screenId": "screenshots"
     }
   ]
 }
