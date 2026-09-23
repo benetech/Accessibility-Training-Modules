@@ -629,6 +629,27 @@
         "Add a text box with an exclamation point next to it"
       ],
       "screenId": "screenshots"
+    },
+    {
+      "id": "ppt-q31",
+      "type": "multiple_choice",
+      "prompt": "Why should you share a presentation deck with attendees ahead of a live session, not only afterward?",
+      "answerPool": [
+        "So anyone who needs to can review it at their own pace, and with their own assistive technology",
+        "So attendees can print it out and follow along on paper instead",
+        "So the presenter doesn't need to describe visuals out loud during the talk",
+        "So live captioning can be skipped, since the text is already available",
+        "So the file's size can be reduced before sending",
+        "So attendees know exactly how long the presentation will run",
+        "So the deck no longer needs alt text, since it's already been shared",
+        "So only the presenter's own team can review it beforehand",
+        "So the recording made afterward can be shorter",
+        "So attendees can rate the presenter's slide design in advance",
+        "So the file can be added to a shared calendar invite automatically",
+        "So the presenter can skip making an accessible alternate format afterward",
+        "So attendees are required to already know the topic before the session starts"
+      ],
+      "screenId": "accessible-formats"
     }
   ]
 }
