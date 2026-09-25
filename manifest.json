@@ -49,11 +49,18 @@
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.4.8",
+      "version": "0.4.9",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
-      "minAppVersion": "0.9.27"
+      "passingScore": 80,
+      "minAppVersion": "0.9.27",
+      "resources": [
+        {
+          "name": "MS PowerPoint Accessibility Checklist",
+          "file": "resources/ms-powerpoint-accessibility-checklist.docx"
+        }
+      ]
     },
     {
       "id": "excel-accessibility",
