@@ -27,7 +27,7 @@ A module folder contains:
 
 A module entry with `"active": false` is hidden from the app's module list for everyone except the emails listed in [beta-testers.json](beta-testers.json) - use this to work on a module (or a content update) without it appearing for every employee yet. Omitting `active` entirely defaults to visible, so it only needs to be set explicitly while something is deliberately held back.
 
-`beta-testers.json` is a flat allow-list (`{"emails": [...]}`) checked against whichever email an employee logged into the app with - not a setting they can toggle themselves. If this file is ever missing or unreachable, the app treats it as an empty list (nobody sees inactive modules) rather than failing open.
+`beta-testers.json` maps each module id to its own allow-list (`{"<module-id>": ["email", ...]}`), checked against whichever email an employee logged into the app with - not a setting they can toggle themselves. Being a beta tester for one module doesn't grant access to any other inactive module; add the same email to more than one module's list if they need to see several. If this file is ever missing or unreachable, or a module has no entry at all, the app treats it as an empty list for that module (nobody sees it) rather than failing open.
 
 ## Contributing
 
