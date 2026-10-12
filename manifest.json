@@ -49,12 +49,18 @@
     {
       "id": "word-accessibility-advanced",
       "title": "Making Microsoft Word Documents Accessible - Advanced",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "folder": "modules/word-accessibility-advanced",
       "active": true,
       "optional": true,
       "passingScore": 80,
-      "minAppVersion": "0.9.47"
+      "minAppVersion": "0.9.47",
+      "resources": [
+        {
+          "name": "MS Word Accessibility Checklist",
+          "file": "resources/ms-word-accessibility-checklist.docx"
+        }
+      ]
     },
     {
       "id": "powerpoint-accessibility",

@@ -71,6 +71,10 @@ as a `resources` array:
 - The app resolves `file` into a real download URL itself (same
   `raw.githubusercontent.com` pattern as videos) - don't include the repo
   URL here.
+- Two modules can offer the same sheet (e.g. Word Basic and Word Advanced),
+  but `file` is always relative to the *module's own* folder, so each needs
+  its own copy under its own `resources/`. When you update the sheet, update
+  every copy.
 - Omit `resources` entirely for a module with nothing to offer - it's
   optional, not every module needs one.
 
