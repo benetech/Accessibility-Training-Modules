@@ -3,7 +3,7 @@
     {
       "id": "overview",
       "title": "Overview",
-      "body": "**Topics covered**\n\n- Image Descriptions (Alt Text)\n- Marking Decorative Images\n- Use Real Headings, Not Bold Text\n- Heading Hierarchy\n- Use Real Lists, Not Typed Bullets\n- Accessible Tables\n- Meaningful Hyperlinks\n- Use the Built-In Accessibility Checker\n\n**Why this matters**\n\nThe Word documents you create get read by real people - including people who are blind, have low vision, or otherwise rely on assistive technology like a screen reader. A document that looks fine on screen can be confusing, or completely unusable, for someone listening to it instead of looking at it.\n\nThe good news: making a document accessible almost never means it looks worse, or takes drastically longer to create. In most cases, it just means using Word's built-in tools (styles, list buttons, alt text) the way they're designed to be used, instead of faking the same visual effect by hand.\n\nThis module walks through the topics above, one at a time. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
+      "body": "**Topics covered**\n\n- Image Descriptions (Alt Text)\n- Marking Decorative Images\n- Use Real Headings, Not Bold Text\n- Heading Hierarchy\n- Use Real Lists, Not Typed Bullets\n- Spacing: Avoid Blank Lines\n- Meaningful Hyperlinks\n- Readability Foundations\n- Use the Built-In Accessibility Checker\n\n**Why this matters**\n\nThe Word documents you create get read by real people - including people who are blind, have low vision, or otherwise rely on assistive technology like a screen reader. A document that looks fine on screen can be confusing, or completely unusable, for someone listening to it instead of looking at it.\n\nThe good news: making a document accessible almost never means it looks worse, or takes drastically longer to create. In most cases, it just means using Word's built-in tools (styles, list buttons, alt text) the way they're designed to be used, instead of faking the same visual effect by hand.\n\nThis module walks through the topics above, one at a time. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
     },
     {
       "id": "alt-text",
@@ -56,24 +56,29 @@
       }
     },
     {
-      "id": "accessible-tables",
-      "title": "Accessible Tables",
-      "body": "Tables come with a few specific accessibility traps: using them to lay out a page rather than to show data, merged or split cells breaking the predictable grid a screen reader expects, and missing headers leaving a listener with no idea what a given cell's data actually represents.\n\n**Do:**\n\n- {{answer:word-q6}}Use tables for data only - never to visually position content on the page.{{/answer}}\n- Keep the structure simple: no merged or split cells. If your data seems to need them, it's better to split it into two or more simple tables.\n- {{answer:word-q7}}Define your headers: click into the table, open **Table Design**, and check **Header Row** if the table has column headings, and **First Column** if it also has row headings.{{/answer}}\n- For a long table, also turn on \"repeat header row on each page\" if that option is available.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt, then J then T (Table Design), then A for Header Row or M for First Column\n- Mac: Shift + Command + / and search for \"Repeat Header Rows\"",
+      "id": "blank-lines",
+      "title": "Spacing: Avoid Blank Lines",
+      "body": "A classic habit: pressing Enter a few times to create white space between paragraphs, or before an image. {{answer:word-q8}}A screen reader announces each of those empty lines as \"blank\"{{/answer}} - hearing \"blank, blank, blank\" makes a listener think they've missed something, and adds confusing clutter to the reading experience.\n\n**Do:** Control spacing from the **Paragraph** settings. Right-click your text, choose **Paragraph**, and adjust **Spacing Before** and **Spacing After** to get the gap you want.\n\n**Don't:** Press Enter multiple times to create blank lines.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + P (Layout tab), then S then B for Space Before, or S then A for Space After\n- Mac: Option + Command + M opens the Paragraph dialog, then Tab to Spacing Before or Spacing After",
       "video": {
-        "src": "videos/5-table-headers.mp4",
-        "captions": "videos/5-table-headers.vtt",
+        "src": "videos/6-blank-lines.mp4",
+        "captions": "videos/6-blank-lines.vtt",
         "captionsLabel": "English"
       }
     },
     {
       "id": "links",
       "title": "Meaningful Hyperlinks",
-      "body": "Screen reader users often pull up a list of every link on a page, or jump from link to link with a single key press, hearing only the link text itself - not the surrounding sentence. {{answer:word-q12}}A list full of entries that just say \"Click Here\" gives them no way to tell which link goes where.{{/answer}}\n\n**Do:**\n\n- Make the link text itself describe the destination - for example, the entire phrase \"Read the 2025 Annual Report\" should be the link, not just the words \"click here\" tacked onto the end.\n- Keep links in the standard, recognizable style: {{answer:word-q20}}blue text, underlined{{/answer}} - the underline matters just as much as the color, since color alone isn't a reliable way to convey meaning for every reader.\n\n**Don't:** Use generic link text like \"Click Here\" or \"Read More\" on its own.\n\n**Keyboard shortcut:** Ctrl/Command + K opens the hyperlink dialog on both PC and Mac.",
+      "body": "Screen reader users often pull up a list of every link on a page, or jump from link to link with a single key press, hearing only the link text itself - not the surrounding sentence. {{answer:word-q12}}A list full of entries that just say \"Click Here\" gives them no way to tell which link goes where.{{/answer}}\n\n**Do:**\n\n- Make the link text itself describe the destination - for example, the entire phrase \"Read the 2025 Annual Report\" should be the link, not just the words \"click here\" tacked onto the end.\n- Keep links in the standard, recognizable style: {{answer:word-q20}}blue text, underlined{{/answer}} - the underline matters just as much as the color, since color alone isn't a reliable way to convey meaning for every reader.\n- If the document might be printed, include the URL in the link text itself, e.g. \"Read the 2025 Report (www.benetech.org/report)\".\n- {{answer:word-q21}}Write out email addresses in full and make sure they're a live, clickable mailto: link{{/answer}}, e.g. accessibility@benetech.org.\n\n**Don't:** Use generic link text like \"Click Here\" or \"Read More\" on its own.\n\n**Keyboard shortcut:** Ctrl/Command + K opens the hyperlink dialog on both PC and Mac.",
       "video": {
         "src": "videos/10-links.mp4",
         "captions": "videos/10-links.vtt",
         "captionsLabel": "English"
       }
+    },
+    {
+      "id": "readability",
+      "title": "Readability Foundations",
+      "body": "A few document-wide formatting choices affect every single reader, not just screen reader users.\n\n**Do:**\n\n- {{answer:word-q19}}Use a minimum font size of 12pt; 16-18pt is even better for readers with low vision.{{/answer}}\n- Use a simple sans-serif font, such as Arial, Calibri, or Verdana.\n- Set line spacing to 1.5 or higher.\n- Left-align all text.\n\n**Don't:** {{answer:word-q14}}Justify text{{/answer}} - the uneven word spacing it creates makes lines harder to track, especially for readers with dyslexia or low vision."
     },
     {
       "id": "accessibility-checker",

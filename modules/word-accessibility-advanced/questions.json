@@ -1,6 +1,174 @@
 {
   "questions": [
     {
+      "id": "word-q6",
+      "type": "multiple_choice",
+      "prompt": "What should tables in a Word document be used for?",
+      "answerPool": [
+        "Data only, never for page layout",
+        "Mostly for data, but occasional layout use is fine if it's simpler",
+        "Either data or layout, whichever looks better",
+        "Data, as long as it's also visually appealing",
+        "Both data and layout, since Word tables support headers either way",
+        "Laying out content visually on the page",
+        "Comparing two versions of the same paragraph side by side",
+        "Creating a two-column newsletter-style layout",
+        "Aligning a caption underneath an image",
+        "Grouping a picture and its caption together visually",
+        "Simple layouts only - complex data should use a chart instead",
+        "Any content that benefits from being organized into a grid",
+        "Positioning a pull quote in the margin of the page"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q7",
+      "type": "multiple_choice",
+      "prompt": "How do you tell a screen reader which row or column in a table contains headers?",
+      "answerPool": [
+        "Check Header Row and/or First Column in Table Design",
+        "Turn on Repeat Header Rows in the Layout tab",
+        "Bold the header text",
+        "It's automatic - no action needed",
+        "Add the header text to the table's alt text instead of the cells",
+        "Merge the header cells together",
+        "Color the header row a different shade",
+        "Add the word \"Header\" inside each header cell",
+        "Use a larger font size for the header row",
+        "Add a border around the header row",
+        "Center-align the text in the header row",
+        "Insert a caption above the table describing which row is the header",
+        "Sort the table so the header row is always on top"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q23",
+      "type": "multiple_choice",
+      "prompt": "What should you put in a table cell that has no data?",
+      "answerPool": [
+        "A short placeholder such as \"N/A\" or \"None\"",
+        "Leave it blank - a screen reader just skips an empty cell",
+        "Merge it with the cell next to it",
+        "Shade it gray so it reads as intentionally empty",
+        "Type a single space so the cell isn't technically empty",
+        "A picture of an empty box",
+        "Make the cell's text white so it isn't visible",
+        "Copy the value from the cell above it",
+        "Add a border around the empty cell",
+        "Set the cell's font size to 1pt",
+        "Move the neighboring data over to close the gap",
+        "Convert the whole table to tabbed text",
+        "Add a comment in the margin about the empty cell"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q24",
+      "type": "multiple_choice",
+      "prompt": "A table seems to need merged cells to show its structure. What should you try first?",
+      "answerPool": [
+        "Split it into two or more simple tables",
+        "Merge the cells anyway, then turn on Header Row",
+        "Replace the table with a screenshot of it",
+        "Add a note above the table explaining its layout",
+        "Center-align the text in the merged cells",
+        "Nest a second table inside the first cell",
+        "Use tabs and spaces to line the columns up instead",
+        "Shade the merged areas a different color",
+        "Rotate the page to landscape",
+        "Shrink the font so it fits without merging",
+        "Switch to a larger page size",
+        "Draw the borders by hand using shapes",
+        "Insert the table as a floating text box"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q13",
+      "type": "multiple_choice",
+      "prompt": "Why does setting the correct proofing language matter for accessibility?",
+      "answerPool": [
+        "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
+        "It affects the spell checker and grammar checker, but nothing else",
+        "It only affects the spell checker",
+        "It only matters if the document will be translated into another language",
+        "It only matters for documents shared internationally",
+        "It's only a cosmetic setting with no real effect",
+        "It changes which keyboard shortcuts are available",
+        "It only affects how the document looks when printed",
+        "It determines which fonts are available in the document",
+        "It changes the date format used in the document",
+        "It only matters if AutoCorrect is turned on",
+        "It's only relevant for documents longer than a few pages",
+        "It has no effect on documents saved as PDF"
+      ],
+      "screenId": "language-and-styles"
+    },
+    {
+      "id": "word-q25",
+      "type": "multiple_choice",
+      "prompt": "What is the best way to change how every Heading 2 in your document looks?",
+      "answerPool": [
+        "Modify the Heading 2 style so every paragraph using it updates",
+        "Select each heading and change its font and size by hand",
+        "Use Find and Replace to change the font on the heading text",
+        "Select all text and apply the new font to the whole document",
+        "Format one heading, then copy that look onto the rest with Format Painter",
+        "Change the Normal style instead",
+        "Bold each heading",
+        "Insert a text box containing each heading",
+        "Convert the headings to a table",
+        "Press Enter before each heading to space them out",
+        "Change the document's proofing language",
+        "Turn on the Navigation Pane",
+        "Apply the Title style to every heading"
+      ],
+      "screenId": "language-and-styles"
+    },
+    {
+      "id": "word-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is light gray text on a white background a problem?",
+      "answerPool": [
+        "People with low vision or color blindness may not be able to read it",
+        "It's mostly a concern for people who are colorblind, not for low vision generally",
+        "It's a minor issue that only affects a small number of readers",
+        "It only matters if the text is also small",
+        "It can be fixed automatically by increasing the font size",
+        "It can make the document look less formal or polished",
+        "It's only an issue when the document is printed in black and white",
+        "It's against company branding guidelines",
+        "It only matters when the document is viewed on a phone screen",
+        "Screen readers read gray text more slowly than black text",
+        "It's only a problem in bright rooms with lots of natural light",
+        "It makes the text look like a watermark instead of real content",
+        "It's a problem only for people using an older monitor"
+      ],
+      "screenId": "color-contrast"
+    },
+    {
+      "id": "word-q11",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to mark a task as urgent in a document?",
+      "answerPool": [
+        "Color the text red AND add a word or symbol like \"(Urgent)\"",
+        "Color the text red",
+        "Bold the text and make it red",
+        "Use ALL CAPS in red",
+        "Add a colored dot with no label",
+        "Make the font larger",
+        "Underline the text in red",
+        "Use a red highlight behind the text, with no label",
+        "Put a red flag symbol next to it, with no other text",
+        "Add a red asterisk with no explanation of what it means",
+        "Use italics for urgent items",
+        "Put the word \"URGENT\" in a footnote",
+        "Increase the red text's font size instead of adding a label"
+      ],
+      "screenId": "color-alone"
+    },
+    {
       "id": "word-q16",
       "type": "multiple_choice",
       "prompt": "What's the correct way to export an accessible Word document to PDF?",
@@ -62,153 +230,6 @@
         "Change it to italics to signal it's not real content"
       ],
       "screenId": "fields"
-    },
-    {
-      "id": "word-q13",
-      "type": "multiple_choice",
-      "prompt": "Why does setting the correct proofing language matter for accessibility?",
-      "answerPool": [
-        "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
-        "It affects the spell checker and grammar checker, but nothing else",
-        "It only affects the spell checker",
-        "It only matters if the document will be translated into another language",
-        "It only matters for documents shared internationally",
-        "It's only a cosmetic setting with no real effect",
-        "It changes which keyboard shortcuts are available",
-        "It only affects how the document looks when printed",
-        "It determines which fonts are available in the document",
-        "It changes the date format used in the document",
-        "It only matters if AutoCorrect is turned on",
-        "It's only relevant for documents longer than a few pages",
-        "It has no effect on documents saved as PDF"
-      ],
-      "screenId": "readability"
-    },
-    {
-      "id": "word-q14",
-      "type": "multiple_choice",
-      "prompt": "Which text alignment should be avoided for readability?",
-      "answerPool": [
-        "Justified (even left and right edges)",
-        "Left-aligned",
-        "1.5 or higher line spacing",
-        "12pt or larger font",
-        "A simple sans-serif font like Arial or Calibri",
-        "A minimum 4.5:1 color contrast ratio",
-        "Setting the correct proofing language",
-        "Using real Heading styles for structure",
-        "Meaningful, descriptive link text",
-        "Marking purely decorative images as decorative",
-        "Defined header rows in tables",
-        "Avoiding conveying meaning through color alone",
-        "Exporting to PDF with accessibility tagging enabled"
-      ],
-      "screenId": "readability"
-    },
-    {
-      "id": "word-q19",
-      "type": "multiple_choice",
-      "prompt": "What's the minimum font size you should use for body text?",
-      "answerPool": [
-        "12pt (16-18pt is even better for low vision)",
-        "11pt, since that's Word's own default font size",
-        "10.5pt, since that's standard for legal documents",
-        "10pt",
-        "10pt is fine as long as the document is also available in PDF",
-        "8pt",
-        "9pt",
-        "6pt, as long as the font is bold",
-        "There's no fixed minimum - it depends on the font",
-        "14pt for headings only, body text has no minimum",
-        "9.5pt, since that's a common size for printed newspapers",
-        "Any size, as long as high-contrast colors are used",
-        "7pt for footnotes, 12pt for everything else"
-      ],
-      "screenId": "readability"
-    },
-    {
-      "id": "word-q10",
-      "type": "multiple_choice",
-      "prompt": "Why is light gray text on a white background a problem?",
-      "answerPool": [
-        "People with low vision or color blindness may not be able to read it",
-        "It's mostly a concern for people who are colorblind, not for low vision generally",
-        "It's a minor issue that only affects a small number of readers",
-        "It only matters if the text is also small",
-        "It can be fixed automatically by increasing the font size",
-        "It can make the document look less formal or polished",
-        "It's only an issue when the document is printed in black and white",
-        "It's against company branding guidelines",
-        "It only matters when the document is viewed on a phone screen",
-        "Screen readers read gray text more slowly than black text",
-        "It's only a problem in bright rooms with lots of natural light",
-        "It makes the text look like a watermark instead of real content",
-        "It's a problem only for people using an older monitor"
-      ],
-      "screenId": "color-contrast"
-    },
-    {
-      "id": "word-q11",
-      "type": "multiple_choice",
-      "prompt": "What's the correct way to mark a task as urgent in a document?",
-      "answerPool": [
-        "Color the text red AND add a word or symbol like \"(Urgent)\"",
-        "Color the text red",
-        "Bold the text and make it red",
-        "Use ALL CAPS in red",
-        "Add a colored dot with no label",
-        "Make the font larger",
-        "Underline the text in red",
-        "Use a red highlight behind the text, with no label",
-        "Put a red flag symbol next to it, with no other text",
-        "Add a red asterisk with no explanation of what it means",
-        "Use italics for urgent items",
-        "Put the word \"URGENT\" in a footnote",
-        "Increase the red text's font size instead of adding a label"
-      ],
-      "screenId": "color-alone"
-    },
-    {
-      "id": "word-q8",
-      "type": "multiple_choice",
-      "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",
-      "answerPool": [
-        "A screen reader announces each empty line as \"blank\"",
-        "It's a problem for accessibility checkers, but not for real screen reader users",
-        "It causes inconsistent spacing when the document is viewed on different screen sizes",
-        "It's fine as long as there are no more than two blank lines in a row",
-        "There's no real problem with this approach",
-        "It makes the document print incorrectly",
-        "It uses more storage space in the file",
-        "It can accidentally get deleted when someone else edits the document",
-        "It only matters if you're using a screen reader on a phone, not a computer",
-        "It makes AutoCorrect stop working for the rest of the document",
-        "It makes the document's word count inaccurate",
-        "It only matters in older versions of Word",
-        "It causes the Table of Contents to skip that section"
-      ],
-      "screenId": "blank-lines"
-    },
-    {
-      "id": "word-q21",
-      "type": "multiple_choice",
-      "prompt": "How should an email address be formatted in a document so someone can act on it right away?",
-      "answerPool": [
-        "As a live, clickable mailto: link",
-        "As a live link, but pointing to the company website instead of mailto:",
-        "As a hyperlink to the company's contact page instead",
-        "As plain text",
-        "Spelled out with \"(at)\" and \"(dot)\" to avoid spam",
-        "As an image of the email address",
-        "As a QR code linking to the email address",
-        "Written backwards to avoid spam bots",
-        "Split across two lines so spam bots can't read it",
-        "With extra spaces added between characters",
-        "As a footnote reference instead of inline",
-        "Written with the domain name removed",
-        "As a phone number to call instead"
-      ],
-      "screenId": "email-and-printed-links"
     }
   ]
 }

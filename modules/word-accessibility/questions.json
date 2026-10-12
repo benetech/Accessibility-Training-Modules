@@ -127,46 +127,25 @@
       "screenId": "real-lists"
     },
     {
-      "id": "word-q6",
+      "id": "word-q8",
       "type": "multiple_choice",
-      "prompt": "What should tables in a Word document be used for?",
+      "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",
       "answerPool": [
-        "Data only, never for page layout",
-        "Mostly for data, but occasional layout use is fine if it's simpler",
-        "Either data or layout, whichever looks better",
-        "Data, as long as it's also visually appealing",
-        "Both data and layout, since Word tables support headers either way",
-        "Laying out content visually on the page",
-        "Comparing two versions of the same paragraph side by side",
-        "Creating a two-column newsletter-style layout",
-        "Aligning a caption underneath an image",
-        "Grouping a picture and its caption together visually",
-        "Simple layouts only - complex data should use a chart instead",
-        "Any content that benefits from being organized into a grid",
-        "Positioning a pull quote in the margin of the page"
+        "A screen reader announces each empty line as \"blank\"",
+        "It's a problem for accessibility checkers, but not for real screen reader users",
+        "It causes inconsistent spacing when the document is viewed on different screen sizes",
+        "It's fine as long as there are no more than two blank lines in a row",
+        "There's no real problem with this approach",
+        "It makes the document print incorrectly",
+        "It uses more storage space in the file",
+        "It can accidentally get deleted when someone else edits the document",
+        "It only matters if you're using a screen reader on a phone, not a computer",
+        "It makes AutoCorrect stop working for the rest of the document",
+        "It makes the document's word count inaccurate",
+        "It only matters in older versions of Word",
+        "It causes the Table of Contents to skip that section"
       ],
-      "screenId": "accessible-tables"
-    },
-    {
-      "id": "word-q7",
-      "type": "multiple_choice",
-      "prompt": "How do you tell a screen reader which row or column in a table contains headers?",
-      "answerPool": [
-        "Check Header Row and/or First Column in Table Design",
-        "Turn on Repeat Header Rows in the Layout tab",
-        "Bold the header text",
-        "It's automatic - no action needed",
-        "Add the header text to the table's alt text instead of the cells",
-        "Merge the header cells together",
-        "Color the header row a different shade",
-        "Add the word \"Header\" inside each header cell",
-        "Use a larger font size for the header row",
-        "Add a border around the header row",
-        "Center-align the text in the header row",
-        "Insert a caption above the table describing which row is the header",
-        "Sort the table so the header row is always on top"
-      ],
-      "screenId": "accessible-tables"
+      "screenId": "blank-lines"
     },
     {
       "id": "word-q12",
@@ -209,6 +188,69 @@
         "Highlighted in yellow, with no color or underline change"
       ],
       "screenId": "links"
+    },
+    {
+      "id": "word-q21",
+      "type": "multiple_choice",
+      "prompt": "How should an email address be formatted in a document so someone can act on it right away?",
+      "answerPool": [
+        "As a live, clickable mailto: link",
+        "As a live link, but pointing to the company website instead of mailto:",
+        "As a hyperlink to the company's contact page instead",
+        "As plain text",
+        "Spelled out with \"(at)\" and \"(dot)\" to avoid spam",
+        "As an image of the email address",
+        "As a QR code linking to the email address",
+        "Written backwards to avoid spam bots",
+        "Split across two lines so spam bots can't read it",
+        "With extra spaces added between characters",
+        "As a footnote reference instead of inline",
+        "Written with the domain name removed",
+        "As a phone number to call instead"
+      ],
+      "screenId": "links"
+    },
+    {
+      "id": "word-q14",
+      "type": "multiple_choice",
+      "prompt": "Which text alignment should be avoided for readability?",
+      "answerPool": [
+        "Justified (even left and right edges)",
+        "Left-aligned",
+        "1.5 or higher line spacing",
+        "12pt or larger font",
+        "A simple sans-serif font like Arial or Calibri",
+        "A minimum 4.5:1 color contrast ratio",
+        "Setting the correct proofing language",
+        "Using real Heading styles for structure",
+        "Meaningful, descriptive link text",
+        "Marking purely decorative images as decorative",
+        "Defined header rows in tables",
+        "Avoiding conveying meaning through color alone",
+        "Exporting to PDF with accessibility tagging enabled"
+      ],
+      "screenId": "readability"
+    },
+    {
+      "id": "word-q19",
+      "type": "multiple_choice",
+      "prompt": "What's the minimum font size you should use for body text?",
+      "answerPool": [
+        "12pt (16-18pt is even better for low vision)",
+        "11pt, since that's Word's own default font size",
+        "10.5pt, since that's standard for legal documents",
+        "10pt",
+        "10pt is fine as long as the document is also available in PDF",
+        "8pt",
+        "9pt",
+        "6pt, as long as the font is bold",
+        "There's no fixed minimum - it depends on the font",
+        "14pt for headings only, body text has no minimum",
+        "9.5pt, since that's a common size for printed newspapers",
+        "Any size, as long as high-contrast colors are used",
+        "7pt for footnotes, 12pt for everything else"
+      ],
+      "screenId": "readability"
     },
     {
       "id": "word-q15",
