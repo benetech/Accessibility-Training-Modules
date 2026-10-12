@@ -41,6 +41,16 @@
       }
     },
     {
+      "id": "color-alone",
+      "title": "Don't Use Color Alone",
+      "body": "Marking urgent tasks in red, or showing status with a colored dot, feels intuitive - but it relies entirely on being able to see and distinguish color. Over 350 million people worldwide are colorblind, and a screen reader never announces color at all, so that information is completely lost to anyone using one.\n\n**Do:** Use color to supplement information, but {{answer:word-q11}}always pair it with a second, non-color indicator - for example, instead of just coloring an urgent task red, also add the word \"(Urgent)\" or a symbol like an asterisk{{/answer}}. For a status column, use a text label like \"Done\", \"In progress\", or \"Not started\" rather than relying on a green/yellow/red dot alone (and once every status has a label, you can safely delete any color-only legend explaining what the colors meant).\n\n**Don't:** Convey meaning - urgency, status, correctness - through color alone.",
+      "video": {
+        "src": "videos/9-color-alone.mp4",
+        "captions": "videos/9-color-alone.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
       "id": "blank-lines",
       "title": "Spacing: Avoid Blank Lines",
       "body": "A classic habit: pressing Enter a few times to create white space between paragraphs, or before an image. {{answer:word-q8}}A screen reader announces each of those empty lines as \"blank\"{{/answer}} - hearing \"blank, blank, blank\" makes a listener think they've missed something, and adds confusing clutter to the reading experience.\n\n**Do:** Control spacing from the **Paragraph** settings. Right-click your text, choose **Paragraph**, and adjust **Spacing Before** and **Spacing After** to get the gap you want.\n\n**Don't:** Press Enter multiple times to create blank lines.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + P (Layout tab), then S then B for Space Before, or S then A for Space After\n- Mac: Option + Command + M opens the Paragraph dialog, then Tab to Spacing Before or Spacing After",

@@ -148,6 +148,27 @@
       "screenId": "color-contrast"
     },
     {
+      "id": "word-q11",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to mark a task as urgent in a document?",
+      "answerPool": [
+        "Color the text red AND add a word or symbol like \"(Urgent)\"",
+        "Color the text red",
+        "Bold the text and make it red",
+        "Use ALL CAPS in red",
+        "Add a colored dot with no label",
+        "Make the font larger",
+        "Underline the text in red",
+        "Use a red highlight behind the text, with no label",
+        "Put a red flag symbol next to it, with no other text",
+        "Add a red asterisk with no explanation of what it means",
+        "Use italics for urgent items",
+        "Put the word \"URGENT\" in a footnote",
+        "Increase the red text's font size instead of adding a label"
+      ],
+      "screenId": "color-alone"
+    },
+    {
       "id": "word-q8",
       "type": "multiple_choice",
       "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",
