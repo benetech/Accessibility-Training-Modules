@@ -169,27 +169,6 @@
       "screenId": "color-alone"
     },
     {
-      "id": "word-q16",
-      "type": "multiple_choice",
-      "prompt": "What's the correct way to export an accessible Word document to PDF?",
-      "answerPool": [
-        "Use Save As/Export with the accessibility tagging options enabled",
-        "Print to PDF",
-        "Save As PDF, but skip the Options dialog entirely",
-        "Save As PDF/A without checking the tagging option",
-        "Use Save As, but choose the smallest file size PDF option",
-        "Export each page as an image, then combine the images into a PDF",
-        "Copy and paste the text into a PDF editor",
-        "Use a third-party PDF converter website",
-        "Save the document as an .rtf file first, then convert that to PDF",
-        "Print the document, then scan the pages into a PDF",
-        "Export to PDF, then manually select the \"Best for printing\" option",
-        "Use File > Share > Email as PDF Attachment",
-        "Convert to PDF using the Accessibility Checker itself"
-      ],
-      "screenId": "export-to-pdf"
-    },
-    {
       "id": "word-q9",
       "type": "multiple_choice",
       "prompt": "Why is placing \"First Name\" and \"Last Name\" side by side with an invisible table a problem for accessibility?",
@@ -230,6 +209,27 @@
         "Change it to italics to signal it's not real content"
       ],
       "screenId": "fields"
+    },
+    {
+      "id": "word-q16",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to export an accessible Word document to PDF?",
+      "answerPool": [
+        "Use Save As/Export with the accessibility tagging options enabled",
+        "Print to PDF",
+        "Save As PDF, but skip the Options dialog entirely",
+        "Save As PDF/A without checking the tagging option",
+        "Use Save As, but choose the smallest file size PDF option",
+        "Export each page as an image, then combine the images into a PDF",
+        "Copy and paste the text into a PDF editor",
+        "Use a third-party PDF converter website",
+        "Save the document as an .rtf file first, then convert that to PDF",
+        "Print the document, then scan the pages into a PDF",
+        "Export to PDF, then manually select the \"Best for printing\" option",
+        "Use File > Share > Email as PDF Attachment",
+        "Convert to PDF using the Accessibility Checker itself"
+      ],
+      "screenId": "export-to-pdf"
     }
   ]
 }
