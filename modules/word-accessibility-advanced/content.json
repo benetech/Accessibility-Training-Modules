@@ -3,7 +3,7 @@
     {
       "id": "overview",
       "title": "Overview",
-      "body": "**Topics covered**\n\n- Accessible Tables\n- Document Language and Styles\n- Color Contrast\n- Don't Use Color Alone\n- Creating Accessible PDFs\n- Forms and Field Layout\n\n**Why this matters**\n\nWord Basic covers the everyday habits that matter most. This Advanced module builds on it with what comes up in more formal documents like reports, grants, and anything that goes to the Board or members: more complex tables, document-wide settings like language and styles, color choices, PDFs, and forms. A table-based form, an untagged PDF, or low-contrast text can be just as unusable for someone using a screen reader or with low vision as a document with no headings at all.\n\nIt's optional, and recommended if you write reports, grants, or other formal documents - or whenever you'd like to go deeper. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
+      "body": "**Topics covered**\n\n- Accessible Tables\n- Document Language and Styles\n- Color Contrast\n- Don't Use Color Alone\n- Forms and Field Layout\n- Creating Accessible PDFs\n\n**Why this matters**\n\nWord Basic covers the everyday habits that matter most. This Advanced module builds on it with what comes up in more formal documents like reports, grants, and anything that goes to the Board or members: more complex tables, document-wide settings like language and styles, color choices, PDFs, and forms. A table-based form, an untagged PDF, or low-contrast text can be just as unusable for someone using a screen reader or with low vision as a document with no headings at all.\n\nIt's optional, and recommended if you write reports, grants, or other formal documents - or whenever you'd like to go deeper. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
     },
     {
       "id": "accessible-tables",
@@ -46,22 +46,22 @@
       }
     },
     {
-      "id": "export-to-pdf",
-      "title": "Creating Accessible PDFs",
-      "body": "Once your document is in good shape, a Word document is itself already the most accessible option you can share. If you do need a PDF, the way you create it matters: a plain \"Print to PDF\" strips out every bit of accessibility information you built in - your headings, alt text, and table structure all get lost.\n\n**Do:**\n\n- {{answer:word-q16}}Use **Save As** or **Export**, not Print to PDF.{{/answer}}\n- **On PC:** File > Export > Create PDF/XPS, then click **Options** and check **Create bookmarks using: Headings** and **Document structure tags for accessibility**, and choose **PDF/A** (or **PDF/UA**) compliant.\n- **On Mac:** File > Save As (Shift + Command + S), choose PDF as the format, and select **Best for electronic distribution and accessibility**.\n\nA properly exported PDF from an accessible Word document will carry over most of your work - though a PDF intended for wide public distribution may still need additional tagging beyond what Word's export produces, which is outside the scope of this module.",
-      "video": {
-        "src": "videos/13-export-to-pdf.mp4",
-        "captions": "videos/13-export-to-pdf.vtt",
-        "captionsLabel": "English"
-      }
-    },
-    {
       "id": "fields",
       "title": "Forms and Field Layout",
       "body": "Word's built-in **Legacy Form Tools** are not accessible, and should be avoided entirely. Word's newer **Content Controls** (Developer tab) are more accessible than the legacy tools, but this guide still recommends skipping form fields of any kind - legacy or modern - in favor of the simplest possible layout below, one that reads correctly no matter what opens the document. A more subtle problem shows up even without them: placing multiple fields on the same line (for example, \"First Name\" and \"Last Name\" side by side, often using an invisible table to align them) creates a confusing reading order. {{answer:word-q9}}A screen reader doesn't see a simple form there - it announces \"table with 2 rows and 4 columns\" and forces the user to navigate cell by cell to piece the fields together.{{/answer}}\n\nOne more thing to check before sharing a fillable document: bracketed placeholder text like \"[Type your answer here]\" left inside a field. A screen reader reads it exactly as if it were a real answer, which is confusing for anyone filling out - or listening to - the form.\n\n**Do:**\n\n- Skip form fields and tables entirely. Add one clear instruction at the top (\"For each item below, enter your information on the line after the label\"), then list each field on its own line - for example: \"Date:\", \"First name:\", \"Last name:\", each on a separate line with space to write or type an answer after it.\n- {{answer:word-q18}}Delete any bracketed placeholder text before sharing - leave the line blank, or with real content, instead of bracketed instructions.{{/answer}}\n\n**Don't:**\n\n- Use Word's Legacy Form Tools.\n- Put more than one field on the same line, or use a table to line fields up visually.\n- Leave placeholder text like \"[Type your answer here]\" in a field once the document is ready to share.",
       "video": {
         "src": "videos/7-fields.mp4",
         "captions": "videos/7-fields.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
+      "id": "export-to-pdf",
+      "title": "Creating Accessible PDFs",
+      "body": "Once your document is in good shape, a Word document is itself already the most accessible option you can share. If you do need a PDF, the way you create it matters: a plain \"Print to PDF\" strips out every bit of accessibility information you built in - your headings, alt text, and table structure all get lost.\n\n**Do:**\n\n- {{answer:word-q16}}Use **Save As** or **Export**, not Print to PDF.{{/answer}}\n- **On PC:** File > Export > Create PDF/XPS, then click **Options** and check **Create bookmarks using: Headings** and **Document structure tags for accessibility**, and choose **PDF/A** (or **PDF/UA**) compliant.\n- **On Mac:** File > Save As (Shift + Command + S), choose PDF as the format, and select **Best for electronic distribution and accessibility**.\n\nA properly exported PDF from an accessible Word document will carry over most of your work - though a PDF intended for wide public distribution may still need additional tagging beyond what Word's export produces, which is outside the scope of this module.",
+      "video": {
+        "src": "videos/13-export-to-pdf.mp4",
+        "captions": "videos/13-export-to-pdf.vtt",
         "captionsLabel": "English"
       }
     }
