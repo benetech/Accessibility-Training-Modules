@@ -1,6 +1,11 @@
 {
   "screens": [
     {
+      "id": "overview",
+      "title": "Overview",
+      "body": "**Topics covered**\n\n- Creating Accessible PDFs\n- Forms and Field Layout\n- Readability Foundations\n- Color Contrast\n- Don't Use Color Alone\n- Spacing: Avoid Blank Lines\n- Email Addresses and Printed Links\n\n**Why this matters**\n\nWord Basic covers the everyday habits that matter most. This Advanced module builds on it with situations that come up less often, but create real barriers when they do: forms, PDFs, readability and color choices, spacing, and email addresses. A table-based form, an untagged PDF, or low-contrast text can be just as unusable for someone using a screen reader or with low vision as a document with no headings at all.\n\nIt's optional - take it if your work involves these situations, or whenever you'd like to go deeper. Each screen covers one concept: what the problem is, and exactly how to fix it. A short quiz follows once you've been through all of them."
+    },
+    {
       "id": "export-to-pdf",
       "title": "Creating Accessible PDFs",
       "body": "Once your document is in good shape, a Word document is itself already the most accessible option you can share. If you do need a PDF, the way you create it matters: a plain \"Print to PDF\" strips out every bit of accessibility information you built in - your headings, alt text, and table structure all get lost.\n\n**Do:**\n\n- {{answer:word-q16}}Use **Save As** or **Export**, not Print to PDF.{{/answer}}\n- **On PC:** File > Export > Create PDF/XPS, then click **Options** and check **Create bookmarks using: Headings** and **Document structure tags for accessibility**, and choose **PDF/A** (or **PDF/UA**) compliant.\n- **On Mac:** File > Save As (Shift + Command + S), choose PDF as the format, and select **Best for electronic distribution and accessibility**.\n\nA properly exported PDF from an accessible Word document will carry over most of your work - though a PDF intended for wide public distribution may still need additional tagging beyond what Word's export produces, which is outside the scope of this module.",
