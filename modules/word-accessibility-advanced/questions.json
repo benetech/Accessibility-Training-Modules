@@ -127,6 +127,27 @@
       "screenId": "readability"
     },
     {
+      "id": "word-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is light gray text on a white background a problem?",
+      "answerPool": [
+        "People with low vision or color blindness may not be able to read it",
+        "It's mostly a concern for people who are colorblind, not for low vision generally",
+        "It's a minor issue that only affects a small number of readers",
+        "It only matters if the text is also small",
+        "It can be fixed automatically by increasing the font size",
+        "It can make the document look less formal or polished",
+        "It's only an issue when the document is printed in black and white",
+        "It's against company branding guidelines",
+        "It only matters when the document is viewed on a phone screen",
+        "Screen readers read gray text more slowly than black text",
+        "It's only a problem in bright rooms with lots of natural light",
+        "It makes the text look like a watermark instead of real content",
+        "It's a problem only for people using an older monitor"
+      ],
+      "screenId": "color-contrast"
+    },
+    {
       "id": "word-q8",
       "type": "multiple_choice",
       "prompt": "What's the problem with pressing Enter multiple times to add space between paragraphs?",

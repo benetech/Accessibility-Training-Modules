@@ -31,6 +31,16 @@
       }
     },
     {
+      "id": "color-contrast",
+      "title": "Color Contrast",
+      "body": "Light gray text on a white background can look clean and modern - but if the contrast between text and background isn't strong enough, {{answer:word-q10}}people with low vision or color blindness may not be able to read it at all{{/answer}}.\n\n**Do:**\n\n- Stick to high-contrast combinations, such as dark text on a light background.\n- Run the built-in **Accessibility Checker** (covered in Word Basic) - it's very good at flagging contrast issues automatically, and can often suggest a fix.\n- When in doubt, check a color pairing with a dedicated contrast-checking tool, such as the one from TPGi.\n\n**Don't:** Use light text on a light background, or otherwise low-contrast color combinations, for body text.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + H (Home), then FC for Font Color or I for Highlight/Background Color\n- Mac: Shift + Command + / and search for \"Font Color\" or \"Highlight\"",
+      "video": {
+        "src": "videos/8-color-contrast.mp4",
+        "captions": "videos/8-color-contrast.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
       "id": "blank-lines",
       "title": "Spacing: Avoid Blank Lines",
       "body": "A classic habit: pressing Enter a few times to create white space between paragraphs, or before an image. {{answer:word-q8}}A screen reader announces each of those empty lines as \"blank\"{{/answer}} - hearing \"blank, blank, blank\" makes a listener think they've missed something, and adds confusing clutter to the reading experience.\n\n**Do:** Control spacing from the **Paragraph** settings. Right-click your text, choose **Paragraph**, and adjust **Spacing Before** and **Spacing After** to get the gap you want.\n\n**Don't:** Press Enter multiple times to create blank lines.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + P (Layout tab), then S then B for Space Before, or S then A for Space After\n- Mac: Option + Command + M opens the Paragraph dialog, then Tab to Spacing Before or Spacing After",
