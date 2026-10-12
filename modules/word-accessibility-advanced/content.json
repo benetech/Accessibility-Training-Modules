@@ -1,0 +1,49 @@
+{
+  "screens": [
+    {
+      "id": "export-to-pdf",
+      "title": "Creating Accessible PDFs",
+      "body": "Once your document is in good shape, a Word document is itself already the most accessible option you can share. If you do need a PDF, the way you create it matters: a plain \"Print to PDF\" strips out every bit of accessibility information you built in - your headings, alt text, and table structure all get lost.\n\n**Do:**\n\n- {{answer:word-q16}}Use **Save As** or **Export**, not Print to PDF.{{/answer}}\n- **On PC:** File > Export > Create PDF/XPS, then click **Options** and check **Create bookmarks using: Headings** and **Document structure tags for accessibility**, and choose **PDF/A** (or **PDF/UA**) compliant.\n- **On Mac:** File > Save As (Shift + Command + S), choose PDF as the format, and select **Best for electronic distribution and accessibility**.\n\nA properly exported PDF from an accessible Word document will carry over most of your work - though a PDF intended for wide public distribution may still need additional tagging beyond what Word's export produces, which is outside the scope of this module.",
+      "video": {
+        "src": "videos/13-export-to-pdf.mp4",
+        "captions": "videos/13-export-to-pdf.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
+      "id": "fields",
+      "title": "Forms and Field Layout",
+      "body": "Word's built-in **Legacy Form Tools** are not accessible, and should be avoided entirely. Word's newer **Content Controls** (Developer tab) are more accessible than the legacy tools, but this guide still recommends skipping form fields of any kind - legacy or modern - in favor of the simplest possible layout below, one that reads correctly no matter what opens the document. A more subtle problem shows up even without them: placing multiple fields on the same line (for example, \"First Name\" and \"Last Name\" side by side, often using an invisible table to align them) creates a confusing reading order. {{answer:word-q9}}A screen reader doesn't see a simple form there - it announces \"table with 2 rows and 4 columns\" and forces the user to navigate cell by cell to piece the fields together.{{/answer}}\n\nOne more thing to check before sharing a fillable document: bracketed placeholder text like \"[Type your answer here]\" left inside a field. A screen reader reads it exactly as if it were a real answer, which is confusing for anyone filling out - or listening to - the form.\n\n**Do:**\n\n- Skip form fields and tables entirely. Add one clear instruction at the top (\"For each item below, enter your information on the line after the label\"), then list each field on its own line - for example: \"Date:\", \"First name:\", \"Last name:\", each on a separate line with space to write or type an answer after it.\n- {{answer:word-q18}}Delete any bracketed placeholder text before sharing - leave the line blank, or with real content, instead of bracketed instructions.{{/answer}}\n\n**Don't:**\n\n- Use Word's Legacy Form Tools.\n- Put more than one field on the same line, or use a table to line fields up visually.\n- Leave placeholder text like \"[Type your answer here]\" in a field once the document is ready to share.",
+      "video": {
+        "src": "videos/7-fields.mp4",
+        "captions": "videos/7-fields.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
+      "id": "readability",
+      "title": "Readability Foundations",
+      "body": "A few document-wide settings affect every single reader, not just screen reader users.\n\n**Do:**\n\n- Set the correct proofing language under **Review > Language** - {{answer:word-q13}}if it's wrong, a screen reader applies the wrong pronunciation rules to your entire document{{/answer}}.\n- {{answer:word-q19}}Use a minimum font size of 12pt; 16-18pt is even better for readers with low vision.{{/answer}}\n- Use a simple sans-serif font, such as Arial, Calibri, or Verdana.\n- Set line spacing to 1.5 or higher.\n- Left-align all text.\n\n**Don't:** {{answer:word-q14}}Justify text{{/answer}} - the uneven word spacing it creates makes lines harder to track, especially for readers with dyslexia or low vision.\n\n**Keyboard shortcut (Language):**\n\n- PC: Long-press Alt + R (Review), then U (Language), then L (Set Proofing Language)\n- Mac: Shift + Command + / and search for \"Language\"",
+      "video": {
+        "src": "videos/11-language.mp4",
+        "captions": "videos/11-language.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
+      "id": "blank-lines",
+      "title": "Spacing: Avoid Blank Lines",
+      "body": "A classic habit: pressing Enter a few times to create white space between paragraphs, or before an image. {{answer:word-q8}}A screen reader announces each of those empty lines as \"blank\"{{/answer}} - hearing \"blank, blank, blank\" makes a listener think they've missed something, and adds confusing clutter to the reading experience.\n\n**Do:** Control spacing from the **Paragraph** settings. Right-click your text, choose **Paragraph**, and adjust **Spacing Before** and **Spacing After** to get the gap you want.\n\n**Don't:** Press Enter multiple times to create blank lines.\n\n**Keyboard shortcuts:**\n\n- PC: Long-press Alt + P (Layout tab), then S then B for Space Before, or S then A for Space After\n- Mac: Option + Command + M opens the Paragraph dialog, then Tab to Spacing Before or Spacing After",
+      "video": {
+        "src": "videos/6-blank-lines.mp4",
+        "captions": "videos/6-blank-lines.vtt",
+        "captionsLabel": "English"
+      }
+    },
+    {
+      "id": "email-and-printed-links",
+      "title": "Email Addresses and Printed Links",
+      "body": "Beyond choosing good link text, two situations need a little extra care: email addresses, and documents that might end up on paper.\n\n**Do:**\n\n- {{answer:word-q21}}Write out email addresses in full and make sure they're a live, clickable mailto: link{{/answer}}, e.g. accessibility@benetech.org.\n- If the document might be printed, include the URL in the link text itself, e.g. \"Read the 2025 Report (www.benetech.org/report)\".\n\n**Don't:** Rely on a link alone in a printed document - the reader can't click it, so without the address written out there's no way to reach it."
+    }
+  ]
+}
