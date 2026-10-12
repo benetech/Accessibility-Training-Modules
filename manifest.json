@@ -32,8 +32,8 @@
   "modules": [
     {
       "id": "word-accessibility",
-      "title": "Making Microsoft Word Documents Accessible",
-      "version": "1.0.1",
+      "title": "Making Microsoft Word Documents Accessible - Basic",
+      "version": "1.1.0",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
@@ -45,6 +45,16 @@
           "file": "resources/ms-word-accessibility-checklist.docx"
         }
       ]
+    },
+    {
+      "id": "word-accessibility-advanced",
+      "title": "Making Microsoft Word Documents Accessible - Advanced",
+      "version": "1.0.0",
+      "folder": "modules/word-accessibility-advanced",
+      "active": true,
+      "optional": true,
+      "passingScore": 80,
+      "minAppVersion": "0.9.47"
     },
     {
       "id": "powerpoint-accessibility",

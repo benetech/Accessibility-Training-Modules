@@ -1,0 +1,235 @@
+{
+  "questions": [
+    {
+      "id": "word-q6",
+      "type": "multiple_choice",
+      "prompt": "What should tables in a Word document be used for?",
+      "answerPool": [
+        "Data only, never for page layout",
+        "Mostly for data, but occasional layout use is fine if it's simpler",
+        "Either data or layout, whichever looks better",
+        "Data, as long as it's also visually appealing",
+        "Both data and layout, since Word tables support headers either way",
+        "Laying out content visually on the page",
+        "Comparing two versions of the same paragraph side by side",
+        "Creating a two-column newsletter-style layout",
+        "Aligning a caption underneath an image",
+        "Grouping a picture and its caption together visually",
+        "Simple layouts only - complex data should use a chart instead",
+        "Any content that benefits from being organized into a grid",
+        "Positioning a pull quote in the margin of the page"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q7",
+      "type": "multiple_choice",
+      "prompt": "How do you tell a screen reader which row or column in a table contains headers?",
+      "answerPool": [
+        "Check Header Row and/or First Column in Table Design",
+        "Turn on Repeat Header Rows in the Layout tab",
+        "Bold the header text",
+        "It's automatic - no action needed",
+        "Add the header text to the table's alt text instead of the cells",
+        "Merge the header cells together",
+        "Color the header row a different shade",
+        "Add the word \"Header\" inside each header cell",
+        "Use a larger font size for the header row",
+        "Add a border around the header row",
+        "Center-align the text in the header row",
+        "Insert a caption above the table describing which row is the header",
+        "Sort the table so the header row is always on top"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q23",
+      "type": "multiple_choice",
+      "prompt": "What should you put in a table cell that has no data?",
+      "answerPool": [
+        "A short placeholder such as \"N/A\" or \"None\"",
+        "Leave it blank - a screen reader just skips an empty cell",
+        "Merge it with the cell next to it",
+        "Shade it gray so it reads as intentionally empty",
+        "Type a single space so the cell isn't technically empty",
+        "A picture of an empty box",
+        "Make the cell's text white so it isn't visible",
+        "Copy the value from the cell above it",
+        "Add a border around the empty cell",
+        "Set the cell's font size to 1pt",
+        "Move the neighboring data over to close the gap",
+        "Convert the whole table to tabbed text",
+        "Add a comment in the margin about the empty cell"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q24",
+      "type": "multiple_choice",
+      "prompt": "A table seems to need merged cells to show its structure. What should you try first?",
+      "answerPool": [
+        "Split it into two or more simple tables",
+        "Merge the cells anyway, then turn on Header Row",
+        "Replace the table with a screenshot of it",
+        "Add a note above the table explaining its layout",
+        "Center-align the text in the merged cells",
+        "Nest a second table inside the first cell",
+        "Use tabs and spaces to line the columns up instead",
+        "Shade the merged areas a different color",
+        "Rotate the page to landscape",
+        "Shrink the font so it fits without merging",
+        "Switch to a larger page size",
+        "Draw the borders by hand using shapes",
+        "Insert the table as a floating text box"
+      ],
+      "screenId": "accessible-tables"
+    },
+    {
+      "id": "word-q13",
+      "type": "multiple_choice",
+      "prompt": "Why does setting the correct proofing language matter for accessibility?",
+      "answerPool": [
+        "A screen reader applies the wrong pronunciation rules if it's set incorrectly",
+        "It affects the spell checker and grammar checker, but nothing else",
+        "It only affects the spell checker",
+        "It only matters if the document will be translated into another language",
+        "It only matters for documents shared internationally",
+        "It's only a cosmetic setting with no real effect",
+        "It changes which keyboard shortcuts are available",
+        "It only affects how the document looks when printed",
+        "It determines which fonts are available in the document",
+        "It changes the date format used in the document",
+        "It only matters if AutoCorrect is turned on",
+        "It's only relevant for documents longer than a few pages",
+        "It has no effect on documents saved as PDF"
+      ],
+      "screenId": "language-and-styles"
+    },
+    {
+      "id": "word-q25",
+      "type": "multiple_choice",
+      "prompt": "What is the best way to change how every Heading 2 in your document looks?",
+      "answerPool": [
+        "Modify the Heading 2 style so every paragraph using it updates",
+        "Select each heading and change its font and size by hand",
+        "Use Find and Replace to change the font on the heading text",
+        "Select all text and apply the new font to the whole document",
+        "Format one heading, then copy that look onto the rest with Format Painter",
+        "Change the Normal style instead",
+        "Bold each heading",
+        "Insert a text box containing each heading",
+        "Convert the headings to a table",
+        "Press Enter before each heading to space them out",
+        "Change the document's proofing language",
+        "Turn on the Navigation Pane",
+        "Apply the Title style to every heading"
+      ],
+      "screenId": "language-and-styles"
+    },
+    {
+      "id": "word-q10",
+      "type": "multiple_choice",
+      "prompt": "Why is light gray text on a white background a problem?",
+      "answerPool": [
+        "People with low vision or color blindness may not be able to read it",
+        "It's mostly a concern for people who are colorblind, not for low vision generally",
+        "It's a minor issue that only affects a small number of readers",
+        "It only matters if the text is also small",
+        "It can be fixed automatically by increasing the font size",
+        "It can make the document look less formal or polished",
+        "It's only an issue when the document is printed in black and white",
+        "It's against company branding guidelines",
+        "It only matters when the document is viewed on a phone screen",
+        "Screen readers read gray text more slowly than black text",
+        "It's only a problem in bright rooms with lots of natural light",
+        "It makes the text look like a watermark instead of real content",
+        "It's a problem only for people using an older monitor"
+      ],
+      "screenId": "color-contrast"
+    },
+    {
+      "id": "word-q11",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to mark a task as urgent in a document?",
+      "answerPool": [
+        "Color the text red AND add a word or symbol like \"(Urgent)\"",
+        "Color the text red",
+        "Bold the text and make it red",
+        "Use ALL CAPS in red",
+        "Add a colored dot with no label",
+        "Make the font larger",
+        "Underline the text in red",
+        "Use a red highlight behind the text, with no label",
+        "Put a red flag symbol next to it, with no other text",
+        "Add a red asterisk with no explanation of what it means",
+        "Use italics for urgent items",
+        "Put the word \"URGENT\" in a footnote",
+        "Increase the red text's font size instead of adding a label"
+      ],
+      "screenId": "color-alone"
+    },
+    {
+      "id": "word-q16",
+      "type": "multiple_choice",
+      "prompt": "What's the correct way to export an accessible Word document to PDF?",
+      "answerPool": [
+        "Use Save As/Export with the accessibility tagging options enabled",
+        "Print to PDF",
+        "Save As PDF, but skip the Options dialog entirely",
+        "Save As PDF/A without checking the tagging option",
+        "Use Save As, but choose the smallest file size PDF option",
+        "Export each page as an image, then combine the images into a PDF",
+        "Copy and paste the text into a PDF editor",
+        "Use a third-party PDF converter website",
+        "Save the document as an .rtf file first, then convert that to PDF",
+        "Print the document, then scan the pages into a PDF",
+        "Export to PDF, then manually select the \"Best for printing\" option",
+        "Use File > Share > Email as PDF Attachment",
+        "Convert to PDF using the Accessibility Checker itself"
+      ],
+      "screenId": "export-to-pdf"
+    },
+    {
+      "id": "word-q9",
+      "type": "multiple_choice",
+      "prompt": "Why is placing \"First Name\" and \"Last Name\" side by side with an invisible table a problem for accessibility?",
+      "answerPool": [
+        "A screen reader announces it as a table and forces cell-by-cell navigation instead of a simple form",
+        "It's an issue with visual formatting, not with how the fields are read aloud",
+        "It's only a problem if the form gets printed, not when it's filled out on a computer",
+        "It only matters if the table borders are visible",
+        "It's not a real concern as long as the labels are spelled correctly",
+        "It looks unprofessional",
+        "It makes the document take longer to load in Word",
+        "It's a problem for mouse users too, not just screen reader users",
+        "It prevents the form from being filled out digitally at all",
+        "It's only an issue in older versions of Word",
+        "It makes AutoFill suggest the wrong values",
+        "It's a problem because tables can't be spell-checked",
+        "It only matters if there are more than two fields in the same row"
+      ],
+      "screenId": "fields"
+    },
+    {
+      "id": "word-q18",
+      "type": "multiple_choice",
+      "prompt": "What should you do with placeholder text like \"[Type your answer here]\" left inside a form field?",
+      "answerPool": [
+        "Delete it - real content or blank space should remain, not bracketed instructions",
+        "Convert it to a comment instead of inline text",
+        "Change its font color so it's less noticeable",
+        "Leave it in place so people know what to do",
+        "Replace it with the word \"Optional\"",
+        "Make it bold so it stands out",
+        "Replace it with a longer, more detailed instruction instead",
+        "Move it to a footnote instead",
+        "Leave it, but format it as a hyperlink",
+        "Highlight it in yellow as a reminder",
+        "Turn it into a text box floating over the field",
+        "Leave it in the printed version, but remove it from the digital one",
+        "Change it to italics to signal it's not real content"
+      ],
+      "screenId": "fields"
+    }
+  ]
+}

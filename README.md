@@ -13,7 +13,7 @@ A module folder contains:
 
 ## Current modules
 
-1. Microsoft Word documents (`modules/word-accessibility`)
+1. Microsoft Word documents - Basic (required, `modules/word-accessibility`) and Advanced (optional, `modules/word-accessibility-advanced`)
 2. Microsoft PowerPoint presentations (`modules/powerpoint-accessibility`)
 3. Microsoft Excel spreadsheets (`modules/excel-accessibility`)
 
