@@ -255,7 +255,7 @@
     {
       "id": "ppt-q27",
       "type": "multiple_choice",
-      "prompt": "Why is it good practice to leave the bottom inch and a half or so of a slide free of text and important visuals?",
+      "prompt": "Why is it good practice to keep text and important visuals at least 1.25 inches above the bottom edge of a slide?",
       "answerPool": [
         "Live captions are typically overlaid across that band of the screen and would cover anything placed there",
         "That's where PowerPoint places the slide number by default",
