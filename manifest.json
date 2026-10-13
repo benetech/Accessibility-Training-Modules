@@ -32,8 +32,8 @@
   "modules": [
     {
       "id": "word-accessibility",
-      "title": "Making Microsoft Word Documents Accessible - Basic",
-      "version": "1.1.1",
+      "title": "Making Microsoft Word Documents Accessible",
+      "version": "1.1.2",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
@@ -64,8 +64,8 @@
     },
     {
       "id": "powerpoint-accessibility",
-      "title": "Making PowerPoint Presentations Accessible - Basic",
-      "version": "0.5.0",
+      "title": "Making PowerPoint Presentations Accessible",
+      "version": "0.5.1",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
@@ -81,7 +81,7 @@
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,

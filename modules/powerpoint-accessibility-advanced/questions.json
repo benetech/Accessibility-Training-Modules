@@ -110,7 +110,7 @@
       "type": "multiple_choice",
       "prompt": "How should you change a slide from, say, a title slide to a two-column slide?",
       "answerPool": [
-        "Choose a different layout for the slide (Home > Layout)",
+        "Choose a different layout for the slide (Home tab, then Layout or Slide Layout)",
         "Draw new text boxes and arrange them by hand",
         "Group the existing objects into one shape",
         "Convert the slide to a picture and resize it",
@@ -131,7 +131,7 @@
       "type": "multiple_choice",
       "prompt": "What should you check after changing a slide's layout?",
       "answerPool": [
-        "The reading order of the slide's objects",
+        "The reading order and the visual placement of the slide's objects",
         "That the Notes pane is still attached to the slide",
         "That the slide number is still visible",
         "That the font is still the same typeface",
