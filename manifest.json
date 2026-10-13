@@ -65,7 +65,7 @@
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
@@ -81,7 +81,7 @@
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
