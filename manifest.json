@@ -64,13 +64,29 @@
     },
     {
       "id": "powerpoint-accessibility",
-      "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.4.9",
+      "title": "Making PowerPoint Presentations Accessible - Basic",
+      "version": "0.5.0",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
       "passingScore": 80,
       "minAppVersion": "0.9.27",
+      "resources": [
+        {
+          "name": "MS PowerPoint Accessibility Checklist",
+          "file": "resources/ms-powerpoint-accessibility-checklist.docx"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-accessibility-advanced",
+      "title": "Making PowerPoint Presentations Accessible - Advanced",
+      "version": "0.1.0",
+      "folder": "modules/powerpoint-accessibility-advanced",
+      "active": false,
+      "optional": true,
+      "passingScore": 80,
+      "minAppVersion": "0.9.47",
       "resources": [
         {
           "name": "MS PowerPoint Accessibility Checklist",
