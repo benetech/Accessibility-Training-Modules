@@ -114,6 +114,17 @@ it wrong:
   rather than skipping the marker - the lesson text should always
   actually contain the answer, not just imply it.
 
+## Copy buttons in lesson text
+
+A lesson screen can include a button that copies a piece of text to the clipboard - handy for a folder address someone needs to paste into File Explorer or Finder:
+
+```
+{{copy:Copy Windows folder address|shell:Personal\Custom Office Templates}}
+```
+
+- The text before the `|` is the button's label; the text after it is what gets copied.
+- Needs Accessibility Training Tool 0.9.48 or newer, so set the module's `minAppVersion` to at least that.
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.
