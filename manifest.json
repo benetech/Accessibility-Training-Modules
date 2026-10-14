@@ -95,6 +95,10 @@
         {
           "name": "MS PowerPoint Accessibility Checklist",
           "file": "resources/ms-powerpoint-accessibility-checklist.docx"
+        },
+        {
+          "name": "Benetech PowerPoint Template - save to your desktop, then double-click to start a new deck (click Enable Editing if asked)",
+          "file": "resources/Benetech-PowerPoint-Template.potx"
         }
       ]
     },

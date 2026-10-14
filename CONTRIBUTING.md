@@ -77,9 +77,8 @@ as a `resources` array:
   every copy.
 - A lesson screen can also link to a resource file with a plain Markdown
   link to its full `raw.githubusercontent.com` URL (the app doesn't resolve
-  relative links in lesson text). Point it at one copy of the file rather
-  than duplicating it - e.g. PowerPoint Advanced links to the template
-  that lives in PowerPoint Basic's `resources/`.
+  relative links in lesson text) - point it at the copy in that module's
+  own `resources/` folder, e.g. PowerPoint Advanced's template page.
 - Omit `resources` entirely for a module with nothing to offer - it's
   optional, not every module needs one.
 
