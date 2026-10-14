@@ -85,19 +85,18 @@
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
-      "passingScore": 80,
-      "minAppVersion": "0.9.47",
+      "minAppVersion": "0.9.48",
       "resources": [
         {
           "name": "MS PowerPoint Accessibility Checklist",
           "file": "resources/ms-powerpoint-accessibility-checklist.docx"
         },
         {
-          "name": "Benetech PowerPoint Template - double-click it from your desktop, or save it to Documents > Custom Office Templates and start decks from File > New > Personal (click Enable Editing if asked)",
+          "name": "Benetech PowerPoint Template - double-click it from your desktop, or save it to your Custom Office Templates folder so it shows up when you start a new deck (click Enable Editing if asked)",
           "file": "resources/Benetech-PowerPoint-Template.potx"
         }
       ]
