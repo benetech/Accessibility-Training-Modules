@@ -85,11 +85,11 @@
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
-      "minAppVersion": "0.9.47",
+      "minAppVersion": "0.9.48",
       "resources": [
         {
           "name": "MS PowerPoint Accessibility Checklist",
