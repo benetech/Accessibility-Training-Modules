@@ -316,6 +316,27 @@
       "screenId": "embedded-objects"
     },
     {
+      "id": "ppt-q34",
+      "type": "multiple_choice",
+      "prompt": "Why should a new deck start from Benetech's PowerPoint template?",
+      "answerPool": [
+        "Its layouts already use real placeholders, readable text sizes, and caption-safe space",
+        "It automatically adds alt text to every picture",
+        "It makes running the Accessibility Checker unnecessary",
+        "It locks every slide so the reading order can never change",
+        "It exports the deck as an accessible PDF every time you save",
+        "It adds captions to any video you insert",
+        "It limits every slide to six bullets",
+        "It translates the deck into other languages automatically",
+        "It compresses pictures so the file is small enough to email",
+        "It encrypts the file so only Benetech staff can open it",
+        "It writes speaker notes for each slide",
+        "It hides the slide master so nobody can edit it",
+        "It turns on presenter view whenever the deck is opened"
+      ],
+      "screenId": "benetech-template"
+    },
+    {
       "id": "ppt-q21",
       "type": "multiple_choice",
       "prompt": "What's the risk of using a plain \"print to PDF\" to create a PDF version of a slide deck?",

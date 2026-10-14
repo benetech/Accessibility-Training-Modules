@@ -75,6 +75,10 @@ as a `resources` array:
   but `file` is always relative to the *module's own* folder, so each needs
   its own copy under its own `resources/`. When you update the sheet, update
   every copy.
+- A lesson screen can also link to a resource file with a plain Markdown
+  link to its full `raw.githubusercontent.com` URL (the app doesn't resolve
+  relative links in lesson text) - point it at the copy in that module's
+  own `resources/` folder, e.g. PowerPoint Advanced's template page.
 - Omit `resources` entirely for a module with nothing to offer - it's
   optional, not every module needs one.
 
