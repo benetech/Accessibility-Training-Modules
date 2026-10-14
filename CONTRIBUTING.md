@@ -119,7 +119,7 @@ it wrong:
 A lesson screen can include a button that copies a piece of text to the clipboard - handy for a folder address someone needs to paste into File Explorer or Finder:
 
 ```
-{{copy:Copy Windows folder address|shell:Personal\Custom Office Templates}}
+{{copy:Copy Windows folder address|Documents\Custom Office Templates}}
 ```
 
 - The text before the `|` is the button's label; the text after it is what gets copied.
