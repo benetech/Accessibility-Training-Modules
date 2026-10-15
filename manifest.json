@@ -2,6 +2,22 @@
   "latestAppVersion": "0.9.31",
   "appChangelog": [
     {
+      "version": "0.10.2",
+      "date": "2026-10-15",
+      "notes": [
+        "Added optional Advanced modules (starting with Word and PowerPoint). They are listed separately under \"Advanced Optional Modules\", never expire, and have no retake deadline.",
+        "Added buttons in lessons that copy a folder address to your clipboard, with a confirmation popup that is also announced by screen readers.",
+        "Added Alt+letter keyboard shortcuts for the Back, Next, Dashboard, and Quiz buttons, and a Back to Dashboard button on the quiz.",
+        "Renamed \"Skip to Quiz\" to \"Skip all Lessons to Final Quiz\".",
+        "Fixed JAWS moving focus to the wrong place when changing screens, and NVDA announcing \"Finish button\" while reading the last quiz question.",
+        "The quiz question is now read as a regular paragraph instead of a heading.",
+        "The app now retries brief network errors on its own. Sending an error log is now something you choose to do, not automatic, and there is an Open Log Folder option.",
+        "Fixed Save Changes needing two clicks after changing the font size, and widened the Instructions and About windows so the logo fits at large font sizes.",
+        "Lesson content now refreshes when the app is updated, so you won't see stale pages.",
+        "Mac installers are now available for both Intel and Apple Silicon."
+      ]
+    },
+    {
       "version": "0.9.31",
       "date": "2026-09-22",
       "notes": ["Changed the update-available notice's color from red to green, since it's informational rather than an error."]
