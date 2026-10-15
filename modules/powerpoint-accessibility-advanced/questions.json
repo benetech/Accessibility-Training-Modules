@@ -337,6 +337,27 @@
       "screenId": "benetech-template"
     },
     {
+      "id": "ppt-q35",
+      "type": "multiple_choice",
+      "prompt": "You applied Benetech's template to an older presentation. What should you do next?",
+      "answerPool": [
+        "Check the deck by hand for what is still missing, such as titles, alt text, and reading order",
+        "Nothing more - applying the template fixes the deck's accessibility issues",
+        "Run the Accessibility Checker and fix only what it flags, with no manual review",
+        "Check only the fonts and colors, since the template handles everything else",
+        "Export the deck to PDF, which fixes any remaining problems",
+        "Send it to the template's owner for approval before sharing it",
+        "Convert every slide to a picture so the layout can't shift",
+        "Delete the slide master so old formatting can't conflict",
+        "Group all the objects on each slide into one shape",
+        "Turn on automatic alt text for every picture and trust it",
+        "Add a transition to each slide so the changes are easy to see",
+        "Compress every picture to reduce the file size",
+        "Rename the file so it includes the word Benetech"
+      ],
+      "screenId": "existing-deck-template"
+    },
+    {
       "id": "ppt-q21",
       "type": "multiple_choice",
       "prompt": "What's the risk of using a plain \"print to PDF\" to create a PDF version of a slide deck?",
