@@ -101,7 +101,7 @@
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
