@@ -276,7 +276,7 @@
     {
       "id": "ppt-q18",
       "type": "multiple_choice",
-      "prompt": "Which of these are ways to caption a video used in a PowerPoint slide?",
+      "prompt": "How can you caption a video used in a PowerPoint slide?",
       "answerPool": [
         "Add open (burned-in) captions to the video before inserting it, or insert a caption file afterward with Playback > Insert Captions",
         "Place a separate caption file in the same folder as the presentation",
