@@ -63,7 +63,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
@@ -87,7 +87,7 @@
     {
       "id": "word-accessibility-advanced",
       "title": "Making Microsoft Word Documents Accessible - Advanced",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "folder": "modules/word-accessibility-advanced",
       "active": true,
       "optional": true,
