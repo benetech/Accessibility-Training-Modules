@@ -2,6 +2,13 @@
   "latestAppVersion": "0.9.31",
   "appChangelog": [
     {
+      "version": "0.10.4",
+      "date": "2026-10-16",
+      "notes": [
+        "More space between the items in the take-home materials list, so it is easier to read."
+      ]
+    },
+    {
       "version": "0.10.3",
       "date": "2026-10-16",
       "notes": [
