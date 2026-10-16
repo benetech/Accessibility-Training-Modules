@@ -213,7 +213,7 @@
     {
       "id": "word-q26",
       "type": "multiple_choice",
-      "prompt": "Why should a new Benetech Word document start from the letterhead template?",
+      "prompt": "Why should a new Benetech-branded letterhead document use the Benetech letterhead template?",
       "answerPool": [
         "Its styles, fonts, and spacing are already set up accessibly, and the first line is ready for a Heading 1 title",
         "It makes running the Accessibility Checker unnecessary",
