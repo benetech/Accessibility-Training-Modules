@@ -2,6 +2,13 @@
   "latestAppVersion": "0.9.31",
   "appChangelog": [
     {
+      "version": "0.10.3",
+      "date": "2026-10-16",
+      "notes": [
+        "In the quiz, Back is now always on the left and Next (or Finish) on the right, matching the lesson screens. Back to Dashboard moved to the middle."
+      ]
+    },
+    {
       "version": "0.10.2",
       "date": "2026-10-15",
       "notes": [
