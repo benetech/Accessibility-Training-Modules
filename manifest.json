@@ -63,7 +63,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
@@ -76,18 +76,18 @@
         },
         {
           "name": "Benetech Letterhead Template - save to your desktop, then double-click to start a new document (click Enable Editing if asked). To add it to your Custom Office Templates instead, see the Word Advanced module.",
-          "file": "resources/Benetech-Letterhead-Template.dotx"
+          "file": "resources/Benetech Letterhead Template.dotx"
         },
         {
           "name": "Benetech Accessible Template (for reports and other documents, no header or footer) - save to your desktop, then double-click to start a new document (click Enable Editing if asked). To add it to your Custom Office Templates instead, see the Word Advanced module.",
-          "file": "resources/Benetech-Accessible-Template.dotx"
+          "file": "resources/Benetech Accessible Template.dotx"
         }
       ]
     },
     {
       "id": "word-accessibility-advanced",
       "title": "Making Microsoft Word Documents Accessible - Advanced",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "folder": "modules/word-accessibility-advanced",
       "active": true,
       "optional": true,
@@ -100,18 +100,18 @@
         },
         {
           "name": "Benetech Letterhead Template - double-click it from your desktop, or save it to your Custom Office Templates folder so it shows up when you start a new document (click Enable Editing if asked)",
-          "file": "resources/Benetech-Letterhead-Template.dotx"
+          "file": "resources/Benetech Letterhead Template.dotx"
         },
         {
           "name": "Benetech Accessible Template (for reports and other documents, no header or footer) - double-click it from your desktop, or save it to your Custom Office Templates folder so it shows up when you start a new document (click Enable Editing if asked)",
-          "file": "resources/Benetech-Accessible-Template.dotx"
+          "file": "resources/Benetech Accessible Template.dotx"
         }
       ]
     },
     {
       "id": "powerpoint-accessibility",
       "title": "Making PowerPoint Presentations Accessible",
-      "version": "0.5.3",
+      "version": "0.5.4",
       "folder": "modules/powerpoint-accessibility",
       "active": false,
       "recertDays": 365,
@@ -124,14 +124,14 @@
         },
         {
           "name": "Benetech PowerPoint Template - save to your desktop, then double-click to start a new deck (click Enable Editing if asked)",
-          "file": "resources/Benetech-PowerPoint-Template.potx"
+          "file": "resources/Benetech PowerPoint Template.potx"
         }
       ]
     },
     {
       "id": "powerpoint-accessibility-advanced",
       "title": "Making PowerPoint Presentations Accessible - Advanced",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
@@ -143,7 +143,7 @@
         },
         {
           "name": "Benetech PowerPoint Template - double-click it from your desktop, or save it to your Custom Office Templates folder so it shows up when you start a new deck (click Enable Editing if asked)",
-          "file": "resources/Benetech-PowerPoint-Template.potx"
+          "file": "resources/Benetech PowerPoint Template.potx"
         }
       ]
     },
