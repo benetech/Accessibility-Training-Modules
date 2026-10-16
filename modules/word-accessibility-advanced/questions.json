@@ -211,6 +211,27 @@
       "screenId": "fields"
     },
     {
+      "id": "word-q26",
+      "type": "multiple_choice",
+      "prompt": "Why should a new Benetech Word document start from the letterhead template?",
+      "answerPool": [
+        "Its styles, fonts, and spacing are already set up accessibly, and the first line is ready for a Heading 1 title",
+        "It makes running the Accessibility Checker unnecessary",
+        "It adds alt text to every picture you insert",
+        "It uses the Title style so the document's name is announced by screen readers",
+        "It adds blank lines between paragraphs so the text is easier to read",
+        "It locks the document so nobody can change the styles",
+        "It translates the document into other languages automatically",
+        "It encrypts the document so only Benetech staff can open it",
+        "It fills in the document's author and title automatically",
+        "It converts every table to a picture so the layout can't shift",
+        "It adds captions to any video you insert",
+        "It compresses pictures so the file is small enough to email",
+        "It exports a tagged PDF every time you save"
+      ],
+      "screenId": "benetech-template"
+    },
+    {
       "id": "word-q16",
       "type": "multiple_choice",
       "prompt": "What's the correct way to export an accessible Word document to PDF?",

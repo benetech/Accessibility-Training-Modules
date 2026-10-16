@@ -49,7 +49,7 @@
     {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "folder": "modules/word-accessibility",
       "active": true,
       "recertDays": 365,
@@ -59,22 +59,30 @@
         {
           "name": "MS Word Accessibility Checklist",
           "file": "resources/ms-word-accessibility-checklist.docx"
+        },
+        {
+          "name": "Benetech Letterhead Template - save to your desktop, then double-click to start a new document (click Enable Editing if asked)",
+          "file": "resources/Benetech-Letterhead-Template.dotx"
         }
       ]
     },
     {
       "id": "word-accessibility-advanced",
       "title": "Making Microsoft Word Documents Accessible - Advanced",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "folder": "modules/word-accessibility-advanced",
       "active": true,
       "optional": true,
       "passingScore": 80,
-      "minAppVersion": "0.9.47",
+      "minAppVersion": "0.9.48",
       "resources": [
         {
           "name": "MS Word Accessibility Checklist",
           "file": "resources/ms-word-accessibility-checklist.docx"
+        },
+        {
+          "name": "Benetech Letterhead Template - double-click it from your desktop, or save it to your Custom Office Templates folder so it shows up when you start a new document (click Enable Editing if asked)",
+          "file": "resources/Benetech-Letterhead-Template.dotx"
         }
       ]
     },
