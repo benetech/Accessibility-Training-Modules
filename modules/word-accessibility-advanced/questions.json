@@ -110,7 +110,7 @@
       "type": "multiple_choice",
       "prompt": "What is the best way to change how every Heading 2 in your document looks?",
       "answerPool": [
-        "Modify the Heading 2 style so every paragraph using it updates",
+        "Modify the Heading 2 style so all of your Heading 2s update at once",
         "Select each heading and change its font and size by hand",
         "Use Find and Replace to change the font on the heading text",
         "Select all text and apply the new font to the whole document",
