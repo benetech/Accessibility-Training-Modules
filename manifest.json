@@ -1,5 +1,5 @@
 {
-  "latestAppVersion": "0.9.31",
+  "latestAppVersion": "0.10.4",
   "appChangelog": [
     {
       "version": "0.10.4",
@@ -68,7 +68,7 @@
       "active": true,
       "recertDays": 365,
       "passingScore": 80,
-      "minAppVersion": "0.9.27",
+      "minAppVersion": "0.10.4",
       "resources": [
         {
           "name": "MS Word Accessibility Checklist",
@@ -92,7 +92,7 @@
       "active": true,
       "optional": true,
       "passingScore": 80,
-      "minAppVersion": "0.9.48",
+      "minAppVersion": "0.10.4",
       "resources": [
         {
           "name": "MS Word Accessibility Checklist",
@@ -116,7 +116,7 @@
       "active": false,
       "recertDays": 365,
       "passingScore": 80,
-      "minAppVersion": "0.9.27",
+      "minAppVersion": "0.10.4",
       "resources": [
         {
           "name": "MS PowerPoint Accessibility Checklist",
@@ -135,7 +135,7 @@
       "folder": "modules/powerpoint-accessibility-advanced",
       "active": false,
       "optional": true,
-      "minAppVersion": "0.9.48",
+      "minAppVersion": "0.10.4",
       "resources": [
         {
           "name": "MS PowerPoint Accessibility Checklist",
@@ -154,7 +154,7 @@
       "folder": "modules/excel-accessibility",
       "active": false,
       "recertDays": 365,
-      "minAppVersion": "0.6.0"
+      "minAppVersion": "0.10.4"
     }
   ]
 }
