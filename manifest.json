@@ -87,7 +87,7 @@
     {
       "id": "word-accessibility-advanced",
       "title": "Making Microsoft Word Documents Accessible - Advanced",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "folder": "modules/word-accessibility-advanced",
       "active": true,
       "optional": true,
