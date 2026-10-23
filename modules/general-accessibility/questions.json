@@ -1,0 +1,361 @@
+{
+  "questions": [
+    {
+      "id": "general-q1",
+      "type": "multiple_choice",
+      "prompt": "Why can't you tell whether a document is accessible just by looking at it?",
+      "answerPool": [
+        "Assistive technology relies on how the file is built, not on how it looks",
+        "Appearance matters only for printed copies, not for what is read on screen",
+        "A document that looks well organized is accessible once it has been spell-checked",
+        "Different screens display the same file differently, so appearance can't be compared",
+        "Only a document's color and font choices affect assistive technology",
+        "Screen readers can only read documents saved in plain text",
+        "Assistive technology can only read PDF files",
+        "Accessibility is decided by the size of the file",
+        "Only people with visual disabilities use assistive technology",
+        "Assistive technology automatically fixes any layout problems",
+        "Screen readers describe the look of every page on their own",
+        "Only the author of a file can run accessibility checks",
+        "Assistive technology ignores everything except text color"
+      ],
+      "screenId": "who-for"
+    },
+    {
+      "id": "general-q2",
+      "type": "multiple_choice",
+      "prompt": "How should you turn a line of text into a heading?",
+      "answerPool": [
+        "Apply the built-in Heading style, such as Heading 2",
+        "Make it bold and increase the font size",
+        "Type it in all capital letters",
+        "Put it in a text box with a border",
+        "Underline it and center it",
+        "Press Enter twice before and after it",
+        "Change its font color to blue",
+        "Add a bullet in front of it",
+        "Place it in a table cell",
+        "Highlight it in yellow",
+        "Put it in the header of the page",
+        "Number it by hand",
+        "Italicize it"
+      ],
+      "screenId": "real-structure"
+    },
+    {
+      "id": "general-q3",
+      "type": "multiple_choice",
+      "prompt": "How should you create a bulleted list?",
+      "answerPool": [
+        "Use the bullet button so the program builds a real list",
+        "Type a dash at the start of each line",
+        "Type an asterisk and a space before each item",
+        "Use the Tab key to indent each line",
+        "Insert a table with one column",
+        "Type the letter o before each line",
+        "Separate each item with a blank line",
+        "Bold the first word of each line",
+        "Put each item in its own text box",
+        "Use a different font size for each item",
+        "Center each line",
+        "Add an emoji before each item",
+        "Number the items by hand"
+      ],
+      "screenId": "real-structure"
+    },
+    {
+      "id": "general-q4",
+      "type": "multiple_choice",
+      "prompt": "What should you do with a purely decorative image, such as a divider line?",
+      "answerPool": [
+        "Mark it as decorative so screen readers skip it",
+        "Write a short description of how it looks",
+        "Leave its alt text blank without marking it",
+        "Describe it as \"decorative divider\" in the alt text",
+        "Delete it, since a decorative image can't be accessible",
+        "Group it with the nearest paragraph",
+        "Convert it to a PDF",
+        "Add the word \"image\" to the file name",
+        "Replace it with a larger image",
+        "Add a caption under it",
+        "Change its color to gray",
+        "Use the company name as its alt text",
+        "Turn it into a hyperlink"
+      ],
+      "screenId": "images"
+    },
+    {
+      "id": "general-q5",
+      "type": "multiple_choice",
+      "prompt": "A screenshot shows an error message. What should its alt text include?",
+      "answerPool": [
+        "The wording of the error message and any other key text shown",
+        "A general description such as \"a screenshot of a window\"",
+        "The name of the program shown in the screenshot",
+        "A description of the window's layout and colors",
+        "Only the first line of the error message",
+        "Nothing, because screenshots are decorative",
+        "The name of the person who took it",
+        "A link to the software's help page",
+        "The file name of the screenshot",
+        "The size and resolution of the image",
+        "The date and time it was taken",
+        "The folder where it is saved",
+        "A note thanking the reader"
+      ],
+      "screenId": "images"
+    },
+    {
+      "id": "general-q6",
+      "type": "multiple_choice",
+      "prompt": "What is the best way to handle a complex chart?",
+      "answerPool": [
+        "Write a short alt text summary and put the full description or data in nearby text",
+        "Put the whole explanation into the alt text field",
+        "Mark it as decorative since the data is explained elsewhere",
+        "Replace it with a screenshot of the chart",
+        "Describe only the chart's colors",
+        "Make the chart larger",
+        "Add more colors so the data stands out",
+        "Remove the axis labels to reduce clutter",
+        "Save the chart as a separate PDF",
+        "Add a title in a text box over the chart",
+        "Use red and green for the main categories",
+        "Paste the chart in as a picture only",
+        "Use a smaller font on the chart"
+      ],
+      "screenId": "images"
+    },
+    {
+      "id": "general-q7",
+      "type": "multiple_choice",
+      "prompt": "A status column uses red, yellow, and green dots. How do you make it accessible?",
+      "answerPool": [
+        "Add a text label such as Done, In progress, or Not started next to each dot",
+        "Make the colors brighter",
+        "Add a legend explaining what each color means",
+        "Use darker shades of the same colors",
+        "Switch to blue, orange, and purple dots",
+        "Make the dots larger",
+        "Remove the column",
+        "Add a border around the column",
+        "Move the column to the last page",
+        "Use only red and green",
+        "Add alt text to the whole table",
+        "Bold the whole column",
+        "Underline the dots"
+      ],
+      "screenId": "color"
+    },
+    {
+      "id": "general-q8",
+      "type": "multiple_choice",
+      "prompt": "What is the minimum contrast ratio for normal-size text?",
+      "answerPool": [
+        "4.5 to 1",
+        "3 to 1",
+        "4 to 1",
+        "7 to 1",
+        "2 to 1",
+        "1.5 to 1",
+        "5 to 1",
+        "6 to 1",
+        "8 to 1",
+        "10 to 1",
+        "12 to 1",
+        "15 to 1",
+        "21 to 1"
+      ],
+      "screenId": "color"
+    },
+    {
+      "id": "general-q9",
+      "type": "multiple_choice",
+      "prompt": "Which is the best link text for a link to the annual report?",
+      "answerPool": [
+        "Read the 2026 Annual Report",
+        "Click here",
+        "Click here to read the 2026 Annual Report",
+        "Read more",
+        "Annual report",
+        "Link",
+        "Report",
+        "More",
+        "Here",
+        "Download",
+        "Go",
+        "This",
+        "Click"
+      ],
+      "screenId": "readable"
+    },
+    {
+      "id": "general-q10",
+      "type": "multiple_choice",
+      "prompt": "How should you create space between paragraphs?",
+      "answerPool": [
+        "Set Spacing Before or After in the paragraph settings",
+        "Press Enter two or three times between paragraphs",
+        "Insert several empty lines before each heading",
+        "Add extra spaces at the end of each paragraph",
+        "Press Enter twice after every sentence",
+        "Insert a page break",
+        "Add a text box that contains space",
+        "Add a table with empty rows",
+        "Use the Tab key repeatedly",
+        "Change the font size of the empty lines",
+        "Insert a horizontal line",
+        "Use justified text",
+        "Reduce the page margins"
+      ],
+      "screenId": "readable"
+    },
+    {
+      "id": "general-q11",
+      "type": "multiple_choice",
+      "prompt": "Which of these is the best email subject line?",
+      "answerPool": [
+        "Agenda for Thursday's budget review",
+        "Update",
+        "Quick question",
+        "Meeting",
+        "Please read",
+        "Hi",
+        "FYI",
+        "!!! URGENT !!!",
+        "Re: Re: Fwd: Fwd:",
+        "No subject",
+        "Stuff",
+        "Hello again",
+        "See below"
+      ],
+      "screenId": "email"
+    },
+    {
+      "id": "general-q12",
+      "type": "multiple_choice",
+      "prompt": "An email's only content is a flyer saved as an image. What should you do?",
+      "answerPool": [
+        "Put the flyer's information in the email as text and add alt text to the image",
+        "Add a subject line that says \"flyer attached\"",
+        "Send the flyer as a larger image",
+        "Add alt text that just says \"flyer\"",
+        "Mark the flyer as decorative",
+        "Send it as a screenshot instead",
+        "Add a footer that says \"see image\"",
+        "Send it twice",
+        "Convert the flyer to a different image format",
+        "Add a reply-all warning",
+        "Increase the image's resolution",
+        "Place the flyer in your signature",
+        "Compress the image"
+      ],
+      "screenId": "email"
+    },
+    {
+      "id": "general-q13",
+      "type": "multiple_choice",
+      "prompt": "What does every PowerPoint slide need?",
+      "answerPool": [
+        "A unique title typed into the Title placeholder",
+        "A title in a large, bold text box",
+        "The same title as the slide before it",
+        "A title only on the first slide of each section",
+        "A title that appears only on the slide master",
+        "A background image",
+        "A transition",
+        "A slide number in a text box",
+        "A speaker note",
+        "A footer with the date",
+        "An animation",
+        "A hyperlink",
+        "A border"
+      ],
+      "screenId": "powerpoint-essentials"
+    },
+    {
+      "id": "general-q14",
+      "type": "multiple_choice",
+      "prompt": "What is the right way to create a PDF from a Word document?",
+      "answerPool": [
+        "Use Save As or Export with the option that keeps accessibility tags",
+        "Use Print and choose Microsoft Print to PDF",
+        "Take a screenshot of each page",
+        "Email the file to yourself and convert it online",
+        "Print it and scan the pages",
+        "Copy the text into a new PDF",
+        "Rename the file so it ends in .pdf",
+        "Print to PDF twice",
+        "Compress the Word file first",
+        "Convert it to an image, then to a PDF",
+        "Add a password before exporting",
+        "Export from Print Preview",
+        "Save it as a webpage first"
+      ],
+      "screenId": "pdfs"
+    },
+    {
+      "id": "general-q15",
+      "type": "multiple_choice",
+      "prompt": "You aren't sure a PDF is accessible. What should you do?",
+      "answerPool": [
+        "Send the PDF together with the original Word or PowerPoint file",
+        "Send only the PDF, since it is the final version",
+        "Send only the PDF and ask readers to tell you about problems",
+        "Send only a scanned copy of the PDF",
+        "Say in the email that the PDF might not be accessible, and send nothing else",
+        "Password-protect the PDF",
+        "Convert the PDF to an image",
+        "Send the PDF twice",
+        "Print it and mail it",
+        "Shrink the PDF to reduce its size",
+        "Write the content in the email and leave out the attachment",
+        "Rename the file to include \"final\"",
+        "Put the PDF in a zip file"
+      ],
+      "screenId": "pdfs"
+    },
+    {
+      "id": "general-q16",
+      "type": "multiple_choice",
+      "prompt": "What should a presenter do about the visual content on a slide?",
+      "answerPool": [
+        "Describe it out loud, including the key text and what you're pointing at",
+        "Point at it and say \"as you can see here\"",
+        "Assume the slide carries the meaning on its own",
+        "Read only the slide's title",
+        "Share the slides afterward instead of describing anything",
+        "Skip over images to save time",
+        "Speak faster",
+        "Turn off the captions",
+        "Dim the lights",
+        "Remove the visuals during the presentation",
+        "Wait until questions to explain",
+        "Use a laser pointer",
+        "Add more animation"
+      ],
+      "screenId": "presenting"
+    },
+    {
+      "id": "general-q17",
+      "type": "multiple_choice",
+      "prompt": "What should you do after the Accessibility Checker reports no problems?",
+      "answerPool": [
+        "Read through the file yourself, since the Checker can't judge whether alt text is meaningful",
+        "Nothing - a clean check means it is fully accessible",
+        "Send it right away, then fix anything readers report",
+        "Run the Checker a second time to confirm",
+        "Convert it to a PDF, which checks it again",
+        "Delete the alt text to be safe",
+        "Change the font",
+        "Add color to the headings",
+        "Email it to yourself",
+        "Add a table of contents",
+        "Save a second copy",
+        "Lock the document",
+        "Check it only on a phone"
+      ],
+      "screenId": "checking"
+    }
+  ]
+}
