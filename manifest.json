@@ -70,7 +70,7 @@
     {
       "id": "general-accessibility",
       "title": "Accessibility Basics for Everyone",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "folder": "modules/general-accessibility",
       "active": false,
       "pinToTop": true,
