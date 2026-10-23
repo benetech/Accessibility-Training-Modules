@@ -2,6 +2,13 @@
   "latestAppVersion": "0.10.4",
   "appChangelog": [
     {
+      "version": "0.10.5",
+      "date": "2026-10-23",
+      "notes": [
+        "Lessons can now include pictures that fit the lesson width."
+      ]
+    },
+    {
       "version": "0.10.4",
       "date": "2026-10-16",
       "notes": [
@@ -63,12 +70,12 @@
     {
       "id": "general-accessibility",
       "title": "Accessibility Basics for Everyone",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "folder": "modules/general-accessibility",
       "active": false,
       "recertDays": 730,
       "passingScore": 80,
-      "minAppVersion": "0.10.4",
+      "minAppVersion": "0.10.5",
       "resources": [
         {
           "name": "Accessibility Basics Quick Reference",
