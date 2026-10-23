@@ -61,6 +61,22 @@
   ],
   "modules": [
     {
+      "id": "general-accessibility",
+      "title": "Accessibility Basics for Everyone",
+      "version": "0.1.0",
+      "folder": "modules/general-accessibility",
+      "active": false,
+      "recertDays": 730,
+      "passingScore": 80,
+      "minAppVersion": "0.10.4",
+      "resources": [
+        {
+          "name": "Accessibility Basics Quick Reference",
+          "file": "resources/accessibility-basics-quick-reference.docx"
+        }
+      ]
+    },
+    {
       "id": "word-accessibility",
       "title": "Making Microsoft Word Documents Accessible",
       "version": "1.1.7",
