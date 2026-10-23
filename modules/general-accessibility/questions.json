@@ -318,9 +318,9 @@
     {
       "id": "general-q16",
       "type": "multiple_choice",
-      "prompt": "What should a presenter do about the visual content on a slide?",
+      "prompt": "What should you do about what's on the screen when you present slides, share your screen, or give a demo?",
       "answerPool": [
-        "Describe it out loud, including the key text and what you're pointing at",
+        "Describe it out loud, including the key text and what you're clicking or pointing at",
         "Point at it and say \"as you can see here\"",
         "Assume the slide carries the meaning on its own",
         "Read only the slide's title",
