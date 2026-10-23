@@ -125,6 +125,10 @@ A lesson screen can include a button that copies a piece of text to the clipboar
 - The text before the `|` is the button's label; the text after it is what gets copied.
 - Needs Accessibility Training Tool 0.9.48 or newer, so set the module's `minAppVersion` to at least that.
 
+## Pinning a module to the top of the list
+
+By default the module list shows new or updated modules first, then the rest in manifest order. Set `"pinToTop": true` on a module's [manifest.json](manifest.json) entry to make it always lead the list (the General Accessibility module does this). It is optional, and app versions before 0.10.6 ignore it.
+
 ## Recertification cadence
 
 Each module's `recertDays` in [manifest.json](manifest.json) is how long an employee's completion stays current before the app prompts them to retake it - a rolling window from their own completion date, not a fixed calendar date. Defaults to `365` (one year); set a different value per module if a topic needs a different cadence.

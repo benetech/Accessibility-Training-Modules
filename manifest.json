@@ -70,9 +70,10 @@
     {
       "id": "general-accessibility",
       "title": "Accessibility Basics for Everyone",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "folder": "modules/general-accessibility",
       "active": false,
+      "pinToTop": true,
       "recertDays": 730,
       "passingScore": 80,
       "minAppVersion": "0.10.5",
