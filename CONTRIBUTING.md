@@ -125,6 +125,19 @@ A lesson screen can include a button that copies a piece of text to the clipboar
 - The text before the `|` is the button's label; the text after it is what gets copied.
 - Needs Accessibility Training Tool 0.9.48 or newer, so set the module's `minAppVersion` to at least that.
 
+## Pictures in lesson text
+
+Put a picture in a screen with an HTML `<img>` tag, always with an `alt` attribute, so every picture is written the same way:
+
+```
+<img src="https://raw.githubusercontent.com/benetech/Accessibility-Training-Modules/main/modules/<module>/images/<file>" alt="Describe the picture here">
+```
+
+- Store the file in that module's own `images/` folder and use its full raw URL for `src` (lesson text does not resolve relative paths).
+- A decorative picture gets an empty `alt=""` and `role="presentation"`, which together tell screen readers to skip it. Never leave `alt` off.
+- To shrink a picture, add a style, for example `style="width: 25%;"`. Pictures are otherwise capped at the lesson width.
+- Needs Accessibility Training Tool 0.10.5 or newer, so set the module's `minAppVersion` to at least that.
+
 ## Pinning a module to the top of the list
 
 By default the module list shows new or updated modules first, then the rest in manifest order. Set `"pinToTop": true` on a module's [manifest.json](manifest.json) entry to make it always lead the list (the General Accessibility module does this). It is optional, and app versions before 0.10.6 ignore it.
