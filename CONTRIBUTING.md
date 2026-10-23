@@ -134,7 +134,7 @@ Put a picture in a screen with an HTML `<img>` tag, always with an `alt` attribu
 ```
 
 - Store the file in that module's own `images/` folder and use its full raw URL for `src` (lesson text does not resolve relative paths).
-- A decorative picture gets an empty `alt=""`, which tells screen readers to skip it. Never leave `alt` off.
+- A decorative picture gets an empty `alt=""` and `role="presentation"`, which together tell screen readers to skip it. Never leave `alt` off.
 - To shrink a picture, add a style, for example `style="width: 25%;"`. Pictures are otherwise capped at the lesson width.
 - Needs Accessibility Training Tool 0.10.5 or newer, so set the module's `minAppVersion` to at least that.
 
